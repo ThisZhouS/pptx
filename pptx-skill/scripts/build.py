@@ -202,7 +202,7 @@ def _bullets(points: list) -> list[dict]:
     return out
 
 
-def make_model(outline: dict, cfg: dict) -> dict:
+def make_model(outline: dict, cfg: dict, compact: bool = False) -> dict:
     theme = theme_for(cfg)
     prefs = cfg.get("layout_prefs") or {}
     recipe = (cfg.get("motion") or {}).get("recipe", "subtle")
@@ -220,9 +220,11 @@ def make_model(outline: dict, cfg: dict) -> dict:
                        "cards": [{"value": f"{i:02d}", "label": s.get("heading", "")}
                                  for i, s in enumerate(sections, start=1)][:4]})
     for i, sec in enumerate(sections, start=1):
-        slides.append({"layout": "section", "index": i,
-                       "title": sec.get("heading", f"第 {i} 部分"),
-                       "subtitle": sec.get("subtitle", "")})
+        skip = compact or sec.get("skip_heading_page")
+        if not skip:
+            slides.append({"layout": "section", "index": i,
+                           "title": sec.get("heading", f"第 {i} 部分"),
+                           "subtitle": sec.get("subtitle", "")})
         kind = sec.get("type")
         if not kind:                      # 按字段自动推断版式
             if sec.get("cards"):
@@ -261,9 +263,9 @@ def make_model(outline: dict, cfg: dict) -> dict:
 
 
 def build(outline: dict, out_path: str, style: str | None = None,
-          task_type: str | None = None) -> dict:
+          task_type: str | None = None, compact: bool = False) -> dict:
     cfg = pick_style(style, task_type)
-    model = make_model(outline, cfg)
+    model = make_model(outline, cfg, compact=compact)
     report = build_deck(model, out_path)
     report["style"] = cfg["name"]
     report["recipe"] = (cfg.get("motion") or {}).get("recipe")
@@ -305,6 +307,8 @@ def main() -> int:
     ap.add_argument("--style", default=None, help="风格名，见 assets/styles.json")
     ap.add_argument("--task", default=None, help="任务类型：汇报/答辩/路演/培训/作品集/文化/发布会")
     ap.add_argument("--demo", action="store_true", help="用内置示例大纲")
+    ap.add_argument("--compact", action="store_true",
+                    help="不生成章节页（内容页占比更高，覆盖率更接近模板）")
     args = ap.parse_args()
 
     if args.demo or not args.outline:
@@ -312,7 +316,7 @@ def main() -> int:
     else:
         with open(args.outline, encoding="utf-8") as fh:
             outline = json.load(fh)
-    report = build(outline, args.out, args.style, args.task)
+    report = build(outline, args.out, args.style, args.task, compact=args.compact)
     print(json.dumps({"file": report["file"], "slides": report["slide_count"],
                       "style": report["style"], "recipe": report["recipe"],
                       "accent": report["theme"]["colors"]["accent1"],
