@@ -1,0 +1,762 @@
+{
+ "scope": "全部 2125 个 pptx",
+ "sampled": 2120,
+ "global": {
+  "transitions_pages": {
+   "none": 16644,
+   "random": 9982,
+   "prstTrans": 2421,
+   "fade": 2409,
+   "push": 1767,
+   "morph": 1584,
+   "wipe": 1044,
+   "pull": 806,
+   "warp": 792,
+   "prism": 644
+  },
+  "presets": {
+   "entr#2": 29522,
+   "entr#22": 26761,
+   "entr#42": 25371,
+   "entr#10": 20220,
+   "entr#53": 14508,
+   "entr#14": 4225,
+   "entr#16": 3691,
+   "entr#12": 3615,
+   "entr#47": 3477,
+   "entr#31": 2262,
+   "entr#29": 1996,
+   "entr#23": 1552
+  },
+  "durations_ms": {
+   "500": 165962,
+   "1000": 114903,
+   "750": 19265,
+   "250": 12745,
+   "1500": 5767,
+   "2000": 5045,
+   "700": 3455,
+   "1250": 3149,
+   "300": 1514,
+   "200": 1239
+  }
+ },
+ "distributions": {
+  "pages": {
+   "p10": 9,
+   "p50": 20,
+   "p90": 30
+  },
+  "shapes_per_page": {
+   "p10": 7.6,
+   "p50": 15.7,
+   "p90": 34.4
+  },
+  "anim_per_page": {
+   "p10": 0.0,
+   "p50": 1.8,
+   "p90": 9.8
+  },
+  "layouts": {
+   "p10": 3,
+   "p50": 11,
+   "p90": 24
+  },
+  "media": {
+   "p10": 6,
+   "p50": 21,
+   "p90": 58
+  }
+ },
+ "motion_tiers": {
+  "zero": 792,
+  "low": 367,
+  "mid": 618,
+  "extreme": 58,
+  "high": 285
+ },
+ "groups": [
+  {
+   "group": "创赛点击进去—先下载国赛",
+   "files": 243,
+   "pages_median": 20,
+   "anim_median": 0.0,
+   "shapes_median": 19.8,
+   "layouts_median": 11,
+   "media_median": 25,
+   "top_transition": "none",
+   "top_preset": "entr#2"
+  },
+  {
+   "group": "A1 动态",
+   "files": 229,
+   "pages_median": 6,
+   "anim_median": 0.2,
+   "shapes_median": 17.1,
+   "layouts_median": 11,
+   "media_median": 10,
+   "top_transition": "morph",
+   "top_preset": "entr#2"
+  },
+  {
+   "group": "01 高级色",
+   "files": 221,
+   "pages_median": 19,
+   "anim_median": 1.6,
+   "shapes_median": 16.6,
+   "layouts_median": 11,
+   "media_median": 12,
+   "top_transition": "random",
+   "top_preset": "entr#42"
+  },
+  {
+   "group": "中国风",
+   "files": 164,
+   "pages_median": 23,
+   "anim_median": 0.1,
+   "shapes_median": 13.8,
+   "layouts_median": 11,
+   "media_median": 28,
+   "top_transition": "none",
+   "top_preset": "entr#42"
+  },
+  {
+   "group": "113套国潮风PPT(1)",
+   "files": 113,
+   "pages_median": 21,
+   "anim_median": 4.3,
+   "shapes_median": 11.5,
+   "layouts_median": 11,
+   "media_median": 22,
+   "top_transition": "none",
+   "top_preset": "entr#42"
+  },
+  {
+   "group": "113套国潮风PPT",
+   "files": 111,
+   "pages_median": 20,
+   "anim_median": 4.3,
+   "shapes_median": 11.5,
+   "layouts_median": 11,
+   "media_median": 22,
+   "top_transition": "none",
+   "top_preset": "entr#42"
+  },
+  {
+   "group": "108套画册文艺风格PPT模板(1)",
+   "files": 109,
+   "pages_median": 24,
+   "anim_median": 5.1,
+   "shapes_median": 8.7,
+   "layouts_median": 11,
+   "media_median": 35,
+   "top_transition": "random",
+   "top_preset": "entr#22"
+  },
+  {
+   "group": "108套画册文艺风格PPT模板",
+   "files": 109,
+   "pages_median": 24,
+   "anim_median": 5.1,
+   "shapes_median": 8.7,
+   "layouts_median": 11,
+   "media_median": 35,
+   "top_transition": "random",
+   "top_preset": "entr#22"
+  },
+  {
+   "group": "54套纯粹简致风PPT",
+   "files": 54,
+   "pages_median": 20,
+   "anim_median": 4.9,
+   "shapes_median": 14.6,
+   "layouts_median": 11,
+   "media_median": 13,
+   "top_transition": "none",
+   "top_preset": "entr#2"
+  },
+  {
+   "group": "49套轻奢大理石风PPT",
+   "files": 50,
+   "pages_median": 24,
+   "anim_median": 2.4,
+   "shapes_median": 17.6,
+   "layouts_median": 12,
+   "media_median": 27,
+   "top_transition": "random",
+   "top_preset": "entr#2"
+  },
+  {
+   "group": "50套欧美简约风PPT",
+   "files": 50,
+   "pages_median": 24,
+   "anim_median": 4.6,
+   "shapes_median": 17.1,
+   "layouts_median": 11,
+   "media_median": 26,
+   "top_transition": "random",
+   "top_preset": "entr#22"
+  },
+  {
+   "group": "50套高级极简风PPT",
+   "files": 50,
+   "pages_median": 64,
+   "anim_median": 0.0,
+   "shapes_median": 15.8,
+   "layouts_median": 27,
+   "media_median": 85,
+   "top_transition": "none",
+   "top_preset": "entr#2"
+  },
+  {
+   "group": "47套高端北欧风PPT",
+   "files": 47,
+   "pages_median": 24,
+   "anim_median": 6.4,
+   "shapes_median": 14.8,
+   "layouts_median": 11,
+   "media_median": 30,
+   "top_transition": "random",
+   "top_preset": "entr#2"
+  },
+  {
+   "group": "屎盆子镶金边ppt",
+   "files": 47,
+   "pages_median": 6,
+   "anim_median": 0.3,
+   "shapes_median": 16.3,
+   "layouts_median": 11,
+   "media_median": 8,
+   "top_transition": "morph",
+   "top_preset": "entr#2"
+  },
+  {
+   "group": "47套黑白灰禁欲系PPT",
+   "files": 44,
+   "pages_median": 25,
+   "anim_median": 2.3,
+   "shapes_median": 16.3,
+   "layouts_median": 11,
+   "media_median": 25,
+   "top_transition": "none",
+   "top_preset": "entr#10"
+  },
+  {
+   "group": "43套INS风PPT",
+   "files": 43,
+   "pages_median": 25,
+   "anim_median": 7.0,
+   "shapes_median": 20.8,
+   "layouts_median": 11,
+   "media_median": 26,
+   "top_transition": "random",
+   "top_preset": "entr#2"
+  },
+  {
+   "group": "43套日系和风PPT",
+   "files": 43,
+   "pages_median": 24,
+   "anim_median": 8.0,
+   "shapes_median": 21.9,
+   "layouts_median": 48,
+   "media_median": 15,
+   "top_transition": "warp",
+   "top_preset": "entr#22"
+  },
+  {
+   "group": "228-马卡龙PPT(1)",
+   "files": 40,
+   "pages_median": 24,
+   "anim_median": 7.1,
+   "shapes_median": 19.3,
+   "layouts_median": 12,
+   "media_median": 15,
+   "top_transition": "random",
+   "top_preset": "entr#2"
+  },
+  {
+   "group": "228-马卡龙PPT",
+   "files": 40,
+   "pages_median": 24,
+   "anim_median": 7.1,
+   "shapes_median": 19.3,
+   "layouts_median": 12,
+   "media_median": 15,
+   "top_transition": "random",
+   "top_preset": "entr#2"
+  },
+  {
+   "group": "40套莫兰迪系列PPT",
+   "files": 40,
+   "pages_median": 23,
+   "anim_median": 0.0,
+   "shapes_median": 13.3,
+   "layouts_median": 21,
+   "media_median": 40,
+   "top_transition": "random",
+   "top_preset": "entr#42"
+  },
+  {
+   "group": "40套莫兰迪系列PPT(1)",
+   "files": 36,
+   "pages_median": 19,
+   "anim_median": 0.0,
+   "shapes_median": 13.3,
+   "layouts_median": 19,
+   "media_median": 35,
+   "top_transition": "random",
+   "top_preset": "entr#42"
+  },
+  {
+   "group": "34套治愈系PPT模板",
+   "files": 34,
+   "pages_median": 18,
+   "anim_median": 0.0,
+   "shapes_median": 14.6,
+   "layouts_median": 11,
+   "media_median": 12,
+   "top_transition": "none",
+   "top_preset": "entr#2"
+  },
+  {
+   "group": "34套治愈系PPT模板(1)",
+   "files": 33,
+   "pages_median": 18,
+   "anim_median": 0.0,
+   "shapes_median": 14.8,
+   "layouts_median": 11,
+   "media_median": 12,
+   "top_transition": "none",
+   "top_preset": "entr#2"
+  },
+  {
+   "group": "山海创意商务",
+   "files": 32,
+   "pages_median": 20,
+   "anim_median": 7.0,
+   "shapes_median": 22.5,
+   "layouts_median": 5,
+   "media_median": 18,
+   "top_transition": "none",
+   "top_preset": "entr#2"
+  },
+  {
+   "group": "02 高级简约",
+   "files": 29,
+   "pages_median": 17,
+   "anim_median": 0.0,
+   "shapes_median": 13.8,
+   "layouts_median": 11,
+   "media_median": 36,
+   "top_transition": "none",
+   "top_preset": "entr#53"
+  },
+  {
+   "group": "逻辑架构数据分析(1)",
+   "files": 27,
+   "pages_median": 81,
+   "anim_median": 0.0,
+   "shapes_median": 56.5,
+   "layouts_median": 11,
+   "media_median": 80,
+   "top_transition": "none",
+   "top_preset": "entr#2"
+  },
+  {
+   "group": "逻辑架构数据分析",
+   "files": 27,
+   "pages_median": 81,
+   "anim_median": 0.0,
+   "shapes_median": 56.5,
+   "layouts_median": 11,
+   "media_median": 80,
+   "top_transition": "none",
+   "top_preset": "entr#2"
+  },
+  {
+   "group": "00 详情展示内容",
+   "files": 19,
+   "pages_median": 19,
+   "anim_median": 2.8,
+   "shapes_median": 15.6,
+   "layouts_median": 11,
+   "media_median": 10,
+   "top_transition": "none",
+   "top_preset": "entr#42"
+  },
+  {
+   "group": "0慧瞰农域（黄蓝绿）-Fonts",
+   "files": 3,
+   "pages_median": 22,
+   "anim_median": 0.0,
+   "shapes_median": 104.0,
+   "layouts_median": 11,
+   "media_median": 103,
+   "top_transition": "none",
+   "top_preset": "-"
+  },
+  {
+   "group": "(1).pptx",
+   "files": 1,
+   "pages_median": 25,
+   "anim_median": 5.7,
+   "shapes_median": 22.6,
+   "layouts_median": 11,
+   "media_median": 27,
+   "top_transition": "blinds",
+   "top_preset": "entr#14"
+  },
+  {
+   "group": "(10).pptx",
+   "files": 1,
+   "pages_median": 25,
+   "anim_median": 6.1,
+   "shapes_median": 25.3,
+   "layouts_median": 11,
+   "media_median": 25,
+   "top_transition": "blinds",
+   "top_preset": "entr#10"
+  },
+  {
+   "group": "(11).pptx",
+   "files": 1,
+   "pages_median": 29,
+   "anim_median": 11.5,
+   "shapes_median": 24.6,
+   "layouts_median": 11,
+   "media_median": 32,
+   "top_transition": "pan",
+   "top_preset": "entr#53"
+  },
+  {
+   "group": "(12).pptx",
+   "files": 1,
+   "pages_median": 23,
+   "anim_median": 14.0,
+   "shapes_median": 22.5,
+   "layouts_median": 11,
+   "media_median": 59,
+   "top_transition": "reveal",
+   "top_preset": "entr#2"
+  },
+  {
+   "group": "(13).pptx",
+   "files": 1,
+   "pages_median": 25,
+   "anim_median": 9.2,
+   "shapes_median": 18.5,
+   "layouts_median": 11,
+   "media_median": 33,
+   "top_transition": "blinds",
+   "top_preset": "entr#10"
+  },
+  {
+   "group": "(14).pptx",
+   "files": 1,
+   "pages_median": 23,
+   "anim_median": 5.1,
+   "shapes_median": 10.5,
+   "layouts_median": 2,
+   "media_median": 18,
+   "top_transition": "blinds",
+   "top_preset": "entr#10"
+  },
+  {
+   "group": "(15).pptx",
+   "files": 1,
+   "pages_median": 29,
+   "anim_median": 8.5,
+   "shapes_median": 24.4,
+   "layouts_median": 5,
+   "media_median": 17,
+   "top_transition": "random",
+   "top_preset": "entr#2"
+  },
+  {
+   "group": "(16).pptx",
+   "files": 1,
+   "pages_median": 28,
+   "anim_median": 8.4,
+   "shapes_median": 30.9,
+   "layouts_median": 11,
+   "media_median": 65,
+   "top_transition": "pull",
+   "top_preset": "entr#22"
+  },
+  {
+   "group": "(17).pptx",
+   "files": 1,
+   "pages_median": 23,
+   "anim_median": 5.0,
+   "shapes_median": 23.1,
+   "layouts_median": 6,
+   "media_median": 14,
+   "top_transition": "random",
+   "top_preset": "entr#53"
+  },
+  {
+   "group": "(18).pptx",
+   "files": 1,
+   "pages_median": 24,
+   "anim_median": 7.0,
+   "shapes_median": 20.5,
+   "layouts_median": 11,
+   "media_median": 8,
+   "top_transition": "none",
+   "top_preset": "entr#3"
+  },
+  {
+   "group": "(19).pptx",
+   "files": 1,
+   "pages_median": 24,
+   "anim_median": 5.9,
+   "shapes_median": 15.4,
+   "layouts_median": 13,
+   "media_median": 18,
+   "top_transition": "random",
+   "top_preset": "entr#2"
+  },
+  {
+   "group": "(2).pptx",
+   "files": 1,
+   "pages_median": 31,
+   "anim_median": 10.5,
+   "shapes_median": 27.5,
+   "layouts_median": 4,
+   "media_median": 15,
+   "top_transition": "push",
+   "top_preset": "entr#2"
+  },
+  {
+   "group": "(20).pptx",
+   "files": 1,
+   "pages_median": 25,
+   "anim_median": 5.5,
+   "shapes_median": 16.2,
+   "layouts_median": 16,
+   "media_median": 21,
+   "top_transition": "random",
+   "top_preset": "entr#42"
+  },
+  {
+   "group": "(3).pptx",
+   "files": 1,
+   "pages_median": 24,
+   "anim_median": 5.8,
+   "shapes_median": 23.8,
+   "layouts_median": 4,
+   "media_median": 15,
+   "top_transition": "doors",
+   "top_preset": "entr#10"
+  },
+  {
+   "group": "(4).pptx",
+   "files": 1,
+   "pages_median": 25,
+   "anim_median": 7.6,
+   "shapes_median": 20.5,
+   "layouts_median": 11,
+   "media_median": 32,
+   "top_transition": "prstTrans",
+   "top_preset": "entr#10"
+  },
+  {
+   "group": "(5).pptx",
+   "files": 1,
+   "pages_median": 26,
+   "anim_median": 8.6,
+   "shapes_median": 45.8,
+   "layouts_median": 11,
+   "media_median": 28,
+   "top_transition": "doors",
+   "top_preset": "entr#15"
+  },
+  {
+   "group": "(6).pptx",
+   "files": 1,
+   "pages_median": 24,
+   "anim_median": 5.7,
+   "shapes_median": 22.4,
+   "layouts_median": 11,
+   "media_median": 64,
+   "top_transition": "fade",
+   "top_preset": "entr#22"
+  },
+  {
+   "group": "(7).pptx",
+   "files": 1,
+   "pages_median": 25,
+   "anim_median": 6.7,
+   "shapes_median": 23.1,
+   "layouts_median": 11,
+   "media_median": 29,
+   "top_transition": "split",
+   "top_preset": "entr#10"
+  },
+  {
+   "group": "(8).pptx",
+   "files": 1,
+   "pages_median": 23,
+   "anim_median": 11.5,
+   "shapes_median": 22.6,
+   "layouts_median": 4,
+   "media_median": 76,
+   "top_transition": "random",
+   "top_preset": "entr#10"
+  },
+  {
+   "group": "(9).pptx",
+   "files": 1,
+   "pages_median": 25,
+   "anim_median": 6.3,
+   "shapes_median": 23.6,
+   "layouts_median": 11,
+   "media_median": 48,
+   "top_transition": "none",
+   "top_preset": "entr#10"
+  },
+  {
+   "group": "0-15页-国奖水准红金风格PPT-康帅制作",
+   "files": 1,
+   "pages_median": 17,
+   "anim_median": 0.0,
+   "shapes_median": 99.5,
+   "layouts_median": 1,
+   "media_median": 133,
+   "top_transition": "none",
+   "top_preset": "-"
+  },
+  {
+   "group": "0红色-非遗陶瓷传承",
+   "files": 1,
+   "pages_median": 20,
+   "anim_median": 0.0,
+   "shapes_median": 71.5,
+   "layouts_median": 22,
+   "media_median": 134,
+   "top_transition": "none",
+   "top_preset": "-"
+  },
+  {
+   "group": "0蓝白医学风科技",
+   "files": 1,
+   "pages_median": 22,
+   "anim_median": 0.0,
+   "shapes_median": 70.6,
+   "layouts_median": 42,
+   "media_median": 90,
+   "top_transition": "none",
+   "top_preset": "-"
+  },
+  {
+   "group": "0黑色-芯片工科模板",
+   "files": 1,
+   "pages_median": 22,
+   "anim_median": 0.0,
+   "shapes_median": 103.5,
+   "layouts_median": 23,
+   "media_median": 80,
+   "top_transition": "none",
+   "top_preset": "-"
+  },
+  {
+   "group": "35.pptx",
+   "files": 1,
+   "pages_median": 8,
+   "anim_median": 0.0,
+   "shapes_median": 31.5,
+   "layouts_median": 11,
+   "media_median": 14,
+   "top_transition": "morph",
+   "top_preset": "-"
+  },
+  {
+   "group": "小圆转盘旋转平滑",
+   "files": 1,
+   "pages_median": 8,
+   "anim_median": 0.0,
+   "shapes_median": 31.5,
+   "layouts_median": 11,
+   "media_median": 14,
+   "top_transition": "morph",
+   "top_preset": "-"
+  },
+  {
+   "group": "智绘流程-15页",
+   "files": 1,
+   "pages_median": 15,
+   "anim_median": 0.0,
+   "shapes_median": 70.5,
+   "layouts_median": 3,
+   "media_median": 80,
+   "top_transition": "none",
+   "top_preset": "-"
+  },
+  {
+   "group": "紫色特效药.pptx",
+   "files": 1,
+   "pages_median": 30,
+   "anim_median": 0.0,
+   "shapes_median": 22.5,
+   "layouts_median": 3,
+   "media_median": 132,
+   "top_transition": "none",
+   "top_preset": "entr#22"
+  },
+  {
+   "group": "绿壤新生-5页",
+   "files": 1,
+   "pages_median": 5,
+   "anim_median": 0.0,
+   "shapes_median": 48.8,
+   "layouts_median": 12,
+   "media_median": 33,
+   "top_transition": "none",
+   "top_preset": "-"
+  },
+  {
+   "group": "蓝白海洋风海浪新能源",
+   "files": 1,
+   "pages_median": 4,
+   "anim_median": 0.0,
+   "shapes_median": 106.2,
+   "layouts_median": 5,
+   "media_median": 47,
+   "top_transition": "none",
+   "top_preset": "-"
+  },
+  {
+   "group": "蓝色科技风驾驶培训",
+   "files": 1,
+   "pages_median": 20,
+   "anim_median": 0.0,
+   "shapes_median": 153.4,
+   "layouts_median": 22,
+   "media_median": 46,
+   "top_transition": "none",
+   "top_preset": "-"
+  },
+  {
+   "group": "赓续前行蓝白大气红色",
+   "files": 1,
+   "pages_median": 20,
+   "anim_median": 0.0,
+   "shapes_median": 19.6,
+   "layouts_median": 11,
+   "media_median": 25,
+   "top_transition": "random",
+   "top_preset": "-"
+  },
+  {
+   "group": "高端PPT模板 (65).pptx",
+   "files": 1,
+   "pages_median": 50,
+   "anim_median": 9.4,
+   "shapes_median": 14.2,
+   "layouts_median": 43,
+   "media_median": 130,
+   "top_transition": "random",
+   "top_preset": "entr#2"
+  }
+ ]
+}

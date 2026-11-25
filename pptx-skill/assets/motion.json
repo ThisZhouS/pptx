@@ -1,35 +1,79 @@
 {
- "source": "594 个模板的动画统计 + 14 个高动画模板的时序拆解",
+ "source": "全部 2120 个 pptx 的动画统计（不再抽样）",
  "duration_ms": {
-  "primary": 500,
-  "secondary": 1000,
-  "light": 250
+  "500": 165962,
+  "1000": 114903,
+  "750": 19265,
+  "250": 12745,
+  "1500": 5767,
+  "2000": 5045,
+  "700": 3455,
+  "1250": 3149,
+  "300": 1514,
+  "200": 1239
  },
+ "duration_rule": "500ms 占绝对多数（165962 次），1000ms 次之（114903）",
  "preset_mix": {
-  "fly": 10436,
-  "wipe": 7918,
-  "ascend": 6715,
-  "fade": 5880,
-  "faded-zoom": 4778,
-  "split": 1347,
-  "random-bars": 1275
+  "entr#2": 29522,
+  "entr#22": 26761,
+  "entr#42": 25371,
+  "entr#10": 20220,
+  "entr#53": 14508,
+  "entr#14": 4225,
+  "entr#16": 3691,
+  "entr#12": 3615,
+  "entr#47": 3477,
+  "entr#31": 2262
+ },
+ "preset_rule": "fly 29522 > wipe 26761 > ascend 25371 > fade 20220 > faded-zoom 14508",
+ "transitions_pages": {
+  "none": 16644,
+  "random": 9982,
+  "prstTrans": 2421,
+  "fade": 2409,
+  "push": 1767,
+  "morph": 1584,
+  "wipe": 1044,
+  "pull": 806
+ },
+ "transition_rule": "none 16644 页最多（35%）；morph 1584 页，集中在图片轮播类",
+ "anim_per_page": {
+  "p10": 0.0,
+  "p50": 1.8,
+  "p90": 9.8
+ },
+ "motion_tiers": {
+  "zero": {
+   "files": 792,
+   "share": 0.374,
+   "recipe": "none",
+   "note": "37% 的模板完全不加动画"
+  },
+  "low": {
+   "files": 367,
+   "share": 0.173,
+   "recipe": "subtle"
+  },
+  "mid": {
+   "files": 618,
+   "share": 0.292,
+   "recipe": "rich"
+  },
+  "high": {
+   "files": 285,
+   "share": 0.134,
+   "recipe": "rich"
+  },
+  "extreme": {
+   "files": 58,
+   "share": 0.027,
+   "recipe": "rich"
+  }
  },
  "trigger": {
   "click_groups_per_page": "0–1.7",
   "with_effect_share": "90%+",
-  "rule": "1 个 click 起手，其余 with_previous + delay 递增"
- },
- "delay_waterfall": {
-  "start": 0.1,
-  "step": 0.1,
-  "max_observed_ms": 7000
- },
- "anims_per_page": {
-  "template_median": 15,
-  "range": [
-   15,
-   34
-  ]
+  "rule": "1 个 click 起手，其余 with_previous + delay 递增（瀑布）"
  },
  "preset_by_element": {
   "title": "wipe",
@@ -39,14 +83,7 @@
   "card": "faded-zoom",
   "footer": "fade"
  },
- "transitions": {
-  "none": 5380,
-  "random": 3022,
-  "fade": 472,
-  "morph": 469,
-  "rule": "汇报用 fade/none；morph 只用于图片推镜/轮播"
- },
- "templates": [
+ "templates_sampled": [
   {
    "file": "47套黑白灰禁欲系PPT\\动态\\03.pptx",
    "anim_per_page": 34.4,

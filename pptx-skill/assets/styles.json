@@ -1,5 +1,5 @@
 {
- "source": "Resource 62 板块画像 + 91 主题配色 + 14 个高动画配方",
+ "source": "全部 2120 个模板：动画分档 {'zero': 792, 'low': 367, 'mid': 618, 'extreme': 58, 'high': 285}，形状/页 P10/50/90 = 7.6/15.7/34.4",
  "styles": {
   "极简": {
    "accent": {
@@ -9,7 +9,7 @@
     "preset": "light"
    },
    "motion": {
-    "anims": 0,
+    "tier": "zero",
     "recipe": "none"
    },
    "layout_prefs": {
@@ -31,7 +31,7 @@
     "preset": "light"
    },
    "motion": {
-    "anims": 8,
+    "tier": "low",
     "recipe": "subtle"
    },
    "layout_prefs": {
@@ -53,7 +53,7 @@
     "preset": "light"
    },
    "motion": {
-    "anims": 18,
+    "tier": "high",
     "recipe": "rich"
    },
    "layout_prefs": {
@@ -75,7 +75,7 @@
     "preset": "light"
    },
    "motion": {
-    "anims": 6,
+    "tier": "low",
     "recipe": "subtle"
    },
    "layout_prefs": {
@@ -97,13 +97,13 @@
     "preset": "light"
    },
    "motion": {
-    "anims": 4,
-    "recipe": "subtle"
+    "tier": "zero",
+    "recipe": "none"
    },
    "layout_prefs": {
     "columns": 1,
     "image_slot": true,
-    "decor_density": "normal"
+    "decor_density": "low"
    },
    "use_for": [
     "画册",
@@ -119,8 +119,8 @@
     "preset": "midnight"
    },
    "motion": {
-    "anims": 12,
-    "recipe": "cinematic"
+    "tier": "mid",
+    "recipe": "rich"
    },
    "layout_prefs": {
     "columns": 2,
