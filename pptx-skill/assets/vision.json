@@ -1,0 +1,93 @@
+{
+ "scope": "296 个模板的首页（从 2120 个均匀抽样）",
+ "note": "全量 2120 个渲染需 40–60 分钟 COM 调用；识图仅用于风格分布，故均匀抽 300",
+ "style_distribution": {
+  "低饱和（莫兰迪/灰调）": 138,
+  "信息密集": 66,
+  "图片/色块主导": 31,
+  "高饱和（马卡龙/潮流）": 19,
+  "深色极简": 17,
+  "均衡型": 13,
+  "浅色留白": 12
+ },
+ "fingerprints": {
+  "ink_ratio_median": 0.575,
+  "brightness_median": 0.796,
+  "saturation_median": 0.167,
+  "edge_density_median": 0.141
+ },
+ "samples": [
+  {
+   "file": "(1).pptx",
+   "style": "低饱和（莫兰迪/灰调）",
+   "ink": 0.897,
+   "brightness": 0.73
+  },
+  {
+   "file": "(16).pptx",
+   "style": "信息密集",
+   "ink": 0.812,
+   "brightness": 0.85
+  },
+  {
+   "file": "(4).pptx",
+   "style": "信息密集",
+   "ink": 0.865,
+   "brightness": 0.741
+  },
+  {
+   "file": "00 详情展示内容\\素材 (1).pptx",
+   "style": "低饱和（莫兰迪/灰调）",
+   "ink": 0.32,
+   "brightness": 0.889
+  },
+  {
+   "file": "00 详情展示内容\\素材 (16).pptx",
+   "style": "低饱和（莫兰迪/灰调）",
+   "ink": 0.344,
+   "brightness": 0.861
+  },
+  {
+   "file": "00 详情展示内容\\素材 (5).pptx",
+   "style": "低饱和（莫兰迪/灰调）",
+   "ink": 0.353,
+   "brightness": 0.954
+  },
+  {
+   "file": "01 高级色\\ (100).pptx",
+   "style": "低饱和（莫兰迪/灰调）",
+   "ink": 0.749,
+   "brightness": 0.873
+  },
+  {
+   "file": "01 高级色\\ (107).pptx",
+   "style": "图片/色块主导",
+   "ink": 0.544,
+   "brightness": 0.872
+  },
+  {
+   "file": "01 高级色\\ (113).pptx",
+   "style": "低饱和（莫兰迪/灰调）",
+   "ink": 0.258,
+   "brightness": 0.908
+  },
+  {
+   "file": "01 高级色\\ (12).pptx",
+   "style": "低饱和（莫兰迪/灰调）",
+   "ink": 0.312,
+   "brightness": 0.965
+  },
+  {
+   "file": "01 高级色\\ (126).pptx",
+   "style": "低饱和（莫兰迪/灰调）",
+   "ink": 0.449,
+   "brightness": 0.861
+  },
+  {
+   "file": "01 高级色\\ (132).pptx",
+   "style": "低饱和（莫兰迪/灰调）",
+   "ink": 0.756,
+   "brightness": 0.791
+  }
+ ]
+}
