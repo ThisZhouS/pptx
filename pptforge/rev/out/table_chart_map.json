@@ -1,0 +1,57 @@
+{
+ "table": {
+  "case": "table",
+  "shape_id": 2,
+  "borders_probe": [
+   "Borders"
+  ],
+  "borders_dir": [
+   "Application",
+   "CLSID",
+   "Count",
+   "Item",
+   "Parent",
+   "coclass_clsid"
+  ],
+  "cols": [
+   140.0,
+   90.0,
+   195.0,
+   195.0
+  ],
+  "rows": [
+   56.0,
+   73.33330535888672,
+   73.33330535888672
+  ],
+  "chart_anims": [
+   {
+    "slide": 2,
+    "level": 10,
+    "ok": false,
+    "err": "com_error(-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'Sequence.AddEffect : Invalid request.  ', '', 0, -2147188160), None)"
+   },
+   {
+    "slide": 3,
+    "level": 8,
+    "ok": false,
+    "err": "com_error(-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'Sequence.AddEffect : Invalid request.  ', '', 0, -2147188160), None)"
+   }
+  ]
+ },
+ "chart_anims": [
+  {
+   "slide": 2,
+   "level": 10,
+   "ok": false,
+   "err": "com_error(-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'Sequence.AddEffect : Invalid request.  ', '', 0, -2147188160), None)"
+  },
+  {
+   "slide": 3,
+   "level": 8,
+   "ok": false,
+   "err": "com_error(-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'Sequence.AddEffect : Invalid request.  ', '', 0, -2147188160), None)"
+  }
+ ],
+ "slides": 3
+}

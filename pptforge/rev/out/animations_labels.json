@@ -1,0 +1,926 @@
+{
+ "1": {
+  "label": "msoAnimEffectAppear",
+  "value": 1,
+  "applied": true,
+  "effect_type": 1
+ },
+ "2": {
+  "label": "msoAnimEffectFly",
+  "value": 2,
+  "applied": true,
+  "effect_type": 2
+ },
+ "3": {
+  "label": "msoAnimEffectBlinds",
+  "value": 3,
+  "applied": true,
+  "effect_type": 3
+ },
+ "4": {
+  "label": "msoAnimEffectBox",
+  "value": 4,
+  "applied": true,
+  "effect_type": 4
+ },
+ "5": {
+  "label": "msoAnimEffectCheckerboard",
+  "value": 5,
+  "applied": true,
+  "effect_type": 5
+ },
+ "6": {
+  "label": "msoAnimEffectCircle",
+  "value": 6,
+  "applied": true,
+  "effect_type": 6
+ },
+ "7": {
+  "label": "msoAnimEffectCrawl",
+  "value": 7,
+  "applied": true,
+  "effect_type": 7
+ },
+ "8": {
+  "label": "msoAnimEffectDiamond",
+  "value": 8,
+  "applied": true,
+  "effect_type": 8
+ },
+ "9": {
+  "label": "msoAnimEffectDissolve",
+  "value": 9,
+  "applied": true,
+  "effect_type": 9
+ },
+ "10": {
+  "label": "msoAnimEffectFade",
+  "value": 10,
+  "applied": true,
+  "effect_type": 10
+ },
+ "11": {
+  "label": "msoAnimEffectFlashOnce",
+  "value": 11,
+  "applied": true,
+  "effect_type": 11
+ },
+ "12": {
+  "label": "msoAnimEffectPeek",
+  "value": 12,
+  "applied": true,
+  "effect_type": 12
+ },
+ "13": {
+  "label": "msoAnimEffectPlus",
+  "value": 13,
+  "applied": true,
+  "effect_type": 13
+ },
+ "14": {
+  "label": "msoAnimEffectRandomBars",
+  "value": 14,
+  "applied": true,
+  "effect_type": 14
+ },
+ "15": {
+  "label": "msoAnimEffectSpiral",
+  "value": 15,
+  "applied": true,
+  "effect_type": 15
+ },
+ "16": {
+  "label": "msoAnimEffectSplit",
+  "value": 16,
+  "applied": true,
+  "effect_type": 16
+ },
+ "17": {
+  "label": "msoAnimEffectStretch",
+  "value": 17,
+  "applied": true,
+  "effect_type": 17
+ },
+ "18": {
+  "label": "msoAnimEffectStrips",
+  "value": 18,
+  "applied": true,
+  "effect_type": 18
+ },
+ "19": {
+  "label": "msoAnimEffectSwivel",
+  "value": 19,
+  "applied": true,
+  "effect_type": 19
+ },
+ "20": {
+  "label": "msoAnimEffectWedge",
+  "value": 20,
+  "applied": true,
+  "effect_type": 20
+ },
+ "21": {
+  "label": "msoAnimEffectWheel",
+  "value": 21,
+  "applied": true,
+  "effect_type": 21
+ },
+ "22": {
+  "label": "msoAnimEffectWipe",
+  "value": 22,
+  "applied": true,
+  "effect_type": 22
+ },
+ "23": {
+  "label": "msoAnimEffectZoom",
+  "value": 23,
+  "applied": true,
+  "effect_type": 23
+ },
+ "24": {
+  "label": "msoAnimEffectRandomEffects",
+  "value": 24,
+  "applied": true,
+  "effect_type": 24
+ },
+ "25": {
+  "label": "msoAnimEffectBoomerang",
+  "value": 25,
+  "applied": true,
+  "effect_type": 25
+ },
+ "26": {
+  "label": "msoAnimEffectBounce",
+  "value": 26,
+  "applied": true,
+  "effect_type": 26
+ },
+ "27": {
+  "label": "msoAnimEffectColorReveal",
+  "value": 27,
+  "applied": true,
+  "effect_type": 27
+ },
+ "28": {
+  "label": "msoAnimEffectCredits",
+  "value": 28,
+  "applied": true,
+  "effect_type": 28
+ },
+ "29": {
+  "label": "msoAnimEffectEaseIn",
+  "value": 29,
+  "applied": true,
+  "effect_type": 29
+ },
+ "30": {
+  "label": "msoAnimEffectFloat",
+  "value": 30,
+  "applied": true,
+  "effect_type": 30
+ },
+ "31": {
+  "label": "msoAnimEffectGrowAndTurn",
+  "value": 31,
+  "applied": true,
+  "effect_type": 31
+ },
+ "32": {
+  "label": "msoAnimEffectLightSpeed",
+  "value": 32,
+  "applied": true,
+  "effect_type": 32
+ },
+ "33": {
+  "label": "msoAnimEffectPinwheel",
+  "value": 33,
+  "applied": true,
+  "effect_type": 33
+ },
+ "34": {
+  "label": "msoAnimEffectRiseUp",
+  "value": 34,
+  "applied": true,
+  "effect_type": 34
+ },
+ "35": {
+  "label": "msoAnimEffectSwish",
+  "value": 35,
+  "applied": true,
+  "effect_type": 35
+ },
+ "36": {
+  "label": "msoAnimEffectThinLine",
+  "value": 36,
+  "applied": true,
+  "effect_type": 36
+ },
+ "37": {
+  "label": "msoAnimEffectUnfold",
+  "value": 37,
+  "applied": true,
+  "effect_type": 37
+ },
+ "38": {
+  "label": "msoAnimEffectWhip",
+  "value": 38,
+  "applied": true,
+  "effect_type": 38
+ },
+ "39": {
+  "label": "msoAnimEffectAscend",
+  "value": 39,
+  "applied": true,
+  "effect_type": 39
+ },
+ "40": {
+  "label": "msoAnimEffectCenterRevolve",
+  "value": 40,
+  "applied": true,
+  "effect_type": 40
+ },
+ "41": {
+  "label": "msoAnimEffectFadedSwivel",
+  "value": 41,
+  "applied": true,
+  "effect_type": 41
+ },
+ "42": {
+  "label": "msoAnimEffectDescend",
+  "value": 42,
+  "applied": true,
+  "effect_type": 42
+ },
+ "43": {
+  "label": "msoAnimEffectSling",
+  "value": 43,
+  "applied": true,
+  "effect_type": 43
+ },
+ "44": {
+  "label": "msoAnimEffectSpinner",
+  "value": 44,
+  "applied": true,
+  "effect_type": 44
+ },
+ "45": {
+  "label": "msoAnimEffectStretchy",
+  "value": 45,
+  "applied": true,
+  "effect_type": 45
+ },
+ "46": {
+  "label": "msoAnimEffectZip",
+  "value": 46,
+  "applied": true,
+  "effect_type": 46
+ },
+ "47": {
+  "label": "msoAnimEffectArcUp",
+  "value": 47,
+  "applied": true,
+  "effect_type": 47
+ },
+ "48": {
+  "label": "msoAnimEffectFadedZoom",
+  "value": 48,
+  "applied": true,
+  "effect_type": 48
+ },
+ "49": {
+  "label": "msoAnimEffectGlide",
+  "value": 49,
+  "applied": true,
+  "effect_type": 49
+ },
+ "50": {
+  "label": "msoAnimEffectExpand",
+  "value": 50,
+  "applied": true,
+  "effect_type": 50
+ },
+ "51": {
+  "label": "msoAnimEffectFlip",
+  "value": 51,
+  "applied": true,
+  "effect_type": 51
+ },
+ "52": {
+  "label": "msoAnimEffectShimmer",
+  "value": 52,
+  "applied": true,
+  "effect_type": 52
+ },
+ "53": {
+  "label": "msoAnimEffectFold",
+  "value": 53,
+  "applied": true,
+  "effect_type": 53
+ },
+ "54": {
+  "label": "msoAnimEffectChangeFillColor",
+  "value": 54,
+  "applied": true,
+  "effect_type": 54
+ },
+ "55": {
+  "label": "msoAnimEffectChangeFont",
+  "value": 55,
+  "applied": true,
+  "effect_type": 55
+ },
+ "56": {
+  "label": "msoAnimEffectChangeFontColor",
+  "value": 56,
+  "applied": true,
+  "effect_type": 56
+ },
+ "57": {
+  "label": "msoAnimEffectChangeFontSize",
+  "value": 57,
+  "applied": true,
+  "effect_type": 57
+ },
+ "58": {
+  "label": "msoAnimEffectChangeFontStyle",
+  "value": 58,
+  "applied": true,
+  "effect_type": 58
+ },
+ "59": {
+  "label": "msoAnimEffectGrowShrink",
+  "value": 59,
+  "applied": true,
+  "effect_type": 59
+ },
+ "60": {
+  "label": "msoAnimEffectChangeLineColor",
+  "value": 60,
+  "applied": true,
+  "effect_type": 60
+ },
+ "61": {
+  "label": "msoAnimEffectSpin",
+  "value": 61,
+  "applied": true,
+  "effect_type": 61
+ },
+ "62": {
+  "label": "msoAnimEffectTransparency",
+  "value": 62,
+  "applied": true,
+  "effect_type": 62
+ },
+ "63": {
+  "label": "msoAnimEffectBoldFlash",
+  "value": 63,
+  "applied": true,
+  "effect_type": 63
+ },
+ "64": {
+  "label": "msoAnimEffectBlast",
+  "value": 64,
+  "applied": true,
+  "effect_type": 64
+ },
+ "65": {
+  "label": "msoAnimEffectBoldReveal",
+  "value": 65,
+  "applied": true,
+  "effect_type": 65
+ },
+ "66": {
+  "label": "msoAnimEffectBrushOnColor",
+  "value": 66,
+  "applied": true,
+  "effect_type": 66
+ },
+ "67": {
+  "label": "msoAnimEffectBrushOnUnderline",
+  "value": 67,
+  "applied": true,
+  "effect_type": 67
+ },
+ "68": {
+  "label": "msoAnimEffectColorBlend",
+  "value": 68,
+  "applied": true,
+  "effect_type": 68
+ },
+ "69": {
+  "label": "msoAnimEffectColorWave",
+  "value": 69,
+  "applied": true,
+  "effect_type": 69
+ },
+ "70": {
+  "label": "msoAnimEffectComplementaryColor",
+  "value": 70,
+  "applied": true,
+  "effect_type": 70
+ },
+ "71": {
+  "label": "msoAnimEffectComplementaryColor2",
+  "value": 71,
+  "applied": true,
+  "effect_type": 71
+ },
+ "72": {
+  "label": "msoAnimEffectContrastingColor",
+  "value": 72,
+  "applied": true,
+  "effect_type": 72
+ },
+ "73": {
+  "label": "msoAnimEffectDarken",
+  "value": 73,
+  "applied": true,
+  "effect_type": 73
+ },
+ "74": {
+  "label": "msoAnimEffectDesaturate",
+  "value": 74,
+  "applied": true,
+  "effect_type": 74
+ },
+ "75": {
+  "label": "msoAnimEffectFlashBulb",
+  "value": 75,
+  "applied": true,
+  "effect_type": 75
+ },
+ "76": {
+  "label": "msoAnimEffectFlicker",
+  "value": 76,
+  "applied": true,
+  "effect_type": 76
+ },
+ "77": {
+  "label": "msoAnimEffectGrowWithColor",
+  "value": 77,
+  "applied": true,
+  "effect_type": 77
+ },
+ "78": {
+  "label": "msoAnimEffectLighten",
+  "value": 78,
+  "applied": true,
+  "effect_type": 78
+ },
+ "79": {
+  "label": "msoAnimEffectStyleEmphasis",
+  "value": 79,
+  "applied": true,
+  "effect_type": 79
+ },
+ "80": {
+  "label": "msoAnimEffectTeeter",
+  "value": 80,
+  "applied": true,
+  "effect_type": 80
+ },
+ "81": {
+  "label": "msoAnimEffectVerticalGrow",
+  "value": 81,
+  "applied": true,
+  "effect_type": 81
+ },
+ "82": {
+  "label": "msoAnimEffectWave",
+  "value": 82,
+  "applied": true,
+  "effect_type": 82
+ },
+ "83": {
+  "label": "msoAnimEffectMediaPlay",
+  "value": 83,
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'Sequence.AddEffect : Invalid request.  ', '', 0, -2147188160), None)"
+ },
+ "84": {
+  "label": "msoAnimEffectMediaPause",
+  "value": 84,
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'Sequence.AddEffect : Invalid request.  ', '', 0, -2147188160), None)"
+ },
+ "85": {
+  "label": "msoAnimEffectMediaStop",
+  "value": 85,
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'Sequence.AddEffect : Invalid request.  ', '', 0, -2147188160), None)"
+ },
+ "86": {
+  "label": "msoAnimEffectPathCircle",
+  "value": 86,
+  "applied": true,
+  "effect_type": 86
+ },
+ "87": {
+  "label": "msoAnimEffectPathRightTriangle",
+  "value": 87,
+  "applied": true,
+  "effect_type": 87
+ },
+ "88": {
+  "label": "msoAnimEffectPathDiamond",
+  "value": 88,
+  "applied": true,
+  "effect_type": 88
+ },
+ "89": {
+  "label": "msoAnimEffectPathHexagon",
+  "value": 89,
+  "applied": true,
+  "effect_type": 89
+ },
+ "90": {
+  "label": "msoAnimEffectPath5PointStar",
+  "value": 90,
+  "applied": true,
+  "effect_type": 90
+ },
+ "91": {
+  "label": "msoAnimEffectPathCrescentMoon",
+  "value": 91,
+  "applied": true,
+  "effect_type": 91
+ },
+ "92": {
+  "label": "msoAnimEffectPathSquare",
+  "value": 92,
+  "applied": true,
+  "effect_type": 92
+ },
+ "93": {
+  "label": "msoAnimEffectPathTrapezoid",
+  "value": 93,
+  "applied": true,
+  "effect_type": 93
+ },
+ "94": {
+  "label": "msoAnimEffectPathHeart",
+  "value": 94,
+  "applied": true,
+  "effect_type": 94
+ },
+ "95": {
+  "label": "msoAnimEffectPathOctagon",
+  "value": 95,
+  "applied": true,
+  "effect_type": 95
+ },
+ "96": {
+  "label": "msoAnimEffectPath6PointStar",
+  "value": 96,
+  "applied": true,
+  "effect_type": 96
+ },
+ "97": {
+  "label": "msoAnimEffectPathFootball",
+  "value": 97,
+  "applied": true,
+  "effect_type": 97
+ },
+ "98": {
+  "label": "msoAnimEffectPathEqualTriangle",
+  "value": 98,
+  "applied": true,
+  "effect_type": 98
+ },
+ "99": {
+  "label": "msoAnimEffectPathParallelogram",
+  "value": 99,
+  "applied": true,
+  "effect_type": 99
+ },
+ "100": {
+  "label": "msoAnimEffectPathPentagon",
+  "value": 100,
+  "applied": true,
+  "effect_type": 100
+ },
+ "101": {
+  "label": "msoAnimEffectPath4PointStar",
+  "value": 101,
+  "applied": true,
+  "effect_type": 101
+ },
+ "102": {
+  "label": "msoAnimEffectPath8PointStar",
+  "value": 102,
+  "applied": true,
+  "effect_type": 102
+ },
+ "103": {
+  "label": "msoAnimEffectPathTeardrop",
+  "value": 103,
+  "applied": true,
+  "effect_type": 103
+ },
+ "104": {
+  "label": "msoAnimEffectPathPointyStar",
+  "value": 104,
+  "applied": true,
+  "effect_type": 104
+ },
+ "105": {
+  "label": "msoAnimEffectPathCurvedSquare",
+  "value": 105,
+  "applied": true,
+  "effect_type": 105
+ },
+ "106": {
+  "label": "msoAnimEffectPathCurvedX",
+  "value": 106,
+  "applied": true,
+  "effect_type": 106
+ },
+ "107": {
+  "label": "msoAnimEffectPathVerticalFigure8",
+  "value": 107,
+  "applied": true,
+  "effect_type": 107
+ },
+ "108": {
+  "label": "msoAnimEffectPathCurvyStar",
+  "value": 108,
+  "applied": true,
+  "effect_type": 108
+ },
+ "109": {
+  "label": "msoAnimEffectPathLoopdeLoop",
+  "value": 109,
+  "applied": true,
+  "effect_type": 109
+ },
+ "110": {
+  "label": "msoAnimEffectPathBuzzsaw",
+  "value": 110,
+  "applied": true,
+  "effect_type": 110
+ },
+ "111": {
+  "label": "msoAnimEffectPathHorizontalFigure8",
+  "value": 111,
+  "applied": true,
+  "effect_type": 111
+ },
+ "112": {
+  "label": "msoAnimEffectPathPeanut",
+  "value": 112,
+  "applied": true,
+  "effect_type": 112
+ },
+ "113": {
+  "label": "msoAnimEffectPathFigure8Four",
+  "value": 113,
+  "applied": true,
+  "effect_type": 113
+ },
+ "114": {
+  "label": "msoAnimEffectPathNeutron",
+  "value": 114,
+  "applied": true,
+  "effect_type": 114
+ },
+ "115": {
+  "label": "msoAnimEffectPathSwoosh",
+  "value": 115,
+  "applied": true,
+  "effect_type": 115
+ },
+ "116": {
+  "label": "msoAnimEffectPathBean",
+  "value": 116,
+  "applied": true,
+  "effect_type": 116
+ },
+ "117": {
+  "label": "msoAnimEffectPathPlus",
+  "value": 117,
+  "applied": true,
+  "effect_type": 117
+ },
+ "118": {
+  "label": "msoAnimEffectPathInvertedTriangle",
+  "value": 118,
+  "applied": true,
+  "effect_type": 118
+ },
+ "119": {
+  "label": "msoAnimEffectPathInvertedSquare",
+  "value": 119,
+  "applied": true,
+  "effect_type": 119
+ },
+ "120": {
+  "label": "msoAnimEffectPathLeft",
+  "value": 120,
+  "applied": true,
+  "effect_type": 120
+ },
+ "121": {
+  "label": "msoAnimEffectPathTurnRight",
+  "value": 121,
+  "applied": true,
+  "effect_type": 121
+ },
+ "122": {
+  "label": "msoAnimEffectPathArcDown",
+  "value": 122,
+  "applied": true,
+  "effect_type": 122
+ },
+ "123": {
+  "label": "msoAnimEffectPathZigzag",
+  "value": 123,
+  "applied": true,
+  "effect_type": 123
+ },
+ "124": {
+  "label": "msoAnimEffectPathSCurve2",
+  "value": 124,
+  "applied": true,
+  "effect_type": 124
+ },
+ "125": {
+  "label": "msoAnimEffectPathSineWave",
+  "value": 125,
+  "applied": true,
+  "effect_type": 125
+ },
+ "126": {
+  "label": "msoAnimEffectPathBounceLeft",
+  "value": 126,
+  "applied": true,
+  "effect_type": 126
+ },
+ "127": {
+  "label": "msoAnimEffectPathDown",
+  "value": 127,
+  "applied": true,
+  "effect_type": 127
+ },
+ "128": {
+  "label": "msoAnimEffectPathTurnUp",
+  "value": 128,
+  "applied": true,
+  "effect_type": 128
+ },
+ "129": {
+  "label": "msoAnimEffectPathArcUp",
+  "value": 129,
+  "applied": true,
+  "effect_type": 129
+ },
+ "130": {
+  "label": "msoAnimEffectPathHeartbeat",
+  "value": 130,
+  "applied": true,
+  "effect_type": 130
+ },
+ "131": {
+  "label": "msoAnimEffectPathSpiralRight",
+  "value": 131,
+  "applied": true,
+  "effect_type": 131
+ },
+ "132": {
+  "label": "msoAnimEffectPathWave",
+  "value": 132,
+  "applied": true,
+  "effect_type": 132
+ },
+ "133": {
+  "label": "msoAnimEffectPathCurvyLeft",
+  "value": 133,
+  "applied": true,
+  "effect_type": 133
+ },
+ "134": {
+  "label": "msoAnimEffectPathDiagonalDownRight",
+  "value": 134,
+  "applied": true,
+  "effect_type": 134
+ },
+ "135": {
+  "label": "msoAnimEffectPathTurnDown",
+  "value": 135,
+  "applied": true,
+  "effect_type": 135
+ },
+ "136": {
+  "label": "msoAnimEffectPathArcLeft",
+  "value": 136,
+  "applied": true,
+  "effect_type": 136
+ },
+ "137": {
+  "label": "msoAnimEffectPathFunnel",
+  "value": 137,
+  "applied": true,
+  "effect_type": 137
+ },
+ "138": {
+  "label": "msoAnimEffectPathSpring",
+  "value": 138,
+  "applied": true,
+  "effect_type": 138
+ },
+ "139": {
+  "label": "msoAnimEffectPathBounceRight",
+  "value": 139,
+  "applied": true,
+  "effect_type": 139
+ },
+ "140": {
+  "label": "msoAnimEffectPathSpiralLeft",
+  "value": 140,
+  "applied": true,
+  "effect_type": 140
+ },
+ "141": {
+  "label": "msoAnimEffectPathDiagonalUpRight",
+  "value": 141,
+  "applied": true,
+  "effect_type": 141
+ },
+ "142": {
+  "label": "msoAnimEffectPathTurnUpRight",
+  "value": 142,
+  "applied": true,
+  "effect_type": 142
+ },
+ "143": {
+  "label": "msoAnimEffectPathArcRight",
+  "value": 143,
+  "applied": true,
+  "effect_type": 143
+ },
+ "144": {
+  "label": "msoAnimEffectPathSCurve1",
+  "value": 144,
+  "applied": true,
+  "effect_type": 144
+ },
+ "145": {
+  "label": "msoAnimEffectPathDecayingWave",
+  "value": 145,
+  "applied": true,
+  "effect_type": 145
+ },
+ "146": {
+  "label": "msoAnimEffectPathCurvyRight",
+  "value": 146,
+  "applied": true,
+  "effect_type": 146
+ },
+ "147": {
+  "label": "msoAnimEffectPathStairsDown",
+  "value": 147,
+  "applied": true,
+  "effect_type": 147
+ },
+ "148": {
+  "label": "msoAnimEffectPathUp",
+  "value": 148,
+  "applied": true,
+  "effect_type": 148
+ },
+ "149": {
+  "label": "msoAnimEffectPathRight",
+  "value": 149,
+  "applied": true,
+  "effect_type": 149
+ },
+ "150": {
+  "label": "msoAnimEffectMediaPlayFromBookmark",
+  "value": 150,
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'Sequence.AddEffect : Invalid request.  ', '', 0, -2147188160), None)"
+ },
+ "151": {
+  "label": "msoAnimEffect3DArrive",
+  "value": 151,
+  "applied": true,
+  "effect_type": 151
+ },
+ "152": {
+  "label": "msoAnimEffect3DTurntable",
+  "value": 152,
+  "applied": true,
+  "effect_type": 152
+ },
+ "153": {
+  "label": "msoAnimEffect3DSwing",
+  "value": 153,
+  "applied": true,
+  "effect_type": 153
+ },
+ "154": {
+  "label": "msoAnimEffect3DJumpAndTurn",
+  "value": 154,
+  "applied": true,
+  "effect_type": 154
+ }
+}

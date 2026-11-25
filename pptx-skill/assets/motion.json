@@ -1,0 +1,243 @@
+{
+ "source": "594 个模板的动画统计 + 14 个高动画模板的时序拆解",
+ "duration_ms": {
+  "primary": 500,
+  "secondary": 1000,
+  "light": 250
+ },
+ "preset_mix": {
+  "fly": 10436,
+  "wipe": 7918,
+  "ascend": 6715,
+  "fade": 5880,
+  "faded-zoom": 4778,
+  "split": 1347,
+  "random-bars": 1275
+ },
+ "trigger": {
+  "click_groups_per_page": "0–1.7",
+  "with_effect_share": "90%+",
+  "rule": "1 个 click 起手，其余 with_previous + delay 递增"
+ },
+ "delay_waterfall": {
+  "start": 0.1,
+  "step": 0.1,
+  "max_observed_ms": 7000
+ },
+ "anims_per_page": {
+  "template_median": 15,
+  "range": [
+   15,
+   34
+  ]
+ },
+ "preset_by_element": {
+  "title": "wipe",
+  "body": "ascend",
+  "image": "faded-zoom",
+  "decor": "fade",
+  "card": "faded-zoom",
+  "footer": "fade"
+ },
+ "transitions": {
+  "none": 5380,
+  "random": 3022,
+  "fade": 472,
+  "morph": 469,
+  "rule": "汇报用 fade/none；morph 只用于图片推镜/轮播"
+ },
+ "templates": [
+  {
+   "file": "47套黑白灰禁欲系PPT\\动态\\03.pptx",
+   "anim_per_page": 34.4,
+   "click_groups": 0.0,
+   "with": 30.2,
+   "after": 0.0,
+   "max_delay_ms": 3000,
+   "presets": [
+    "10e×165",
+    "22e×79",
+    "12e×58",
+    "2e×44"
+   ]
+  },
+  {
+   "file": "47套黑白灰禁欲系PPT\\动态\\25.pptx",
+   "anim_per_page": 29.0,
+   "click_groups": 0.0,
+   "with": 31.4,
+   "after": 2.9,
+   "max_delay_ms": 1500,
+   "presets": [
+    "31e×83",
+    "10e×76",
+    "35p×65",
+    "2e×44"
+   ]
+  },
+  {
+   "file": "50套高级极简风PPT\\高级极简PPT模板\\48.pptx",
+   "anim_per_page": 21.0,
+   "click_groups": 0.0,
+   "with": 0.0,
+   "after": 13.4,
+   "max_delay_ms": 0,
+   "presets": [
+    "2e×140",
+    "26e×21"
+   ]
+  },
+  {
+   "file": "50套高级极简风PPT\\高级极简PPT模板\\45.pptx",
+   "anim_per_page": 20.8,
+   "click_groups": 0.0,
+   "with": 0.0,
+   "after": 16.5,
+   "max_delay_ms": 0,
+   "presets": [
+    "22e×58",
+    "37e×35",
+    "2e×31",
+    "10e×26"
+   ]
+  },
+  {
+   "file": "50套欧美简约风PPT\\欧美风PPT模板\\35.pptx",
+   "anim_per_page": 19.6,
+   "click_groups": 1.3,
+   "with": 2.3,
+   "after": 16.7,
+   "max_delay_ms": 100,
+   "presets": [
+    "10e×81",
+    "22e×57",
+    "53e×31",
+    "9e×24"
+   ]
+  },
+  {
+   "file": "50套欧美简约风PPT\\欧美风PPT模板\\5.pptx",
+   "anim_per_page": 18.5,
+   "click_groups": 0.8,
+   "with": 16.8,
+   "after": 0.0,
+   "max_delay_ms": 0,
+   "presets": [
+    "0e×202",
+    "2e×9"
+   ]
+  },
+  {
+   "file": "50套高级极简风PPT\\高级极简PPT模板\\43.pptx",
+   "anim_per_page": 16.6,
+   "click_groups": 0.0,
+   "with": 13.6,
+   "after": 0.4,
+   "max_delay_ms": 7000,
+   "presets": [
+    "22e×96",
+    "2e×21",
+    "31e×20",
+    "53e×12"
+   ]
+  },
+  {
+   "file": "中国风\\FSYC-古风中国风\\PPT模板\\中国风 (13)---FSYC设计馆.pptx",
+   "anim_per_page": 16.4,
+   "click_groups": 1.0,
+   "with": 14.0,
+   "after": 0.0,
+   "max_delay_ms": 0,
+   "presets": [
+    "42e×86",
+    "22e×44",
+    "9e×17",
+    "55e×17"
+   ]
+  },
+  {
+   "file": "43套日系和风PPT\\PPT模板\\日系和风PPT (19).pptx",
+   "anim_per_page": 16.3,
+   "click_groups": 0.0,
+   "with": 5.8,
+   "after": 10.8,
+   "max_delay_ms": 500,
+   "presets": [
+    "22e×89",
+    "53e×33",
+    "12e×29",
+    "17e×24"
+   ]
+  },
+  {
+   "file": "228-马卡龙PPT\\PPT\\马卡龙色系PPT (3).pptx",
+   "anim_per_page": 15.9,
+   "click_groups": 1.7,
+   "with": 3.2,
+   "after": 13.0,
+   "max_delay_ms": 0,
+   "presets": [
+    "53e×82",
+    "2e×78",
+    "10e×12",
+    "31e×10"
+   ]
+  },
+  {
+   "file": "228-马卡龙PPT(1)\\PPT\\马卡龙色系PPT (3).pptx",
+   "anim_per_page": 15.9,
+   "click_groups": 1.7,
+   "with": 3.2,
+   "after": 13.0,
+   "max_delay_ms": 0,
+   "presets": [
+    "53e×82",
+    "2e×78",
+    "10e×12",
+    "31e×10"
+   ]
+  },
+  {
+   "file": "47套黑白灰禁欲系PPT\\动态\\15.pptx",
+   "anim_per_page": 15.2,
+   "click_groups": 0.0,
+   "with": 13.8,
+   "after": 0.5,
+   "max_delay_ms": 2750,
+   "presets": [
+    "2e×44",
+    "6e×26",
+    "53e×22",
+    "22e×18"
+   ]
+  },
+  {
+   "file": "43套日系和风PPT\\PPT模板\\日系和风PPT (18).pptx",
+   "anim_per_page": 15.1,
+   "click_groups": 0.0,
+   "with": 3.1,
+   "after": 12.6,
+   "max_delay_ms": 0,
+   "presets": [
+    "53e×55",
+    "22e×50",
+    "42e×34",
+    "29e×12"
+   ]
+  },
+  {
+   "file": "A1 动态\\动态\\【1】屎盆子镶金边PPT\\SS 屎盆子镶金边ppt合集40套\\SS18 PPT结尾-愿你我更上一层楼   1结尾用1111\\SS18 PPT结尾-愿你我更上一层楼.pptx",
+   "anim_per_page": 15.0,
+   "click_groups": 0.0,
+   "with": 15.0,
+   "after": 0.0,
+   "max_delay_ms": 3000,
+   "presets": [
+    "10e×9",
+    "2e×4",
+    "1m×1",
+    "2m×1"
+   ]
+  }
+ ]
+}

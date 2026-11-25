@@ -1,0 +1,75 @@
+{
+ "com": {
+  "slides": 3,
+  "frames": [
+   {
+    "slide": 1,
+    "entry": 3954,
+    "duration": 1.2,
+    "advance_time": 1.5,
+    "advance_on_click": 0
+   },
+   {
+    "slide": 2,
+    "entry": 3954,
+    "duration": 1.2,
+    "advance_time": 1.5,
+    "advance_on_click": 0
+   },
+   {
+    "slide": 3,
+    "entry": 3954,
+    "duration": 1.2,
+    "advance_time": 1.5,
+    "advance_on_click": 0
+   }
+  ]
+ },
+ "pages": [
+  {
+   "index": 1,
+   "transition": "<p:transition xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p159=\"http://schemas.microsoft.com/office/powerpoint/2015/09/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"slow\" p14:dur=\"1200\" advClick=\"0\" advTm=\"1500\">\n        <p159:morph option=\"byObject\"/>\n      </p:transition>\n    \n",
+   "advTm": "1500",
+   "shapes": [
+    [
+     "2",
+     "!!hero"
+    ],
+    [
+     "3",
+     "!!side"
+    ]
+   ]
+  },
+  {
+   "index": 2,
+   "transition": "<p:transition xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p159=\"http://schemas.microsoft.com/office/powerpoint/2015/09/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"slow\" p14:dur=\"1200\" advClick=\"0\" advTm=\"1500\">\n        <p159:morph option=\"byObject\"/>\n      </p:transition>\n    \n",
+   "advTm": "1500",
+   "shapes": [
+    [
+     "2",
+     "!!hero"
+    ],
+    [
+     "3",
+     "!!side"
+    ]
+   ]
+  },
+  {
+   "index": 3,
+   "transition": "<p:transition xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p159=\"http://schemas.microsoft.com/office/powerpoint/2015/09/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"slow\" p14:dur=\"1200\" advClick=\"0\" advTm=\"1500\">\n        <p159:morph option=\"byObject\"/>\n      </p:transition>\n    \n",
+   "advTm": "1500",
+   "shapes": [
+    [
+     "2",
+     "!!hero"
+    ],
+    [
+     "3",
+     "!!side"
+    ]
+   ]
+  }
+ ]
+}

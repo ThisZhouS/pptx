@@ -1,0 +1,3461 @@
+[
+ {
+  "file": "(1).pptx",
+  "mb": 9.23,
+  "slides": 25,
+  "layouts": 11,
+  "masters": 1,
+  "media": 27,
+  "charts": 6,
+  "notes": 6,
+  "colors": {
+   "dk1": "54747D",
+   "lt1": "FFFFFF",
+   "dk2": "0E2841",
+   "lt2": "E8E8E8",
+   "accent1": "54747D",
+   "accent2": "92B9BD",
+   "accent3": "DDE4EB",
+   "accent4": "E9F1F2",
+   "accent5": "A02B93",
+   "accent6": "4EA72E",
+   "hlink": "467886",
+   "folHlink": "96607D"
+  },
+  "fonts": [
+   "majorFont:等线 Light",
+   "minorFont:等线"
+  ],
+  "transitions": {
+   "p:blinds|1600": 23,
+   "p:split|1500": 2
+  },
+  "anim_total": 143,
+  "anim_per_slide_avg": 5.7,
+  "presets_top": [
+   "entr#14×64",
+   "entr#22×28",
+   "entr#42×16",
+   "entr#10×15",
+   "entr#53×6",
+   "entr#16×4"
+  ],
+  "durations_top": [
+   [
+    500,
+    139
+   ],
+   [
+    1000,
+    57
+   ],
+   [
+    2000,
+    1
+   ]
+  ],
+  "sizes_top": [
+   "24pt×62",
+   "14pt×61",
+   "20pt×30",
+   "28pt×25",
+   "12pt×18",
+   "16pt×14"
+  ],
+  "shapes_avg": 22.6
+ },
+ {
+  "file": "(10).pptx",
+  "mb": 8.55,
+  "slides": 25,
+  "layouts": 11,
+  "masters": 1,
+  "media": 25,
+  "charts": 10,
+  "notes": 48,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "4472C4",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:等线 Light",
+   "minorFont:等线"
+  ],
+  "transitions": {
+   "p:blinds|1600": 24,
+   "p14:prism|1600": 1
+  },
+  "anim_total": 153,
+  "anim_per_slide_avg": 6.1,
+  "presets_top": [
+   "entr#10×91",
+   "entr#22×20",
+   "entr#53×14",
+   "entr#42×12",
+   "entr#14×9",
+   "entr#21×3"
+  ],
+  "durations_top": [
+   [
+    500,
+    165
+   ],
+   [
+    1000,
+    39
+   ]
+  ],
+  "sizes_top": [
+   "14pt×93",
+   "20pt×66",
+   "24pt×29",
+   "28pt×29",
+   "66pt×22",
+   "10pt×21"
+  ],
+  "shapes_avg": 25.3
+ },
+ {
+  "file": "(11).pptx",
+  "mb": 28.46,
+  "slides": 29,
+  "layouts": 11,
+  "masters": 1,
+  "media": 32,
+  "charts": 18,
+  "notes": 6,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "4472C4",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:思源黑体",
+   "minorFont:思源黑体"
+  ],
+  "transitions": {
+   "p14:pan|1300": 15,
+   "p15:prstTrans|1250": 13,
+   "none|None": 1
+  },
+  "anim_total": 333,
+  "anim_per_slide_avg": 11.5,
+  "presets_top": [
+   "entr#53×77",
+   "entr#2×63",
+   "entr#22×60",
+   "entr#14×27",
+   "entr#23×23",
+   "entr#42×18"
+  ],
+  "durations_top": [
+   [
+    500,
+    470
+   ],
+   [
+    1000,
+    173
+   ],
+   [
+    1500,
+    58
+   ],
+   [
+    750,
+    20
+   ],
+   [
+    1250,
+    10
+   ]
+  ],
+  "sizes_top": [
+   "10pt×55",
+   "16pt×42",
+   "14pt×38",
+   "11pt×36",
+   "24pt×35",
+   "32pt×26"
+  ],
+  "shapes_avg": 24.6
+ },
+ {
+  "file": "(12).pptx",
+  "mb": 82.28,
+  "slides": 23,
+  "layouts": 11,
+  "masters": 1,
+  "media": 59,
+  "charts": 6,
+  "notes": 6,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "4472C4",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:思源黑体",
+   "minorFont:思源黑体"
+  ],
+  "transitions": {
+   "p14:reveal|None": 14,
+   "p15:prstTrans|1250": 8,
+   "none|None": 1
+  },
+  "anim_total": 323,
+  "anim_per_slide_avg": 14.0,
+  "presets_top": [
+   "entr#2×68",
+   "entr#22×64",
+   "entr#23×33",
+   "entr#47×30",
+   "entr#53×30",
+   "entr#42×19"
+  ],
+  "durations_top": [
+   [
+    1000,
+    315
+   ],
+   [
+    500,
+    239
+   ],
+   [
+    2000,
+    70
+   ],
+   [
+    750,
+    28
+   ],
+   [
+    1500,
+    12
+   ]
+  ],
+  "sizes_top": [
+   "10pt×42",
+   "14pt×35",
+   "16pt×26",
+   "40pt×18",
+   "20pt×14",
+   "44pt×8"
+  ],
+  "shapes_avg": 22.5
+ },
+ {
+  "file": "(13).pptx",
+  "mb": 14.58,
+  "slides": 25,
+  "layouts": 11,
+  "masters": 1,
+  "media": 33,
+  "charts": 0,
+  "notes": 16,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "0E2841",
+   "lt2": "E8E8E8",
+   "accent1": "376F5A",
+   "accent2": "70A183",
+   "accent3": "DCC696",
+   "accent4": "F4E3C5",
+   "accent5": "E4CFB2",
+   "accent6": "4EA72E",
+   "hlink": "467886",
+   "folHlink": "96607D"
+  },
+  "fonts": [
+   "majorFont:等线 Light",
+   "minorFont:等线"
+  ],
+  "transitions": {
+   "p:blinds|1600": 23,
+   "p:split|1500": 2
+  },
+  "anim_total": 229,
+  "anim_per_slide_avg": 9.2,
+  "presets_top": [
+   "entr#10×99",
+   "entr#16×49",
+   "entr#14×47",
+   "entr#22×16",
+   "entr#9×5",
+   "entr#23×4"
+  ],
+  "durations_top": [
+   [
+    500,
+    227
+   ],
+   [
+    1000,
+    6
+   ],
+   [
+    2000,
+    5
+   ]
+  ],
+  "sizes_top": [
+   "16pt×57",
+   "24pt×55",
+   "20pt×31",
+   "10pt×18",
+   "36pt×18",
+   "80pt×11"
+  ],
+  "shapes_avg": 18.5
+ },
+ {
+  "file": "(14).pptx",
+  "mb": 54.17,
+  "slides": 23,
+  "layouts": 2,
+  "masters": 1,
+  "media": 18,
+  "charts": 0,
+  "notes": 32,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "4472C4",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:阿里巴巴普惠体",
+   "minorFont:阿里巴巴普惠体"
+  ],
+  "transitions": {
+   "p:blinds|1600": 15,
+   "none|None": 8
+  },
+  "anim_total": 117,
+  "anim_per_slide_avg": 5.1,
+  "presets_top": [
+   "entr#10×37",
+   "entr#42×20",
+   "entr#14×17",
+   "entr#2×15",
+   "entr#16×13",
+   "entr#6×7"
+  ],
+  "durations_top": [
+   [
+    500,
+    146
+   ],
+   [
+    1000,
+    60
+   ],
+   [
+    2000,
+    7
+   ]
+  ],
+  "sizes_top": [
+   "20pt×34",
+   "16pt×32",
+   "24pt×23",
+   "18pt×15",
+   "12pt×7",
+   "96pt×5"
+  ],
+  "shapes_avg": 10.5
+ },
+ {
+  "file": "(15).pptx",
+  "mb": 71.21,
+  "slides": 29,
+  "layouts": 5,
+  "masters": 1,
+  "media": 17,
+  "charts": 26,
+  "notes": 8,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "4472C4",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:阿里巴巴普惠体 Heavy",
+   "minorFont:思源宋体 CN Heavy"
+  ],
+  "transitions": {
+   "p:random|1500": 29
+  },
+  "anim_total": 247,
+  "anim_per_slide_avg": 8.5,
+  "presets_top": [
+   "entr#2×45",
+   "entr#52×25",
+   "entr#12×25",
+   "entr#17×23",
+   "entr#53×20",
+   "entr#54×18"
+  ],
+  "durations_top": [
+   [
+    500,
+    438
+   ],
+   [
+    1000,
+    270
+   ],
+   [
+    1500,
+    8
+   ],
+   [
+    750,
+    8
+   ],
+   [
+    2000,
+    4
+   ]
+  ],
+  "sizes_top": [
+   "10pt×133",
+   "18pt×57",
+   "24pt×44",
+   "12pt×29",
+   "16pt×15",
+   "14pt×9"
+  ],
+  "shapes_avg": 24.4
+ },
+ {
+  "file": "(16).pptx",
+  "mb": 114.57,
+  "slides": 28,
+  "layouts": 11,
+  "masters": 1,
+  "media": 65,
+  "charts": 22,
+  "notes": 38,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "4472C4",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:思源黑体 CN Normal",
+   "minorFont:思源黑体 CN Light"
+  ],
+  "transitions": {
+   "p:pull|None": 28
+  },
+  "anim_total": 236,
+  "anim_per_slide_avg": 8.4,
+  "presets_top": [
+   "entr#22×93",
+   "entr#2×71",
+   "entr#42×45",
+   "entr#53×11",
+   "entr#21×6",
+   "entr#12×6"
+  ],
+  "durations_top": [
+   [
+    500,
+    208
+   ],
+   [
+    1000,
+    175
+   ],
+   [
+    750,
+    40
+   ],
+   [
+    1250,
+    7
+   ],
+   [
+    2000,
+    5
+   ]
+  ],
+  "sizes_top": [
+   "16pt×120",
+   "24pt×59",
+   "12pt×26",
+   "32pt×22",
+   "11pt×21",
+   "20pt×15"
+  ],
+  "shapes_avg": 30.9
+ },
+ {
+  "file": "(17).pptx",
+  "mb": 55.93,
+  "slides": 23,
+  "layouts": 6,
+  "masters": 1,
+  "media": 14,
+  "charts": 14,
+  "notes": 6,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "25599F",
+   "accent2": "F9C387",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:等线 Light",
+   "minorFont:等线"
+  ],
+  "transitions": {
+   "p:random|1500": 16,
+   "none|None": 5,
+   "p:dissolve|1200": 2
+  },
+  "anim_total": 114,
+  "anim_per_slide_avg": 5.0,
+  "presets_top": [
+   "entr#53×50",
+   "entr#22×32",
+   "entr#10×15",
+   "entr#16×5",
+   "entr#42×4",
+   "entr#2×3"
+  ],
+  "durations_top": [
+   [
+    500,
+    203
+   ],
+   [
+    1000,
+    18
+   ],
+   [
+    1500,
+    6
+   ]
+  ],
+  "sizes_top": [
+   "10pt×27",
+   "28pt×26",
+   "14pt×17",
+   "11pt×16",
+   "12pt×15",
+   "18pt×13"
+  ],
+  "shapes_avg": 23.1
+ },
+ {
+  "file": "(18).pptx",
+  "mb": 23.98,
+  "slides": 24,
+  "layouts": 11,
+  "masters": 1,
+  "media": 8,
+  "charts": 0,
+  "notes": 6,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "0F1423",
+   "lt2": "FFFFFF",
+   "accent1": "6096E6",
+   "accent2": "58B6E5",
+   "accent3": "56CA95",
+   "accent4": "FFBA55",
+   "accent5": "F18870",
+   "accent6": "EC5F74",
+   "hlink": "0563C1",
+   "folHlink": "954D72"
+  },
+  "fonts": [
+   "majorFont:Arial",
+   "minorFont:Arial"
+  ],
+  "transitions": {
+   "none|None": 24
+  },
+  "anim_total": 167,
+  "anim_per_slide_avg": 7.0,
+  "presets_top": [
+   "entr#3×42",
+   "entr#22×34",
+   "entr#42×27",
+   "entr#2×21",
+   "entr#23×15",
+   "entr#12×12"
+  ],
+  "durations_top": [
+   [
+    500,
+    173
+   ],
+   [
+    250,
+    81
+   ],
+   [
+    2000,
+    12
+   ],
+   [
+    1000,
+    9
+   ]
+  ],
+  "sizes_top": [
+   "12pt×84",
+   "20pt×51",
+   "10pt×44",
+   "24pt×28",
+   "14pt×20",
+   "54pt×4"
+  ],
+  "shapes_avg": 20.5
+ },
+ {
+  "file": "(19).pptx",
+  "mb": 18.42,
+  "slides": 24,
+  "layouts": 13,
+  "masters": 1,
+  "media": 18,
+  "charts": 0,
+  "notes": 26,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "5B9BD5",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "4472C4",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:思源宋体 CN Heavy",
+   "minorFont:思源宋体 CN Heavy"
+  ],
+  "transitions": {
+   "p:random|1500": 24
+  },
+  "anim_total": 142,
+  "anim_per_slide_avg": 5.9,
+  "presets_top": [
+   "entr#2×84",
+   "entr#42×37",
+   "entr#16×19",
+   "mediacall#1×1",
+   "entr#22×1"
+  ],
+  "durations_top": [
+   [
+    500,
+    188
+   ],
+   [
+    1000,
+    111
+   ]
+  ],
+  "sizes_top": [
+   "12pt×66",
+   "10pt×26",
+   "20pt×21",
+   "16pt×16",
+   "60pt×8",
+   "14pt×7"
+  ],
+  "shapes_avg": 15.4
+ },
+ {
+  "file": "(2).pptx",
+  "mb": 5.05,
+  "slides": 31,
+  "layouts": 4,
+  "masters": 1,
+  "media": 15,
+  "charts": 8,
+  "notes": 10,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "185032",
+   "accent2": "66B57C",
+   "accent3": "D7B152",
+   "accent4": "EAE7B5",
+   "accent5": "4472C4",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:Calibri Light",
+   "minorFont:Calibri"
+  ],
+  "transitions": {
+   "p:push|None": 24,
+   "p:blinds|1600": 4,
+   "p14:ripple|1400": 1,
+   "p15:prstTrans|1250": 1,
+   "p14:vortex|4000": 1
+  },
+  "anim_total": 327,
+  "anim_per_slide_avg": 10.5,
+  "presets_top": [
+   "entr#2×98",
+   "entr#53×60",
+   "entr#10×52",
+   "path#35×20",
+   "entr#42×19",
+   "entr#22×18"
+  ],
+  "durations_top": [
+   [
+    500,
+    453
+   ],
+   [
+    1000,
+    86
+   ],
+   [
+    750,
+    51
+   ],
+   [
+    1500,
+    24
+   ],
+   [
+    1250,
+    18
+   ]
+  ],
+  "sizes_top": [
+   "10pt×128",
+   "16pt×92",
+   "12pt×80",
+   "14pt×72",
+   "20pt×41",
+   "28pt×37"
+  ],
+  "shapes_avg": 27.5
+ },
+ {
+  "file": "(20).pptx",
+  "mb": 21.8,
+  "slides": 25,
+  "layouts": 16,
+  "masters": 1,
+  "media": 21,
+  "charts": 8,
+  "notes": 26,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "4472C4",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:Source Han Serif SC",
+   "minorFont:Source Han Serif SC"
+  ],
+  "transitions": {
+   "p:random|1500": 25
+  },
+  "anim_total": 137,
+  "anim_per_slide_avg": 5.5,
+  "presets_top": [
+   "entr#42×60",
+   "entr#2×47",
+   "entr#16×21",
+   "entr#12×4",
+   "entr#10×2",
+   "entr#22×2"
+  ],
+  "durations_top": [
+   [
+    1000,
+    180
+   ],
+   [
+    500,
+    127
+   ]
+  ],
+  "sizes_top": [
+   "12pt×37",
+   "10pt×34",
+   "16pt×24",
+   "20pt×21",
+   "28pt×18",
+   "14pt×10"
+  ],
+  "shapes_avg": 16.2
+ },
+ {
+  "file": "(3).pptx",
+  "mb": 8.58,
+  "slides": 24,
+  "layouts": 4,
+  "masters": 1,
+  "media": 15,
+  "charts": 10,
+  "notes": 4,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "4472C4",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:等线 Light",
+   "minorFont:等线"
+  ],
+  "transitions": {
+   "p14:doors|1400": 22,
+   "none|None": 2
+  },
+  "anim_total": 139,
+  "anim_per_slide_avg": 5.8,
+  "presets_top": [
+   "entr#10×55",
+   "entr#2×34",
+   "entr#53×13",
+   "entr#23×12",
+   "entr#42×8",
+   "entr#14×5"
+  ],
+  "durations_top": [
+   [
+    500,
+    127
+   ],
+   [
+    1000,
+    105
+   ]
+  ],
+  "sizes_top": [
+   "14pt×77",
+   "24pt×31",
+   "20pt×16",
+   "10pt×13",
+   "12pt×6",
+   "239pt×6"
+  ],
+  "shapes_avg": 23.8
+ },
+ {
+  "file": "(4).pptx",
+  "mb": 16.84,
+  "slides": 25,
+  "layouts": 11,
+  "masters": 1,
+  "media": 32,
+  "charts": 4,
+  "notes": 4,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "0E2841",
+   "lt2": "E8E8E8",
+   "accent1": "156082",
+   "accent2": "E97132",
+   "accent3": "196B24",
+   "accent4": "0F9ED5",
+   "accent5": "A02B93",
+   "accent6": "4EA72E",
+   "hlink": "467886",
+   "folHlink": "96607D"
+  },
+  "fonts": [
+   "majorFont:等线 Light",
+   "minorFont:等线"
+  ],
+  "transitions": {
+   "p15:prstTrans|2000": 23,
+   "p:split|1500": 2
+  },
+  "anim_total": 191,
+  "anim_per_slide_avg": 7.6,
+  "presets_top": [
+   "entr#10×116",
+   "entr#22×38",
+   "entr#53×13",
+   "entr#6×5",
+   "entr#4×4",
+   "entr#23×4"
+  ],
+  "durations_top": [
+   [
+    500,
+    200
+   ],
+   [
+    1000,
+    24
+   ],
+   [
+    2000,
+    2
+   ],
+   [
+    4000,
+    1
+   ]
+  ],
+  "sizes_top": [
+   "14pt×154",
+   "24pt×31",
+   "28pt×30",
+   "18pt×22",
+   "20pt×21",
+   "16pt×19"
+  ],
+  "shapes_avg": 20.5
+ },
+ {
+  "file": "(5).pptx",
+  "mb": 84.46,
+  "slides": 26,
+  "layouts": 11,
+  "masters": 1,
+  "media": 28,
+  "charts": 26,
+  "notes": 6,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "316318",
+   "accent2": "FAF483",
+   "accent3": "B39A5A",
+   "accent4": "FFC000",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:阿里巴巴普惠体 2.0 115 Black",
+   "minorFont:阿里巴巴普惠体 2.0 45 Light"
+  ],
+  "transitions": {
+   "p14:doors|1400": 6,
+   "p15:prstTrans|2000": 6,
+   "p:push|None": 5,
+   "p:split|1500": 4,
+   "p:pull|None": 2,
+   "p14:vortex|4000": 1
+  },
+  "anim_total": 224,
+  "anim_per_slide_avg": 8.6,
+  "presets_top": [
+   "entr#15×35",
+   "entr#10×28",
+   "entr#9×27",
+   "path#42×22",
+   "entr#22×21",
+   "entr#2×20"
+  ],
+  "durations_top": [
+   [
+    1000,
+    217
+   ],
+   [
+    500,
+    80
+   ],
+   [
+    250,
+    35
+   ],
+   [
+    200,
+    28
+   ],
+   [
+    100,
+    28
+   ]
+  ],
+  "sizes_top": [
+   "10pt×60",
+   "88pt×45",
+   "20pt×37",
+   "24pt×36",
+   "14pt×33",
+   "32pt×23"
+  ],
+  "shapes_avg": 45.8
+ },
+ {
+  "file": "(6).pptx",
+  "mb": 99.59,
+  "slides": 24,
+  "layouts": 11,
+  "masters": 1,
+  "media": 64,
+  "charts": 8,
+  "notes": 6,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "373545",
+   "lt2": "CEDBE6",
+   "accent1": "071853",
+   "accent2": "EBBA4C",
+   "accent3": "F6F5AA",
+   "accent4": "F7FCFF",
+   "accent5": "84ACB6",
+   "accent6": "2683C6",
+   "hlink": "6B9F25",
+   "folHlink": "9F6715"
+  },
+  "fonts": [
+   "majorFont:思源黑体 CN Normal",
+   "minorFont:思源黑体 CN Light"
+  ],
+  "transitions": {
+   "p:fade|None": 24
+  },
+  "anim_total": 137,
+  "anim_per_slide_avg": 5.7,
+  "presets_top": [
+   "entr#22×87",
+   "entr#2×29",
+   "entr#42×14",
+   "entr#53×7"
+  ],
+  "durations_top": [
+   [
+    500,
+    122
+   ],
+   [
+    1000,
+    81
+   ],
+   [
+    750,
+    3
+   ],
+   [
+    1250,
+    2
+   ]
+  ],
+  "sizes_top": [
+   "24pt×49",
+   "32pt×18",
+   "14pt×16",
+   "12pt×7",
+   "96pt×6",
+   "115pt×6"
+  ],
+  "shapes_avg": 22.4
+ },
+ {
+  "file": "(7).pptx",
+  "mb": 16.28,
+  "slides": 25,
+  "layouts": 11,
+  "masters": 1,
+  "media": 29,
+  "charts": 0,
+  "notes": 4,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "0E2841",
+   "lt2": "E8E8E8",
+   "accent1": "156082",
+   "accent2": "E97132",
+   "accent3": "196B24",
+   "accent4": "0F9ED5",
+   "accent5": "A02B93",
+   "accent6": "4EA72E",
+   "hlink": "467886",
+   "folHlink": "96607D"
+  },
+  "fonts": [
+   "majorFont:等线 Light",
+   "minorFont:等线"
+  ],
+  "transitions": {
+   "p:split|1500": 25
+  },
+  "anim_total": 167,
+  "anim_per_slide_avg": 6.7,
+  "presets_top": [
+   "entr#10×71",
+   "entr#14×29",
+   "entr#16×25",
+   "entr#42×16",
+   "entr#22×13",
+   "entr#53×6"
+  ],
+  "durations_top": [
+   [
+    500,
+    153
+   ],
+   [
+    1000,
+    39
+   ],
+   [
+    600,
+    15
+   ],
+   [
+    2000,
+    3
+   ]
+  ],
+  "sizes_top": [
+   "24pt×117",
+   "14pt×70",
+   "28pt×29",
+   "16pt×15",
+   "120pt×6",
+   "10pt×6"
+  ],
+  "shapes_avg": 23.1
+ },
+ {
+  "file": "(8).pptx",
+  "mb": 53.32,
+  "slides": 23,
+  "layouts": 4,
+  "masters": 1,
+  "media": 76,
+  "charts": 6,
+  "notes": 48,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "7F7F7F",
+   "lt2": "E8E8E8",
+   "accent1": "083B57",
+   "accent2": "FFC000",
+   "accent3": "083B57",
+   "accent4": "FFCE3B",
+   "accent5": "083B57",
+   "accent6": "FFC000",
+   "hlink": "467886",
+   "folHlink": "96607D"
+  },
+  "fonts": [
+   "majorFont:思源宋体 CN Heavy",
+   "minorFont:思源黑体 CN Regular"
+  ],
+  "transitions": {
+   "p:random|1500": 16,
+   "p14:warp|900": 4,
+   "p:wipe|None": 2,
+   "p:blinds|1600": 1
+  },
+  "anim_total": 265,
+  "anim_per_slide_avg": 11.5,
+  "presets_top": [
+   "entr#10×239",
+   "entr#22×7",
+   "entr#2×5",
+   "entr#53×4",
+   "entr#12×4",
+   "entr#42×3"
+  ],
+  "durations_top": [
+   [
+    500,
+    521
+   ],
+   [
+    750,
+    14
+   ],
+   [
+    400,
+    7
+   ],
+   [
+    158,
+    1
+   ],
+   [
+    197,
+    1
+   ]
+  ],
+  "sizes_top": [
+   "12pt×83",
+   "20pt×44",
+   "28pt×33",
+   "16pt×26",
+   "10pt×8",
+   "36pt×5"
+  ],
+  "shapes_avg": 22.6
+ },
+ {
+  "file": "(9).pptx",
+  "mb": 21.59,
+  "slides": 25,
+  "layouts": 11,
+  "masters": 1,
+  "media": 48,
+  "charts": 14,
+  "notes": 10,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "4472C4",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:等线 Light",
+   "minorFont:等线"
+  ],
+  "transitions": {
+   "none|None": 25
+  },
+  "anim_total": 157,
+  "anim_per_slide_avg": 6.3,
+  "presets_top": [
+   "entr#10×76",
+   "entr#53×21",
+   "entr#14×20",
+   "entr#22×16",
+   "entr#16×16",
+   "entr#42×2"
+  ],
+  "durations_top": [
+   [
+    500,
+    195
+   ],
+   [
+    1000,
+    10
+   ]
+  ],
+  "sizes_top": [
+   "24pt×62",
+   "14pt×50",
+   "16pt×17",
+   "18pt×17",
+   "10pt×13",
+   "88pt×13"
+  ],
+  "shapes_avg": 23.6
+ },
+ {
+  "file": "0-15页-国奖水准红金风格PPT-康帅制作\\16页-国奖水准红金风格PPT-康帅制作.pptx",
+  "mb": 40.21,
+  "slides": 17,
+  "layouts": 1,
+  "masters": 1,
+  "media": 133,
+  "charts": 4,
+  "notes": 32,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "0E2841",
+   "lt2": "E8E8E8",
+   "accent1": "156082",
+   "accent2": "E97132",
+   "accent3": "196B24",
+   "accent4": "0F9ED5",
+   "accent5": "A02B93",
+   "accent6": "4EA72E",
+   "hlink": "467886",
+   "folHlink": "96607D"
+  },
+  "fonts": [
+   "majorFont:微软雅黑",
+   "minorFont:微软雅黑"
+  ],
+  "transitions": {
+   "none|None": 17
+  },
+  "anim_total": 0,
+  "anim_per_slide_avg": 0.0,
+  "presets_top": [],
+  "durations_top": [],
+  "sizes_top": [
+   "20pt×86",
+   "16pt×60",
+   "28pt×44",
+   "24pt×29",
+   "15pt×28",
+   "10pt×22"
+  ],
+  "shapes_avg": 99.5
+ },
+ {
+  "file": "00 详情展示内容\\素材 (15).pptx",
+  "mb": 6.87,
+  "slides": 19,
+  "layouts": 12,
+  "masters": 1,
+  "media": 10,
+  "charts": 30,
+  "notes": 4,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "5B9BD5",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "4472C4",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:等线 Light",
+   "minorFont:等线"
+  ],
+  "transitions": {
+   "p:random|1500": 19
+  },
+  "anim_total": 0,
+  "anim_per_slide_avg": 0.0,
+  "presets_top": [],
+  "durations_top": [],
+  "sizes_top": [
+   "12pt×41",
+   "16pt×37",
+   "24pt×23",
+   "44pt×10",
+   "20pt×8",
+   "26pt×5"
+  ],
+  "shapes_avg": 14.8
+ },
+ {
+  "file": "01 高级色\\ (98).pptx",
+  "mb": 5.89,
+  "slides": 19,
+  "layouts": 1,
+  "masters": 1,
+  "media": 10,
+  "charts": 6,
+  "notes": 4,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "000000",
+   "lt2": "808080",
+   "accent1": "BBE0E3",
+   "accent2": "333399",
+   "accent3": "FFFFFF",
+   "accent4": "000000",
+   "accent5": "D9EDEE",
+   "accent6": "2D2D89",
+   "hlink": "009999",
+   "folHlink": "99CC00"
+  },
+  "fonts": [
+   "majorFont:Arial",
+   "minorFont:Arial"
+  ],
+  "transitions": {
+   "p:random|1500": 17,
+   "none|None": 2
+  },
+  "anim_total": 15,
+  "anim_per_slide_avg": 0.8,
+  "presets_top": [
+   "entr#16×6",
+   "entr#22×6",
+   "entr#53×3"
+  ],
+  "durations_top": [
+   [
+    500,
+    21
+   ]
+  ],
+  "sizes_top": [
+   "48pt×17",
+   "14pt×16",
+   "16pt×11",
+   "20pt×10",
+   "12pt×9",
+   "32pt×8"
+  ],
+  "shapes_avg": 10.5
+ },
+ {
+  "file": "02 高级简约\\高级感 (6)---.pptx",
+  "mb": 13.35,
+  "slides": 13,
+  "layouts": 11,
+  "masters": 1,
+  "media": 39,
+  "charts": 0,
+  "notes": 0,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "1F497D",
+   "lt2": "EEECE1",
+   "accent1": "4F81BD",
+   "accent2": "C0504D",
+   "accent3": "9BBB59",
+   "accent4": "8064A2",
+   "accent5": "4BACC6",
+   "accent6": "F79646",
+   "hlink": "0000FF",
+   "folHlink": "800080"
+  },
+  "fonts": [
+   "majorFont:Calibri",
+   "minorFont:Calibri"
+  ],
+  "transitions": {
+   "none|None": 13
+  },
+  "anim_total": 0,
+  "anim_per_slide_avg": 0.0,
+  "presets_top": [],
+  "durations_top": [],
+  "sizes_top": [
+   "20pt×40",
+   "30pt×18",
+   "26pt×13",
+   "23pt×11",
+   "70pt×6",
+   "24pt×6"
+  ],
+  "shapes_avg": 14.7
+ },
+ {
+  "file": "0慧瞰农域（黄蓝绿）-Fonts\\慧瞰农域（黄色）.pptx",
+  "mb": 60.07,
+  "slides": 22,
+  "layouts": 11,
+  "masters": 1,
+  "media": 103,
+  "charts": 10,
+  "notes": 0,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "190F09",
+   "accent2": "C6A92C",
+   "accent3": "EBB829",
+   "accent4": "4EE7FE",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:OPPOSans B",
+   "minorFont:OPPOSans R"
+  ],
+  "transitions": {
+   "none|None": 22
+  },
+  "anim_total": 0,
+  "anim_per_slide_avg": 0.0,
+  "presets_top": [],
+  "durations_top": [],
+  "sizes_top": [
+   "16pt×82",
+   "15pt×52",
+   "28pt×47",
+   "14pt×44",
+   "12pt×36",
+   "20pt×34"
+  ],
+  "shapes_avg": 104.0
+ },
+ {
+  "file": "0红色-非遗陶瓷传承\\红色-非遗文化模板.pptx",
+  "mb": 43.71,
+  "slides": 20,
+  "layouts": 22,
+  "masters": 2,
+  "media": 134,
+  "charts": 14,
+  "notes": 32,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "250505",
+   "lt2": "FFF1F1",
+   "accent1": "F84848",
+   "accent2": "DF581B",
+   "accent3": "EA7A2E",
+   "accent4": "FE900B",
+   "accent5": "EEB30C",
+   "accent6": "E9C909",
+   "hlink": "4987FF",
+   "folHlink": "B556DD"
+  },
+  "fonts": [
+   "majorFont:Arial",
+   "minorFont:Arial"
+  ],
+  "transitions": {
+   "none|None": 20
+  },
+  "anim_total": 0,
+  "anim_per_slide_avg": 0.0,
+  "presets_top": [],
+  "durations_top": [],
+  "sizes_top": [
+   "16pt×130",
+   "14pt×68",
+   "12pt×64",
+   "10pt×60",
+   "28pt×51",
+   "11pt×51"
+  ],
+  "shapes_avg": 71.5
+ },
+ {
+  "file": "0蓝白医学风科技\\蓝白色医疗器械.pptx",
+  "mb": 23.82,
+  "slides": 22,
+  "layouts": 42,
+  "masters": 6,
+  "media": 90,
+  "charts": 16,
+  "notes": 2,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "5B9BD5",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "4472C4",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:Arial",
+   "minorFont:Arial"
+  ],
+  "transitions": {
+   "none|None": 22
+  },
+  "anim_total": 0,
+  "anim_per_slide_avg": 0.0,
+  "presets_top": [],
+  "durations_top": [],
+  "sizes_top": [
+   "18pt×132",
+   "14pt×110",
+   "16pt×79",
+   "20pt×59",
+   "10pt×54",
+   "12pt×40"
+  ],
+  "shapes_avg": 70.6
+ },
+ {
+  "file": "0黑色-芯片工科模板\\黑色-芯片工科模板.pptx",
+  "mb": 30.4,
+  "slides": 22,
+  "layouts": 23,
+  "masters": 2,
+  "media": 80,
+  "charts": 20,
+  "notes": 36,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "FFFFFF",
+   "accent1": "FFFFFF",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:等线 Light",
+   "minorFont:等线"
+  ],
+  "transitions": {
+   "none|None": 22
+  },
+  "anim_total": 0,
+  "anim_per_slide_avg": 0.0,
+  "presets_top": [],
+  "durations_top": [],
+  "sizes_top": [
+   "16pt×160",
+   "14pt×110",
+   "24pt×55",
+   "20pt×47",
+   "12pt×29",
+   "11pt×29"
+  ],
+  "shapes_avg": 103.5
+ },
+ {
+  "file": "108套画册文艺风格PPT模板\\PPT\\17.pptx",
+  "mb": 19.72,
+  "slides": 22,
+  "layouts": 22,
+  "masters": 2,
+  "media": 15,
+  "charts": 0,
+  "notes": 44,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "4472C4",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:Calibri Light",
+   "minorFont:新蒂文征明简繁"
+  ],
+  "transitions": {
+   "none|None": 22
+  },
+  "anim_total": 122,
+  "anim_per_slide_avg": 5.5,
+  "presets_top": [
+   "entr#2×51",
+   "entr#42×31",
+   "entr#47×16",
+   "entr#10×14",
+   "entr#53×9",
+   "mediacall#1×1"
+  ],
+  "durations_top": [
+   [
+    1000,
+    141
+   ],
+   [
+    500,
+    127
+   ],
+   [
+    250,
+    16
+   ]
+  ],
+  "sizes_top": [
+   "16pt×20",
+   "24pt×20",
+   "32pt×18",
+   "28pt×14",
+   "20pt×8",
+   "44pt×6"
+  ],
+  "shapes_avg": 6.7
+ },
+ {
+  "file": "108套画册文艺风格PPT模板\\PPT\\122.pptx",
+  "mb": 19.83,
+  "slides": 25,
+  "layouts": 10,
+  "masters": 1,
+  "media": 24,
+  "charts": 0,
+  "notes": 50,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "5B9BD5",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "4472C4",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:Calibri Light",
+   "minorFont:Calibri"
+  ],
+  "transitions": {
+   "p15:prstTrans|1250": 24,
+   "p:blinds|1600": 1
+  },
+  "anim_total": 212,
+  "anim_per_slide_avg": 8.5,
+  "presets_top": [
+   "entr#22×71",
+   "entr#53×40",
+   "entr#29×15",
+   "entr#20×13",
+   "entr#42×11",
+   "entr#18×11"
+  ],
+  "durations_top": [
+   [
+    500,
+    374
+   ],
+   [
+    1000,
+    4
+   ],
+   [
+    400,
+    4
+   ],
+   [
+    100,
+    2
+   ]
+  ],
+  "sizes_top": [
+   "16pt×23",
+   "14pt×18",
+   "36pt×16",
+   "40pt×11",
+   "48pt×11",
+   "96pt×5"
+  ],
+  "shapes_avg": 9.8
+ },
+ {
+  "file": "108套画册文艺风格PPT模板(1)\\PPT\\17.pptx",
+  "mb": 19.72,
+  "slides": 22,
+  "layouts": 22,
+  "masters": 2,
+  "media": 15,
+  "charts": 0,
+  "notes": 44,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "4472C4",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:Calibri Light",
+   "minorFont:新蒂文征明简繁"
+  ],
+  "transitions": {
+   "none|None": 22
+  },
+  "anim_total": 122,
+  "anim_per_slide_avg": 5.5,
+  "presets_top": [
+   "entr#2×51",
+   "entr#42×31",
+   "entr#47×16",
+   "entr#10×14",
+   "entr#53×9",
+   "mediacall#1×1"
+  ],
+  "durations_top": [
+   [
+    1000,
+    141
+   ],
+   [
+    500,
+    127
+   ],
+   [
+    250,
+    16
+   ]
+  ],
+  "sizes_top": [
+   "16pt×20",
+   "24pt×20",
+   "32pt×18",
+   "28pt×14",
+   "20pt×8",
+   "44pt×6"
+  ],
+  "shapes_avg": 6.7
+ },
+ {
+  "file": "108套画册文艺风格PPT模板(1)\\PPT\\122.pptx",
+  "mb": 19.83,
+  "slides": 25,
+  "layouts": 10,
+  "masters": 1,
+  "media": 24,
+  "charts": 0,
+  "notes": 50,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "5B9BD5",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "4472C4",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:Calibri Light",
+   "minorFont:Calibri"
+  ],
+  "transitions": {
+   "p15:prstTrans|1250": 24,
+   "p:blinds|1600": 1
+  },
+  "anim_total": 212,
+  "anim_per_slide_avg": 8.5,
+  "presets_top": [
+   "entr#22×71",
+   "entr#53×40",
+   "entr#29×15",
+   "entr#20×13",
+   "entr#42×11",
+   "entr#18×11"
+  ],
+  "durations_top": [
+   [
+    500,
+    374
+   ],
+   [
+    1000,
+    4
+   ],
+   [
+    400,
+    4
+   ],
+   [
+    100,
+    2
+   ]
+  ],
+  "sizes_top": [
+   "16pt×23",
+   "14pt×18",
+   "36pt×16",
+   "40pt×11",
+   "48pt×11",
+   "96pt×5"
+  ],
+  "shapes_avg": 9.8
+ },
+ {
+  "file": "113套国潮风PPT\\国潮模板\\104.pptx",
+  "mb": 23.8,
+  "slides": 15,
+  "layouts": 2,
+  "masters": 1,
+  "media": 29,
+  "charts": 0,
+  "notes": 6,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "1F497D",
+   "lt2": "EEECE1",
+   "accent1": "4F81BD",
+   "accent2": "C0504D",
+   "accent3": "9BBB59",
+   "accent4": "8064A2",
+   "accent5": "4BACC6",
+   "accent6": "F79646",
+   "hlink": "F79646",
+   "folHlink": "F79646"
+  },
+  "fonts": [
+   "majorFont:Calibri Light",
+   "minorFont:Calibri"
+  ],
+  "transitions": {
+   "p:random|1500": 12,
+   "p:random|2000": 3
+  },
+  "anim_total": 97,
+  "anim_per_slide_avg": 6.5,
+  "presets_top": [
+   "entr#10×32",
+   "entr#47×19",
+   "entr#22×17",
+   "entr#42×11",
+   "entr#14×10",
+   "entr#53×6"
+  ],
+  "durations_top": [
+   [
+    1000,
+    87
+   ],
+   [
+    500,
+    74
+   ],
+   [
+    1250,
+    9
+   ],
+   [
+    750,
+    1
+   ]
+  ],
+  "sizes_top": [
+   "12pt×14",
+   "16pt×10",
+   "40pt×10",
+   "24pt×8",
+   "11pt×4",
+   "28pt×3"
+  ],
+  "shapes_avg": 9.3
+ },
+ {
+  "file": "113套国潮风PPT\\国潮模板\\64.pptx",
+  "mb": 24.27,
+  "slides": 25,
+  "layouts": 1,
+  "masters": 1,
+  "media": 34,
+  "charts": 0,
+  "notes": 2,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "1F497D",
+   "lt2": "EEECE1",
+   "accent1": "4F81BD",
+   "accent2": "C0504D",
+   "accent3": "9BBB59",
+   "accent4": "8064A2",
+   "accent5": "4BACC6",
+   "accent6": "F79646",
+   "hlink": "F79646",
+   "folHlink": "F79646"
+  },
+  "fonts": [
+   "majorFont:Calibri Light",
+   "minorFont:Calibri"
+  ],
+  "transitions": {
+   "p:random|1500": 25
+  },
+  "anim_total": 145,
+  "anim_per_slide_avg": 5.8,
+  "presets_top": [
+   "entr#14×47",
+   "entr#10×40",
+   "entr#22×20",
+   "entr#42×14",
+   "entr#47×13",
+   "entr#53×9"
+  ],
+  "durations_top": [
+   [
+    1000,
+    105
+   ],
+   [
+    500,
+    98
+   ],
+   [
+    750,
+    12
+   ],
+   [
+    1500,
+    5
+   ]
+  ],
+  "sizes_top": [
+   "14pt×22",
+   "16pt×20",
+   "44pt×16",
+   "138pt×6",
+   "48pt×6",
+   "32pt×6"
+  ],
+  "shapes_avg": 8.8
+ },
+ {
+  "file": "113套国潮风PPT(1)\\国潮模板\\64.pptx",
+  "mb": 24.27,
+  "slides": 25,
+  "layouts": 1,
+  "masters": 1,
+  "media": 34,
+  "charts": 0,
+  "notes": 2,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "1F497D",
+   "lt2": "EEECE1",
+   "accent1": "4F81BD",
+   "accent2": "C0504D",
+   "accent3": "9BBB59",
+   "accent4": "8064A2",
+   "accent5": "4BACC6",
+   "accent6": "F79646",
+   "hlink": "F79646",
+   "folHlink": "F79646"
+  },
+  "fonts": [
+   "majorFont:Calibri Light",
+   "minorFont:Calibri"
+  ],
+  "transitions": {
+   "p:random|1500": 25
+  },
+  "anim_total": 145,
+  "anim_per_slide_avg": 5.8,
+  "presets_top": [
+   "entr#14×47",
+   "entr#10×40",
+   "entr#22×20",
+   "entr#42×14",
+   "entr#47×13",
+   "entr#53×9"
+  ],
+  "durations_top": [
+   [
+    1000,
+    105
+   ],
+   [
+    500,
+    98
+   ],
+   [
+    750,
+    12
+   ],
+   [
+    1500,
+    5
+   ]
+  ],
+  "sizes_top": [
+   "14pt×22",
+   "16pt×20",
+   "44pt×16",
+   "138pt×6",
+   "48pt×6",
+   "32pt×6"
+  ],
+  "shapes_avg": 8.8
+ },
+ {
+  "file": "113套国潮风PPT(1)\\国潮模板\\90.pptx",
+  "mb": 24.29,
+  "slides": 22,
+  "layouts": 11,
+  "masters": 1,
+  "media": 27,
+  "charts": 0,
+  "notes": 0,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "5B9BD5",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "4472C4",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:Calibri Light",
+   "minorFont:Calibri"
+  ],
+  "transitions": {
+   "none|None": 22
+  },
+  "anim_total": 9,
+  "anim_per_slide_avg": 0.4,
+  "presets_top": [
+   "entr#47×8",
+   "mediacall#1×1"
+  ],
+  "durations_top": [
+   [
+    1000,
+    24
+   ]
+  ],
+  "sizes_top": [
+   "24pt×74",
+   "14pt×44",
+   "32pt×8",
+   "66pt×4",
+   "72pt×4",
+   "20pt×4"
+  ],
+  "shapes_avg": 11.0
+ },
+ {
+  "file": "228-马卡龙PPT\\PPT\\马卡龙色系PPT (40).pptx",
+  "mb": 5.5,
+  "slides": 22,
+  "layouts": 20,
+  "masters": 4,
+  "media": 5,
+  "charts": 0,
+  "notes": 44,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "9DE3D7",
+   "lt2": "E7E6E6",
+   "accent1": "77CBC3",
+   "accent2": "9DE3D7",
+   "accent3": "77CBC3",
+   "accent4": "9DE3D7",
+   "accent5": "77CBC3",
+   "accent6": "9DE3D7",
+   "hlink": "77CBC3",
+   "folHlink": "9DE3D7"
+  },
+  "fonts": [
+   "majorFont:Calibri",
+   "minorFont:Calibri"
+  ],
+  "transitions": {
+   "p:random|1500": 21,
+   "p14:reveal|3400": 1
+  },
+  "anim_total": 301,
+  "anim_per_slide_avg": 13.7,
+  "presets_top": [
+   "entr#22×112",
+   "entr#2×82",
+   "entr#42×23",
+   "entr#17×14",
+   "entr#18×12",
+   "entr#23×10"
+  ],
+  "durations_top": [
+   [
+    500,
+    336
+   ],
+   [
+    1000,
+    82
+   ],
+   [
+    250,
+    81
+   ],
+   [
+    50,
+    24
+   ],
+   [
+    13,
+    16
+   ]
+  ],
+  "sizes_top": [
+   "16pt×48",
+   "14pt×36",
+   "18pt×35",
+   "12pt×27",
+   "24pt×20",
+   "20pt×11"
+  ],
+  "shapes_avg": 19.3
+ },
+ {
+  "file": "228-马卡龙PPT(1)\\PPT\\马卡龙色系PPT (40).pptx",
+  "mb": 5.5,
+  "slides": 22,
+  "layouts": 20,
+  "masters": 4,
+  "media": 5,
+  "charts": 0,
+  "notes": 44,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "9DE3D7",
+   "lt2": "E7E6E6",
+   "accent1": "77CBC3",
+   "accent2": "9DE3D7",
+   "accent3": "77CBC3",
+   "accent4": "9DE3D7",
+   "accent5": "77CBC3",
+   "accent6": "9DE3D7",
+   "hlink": "77CBC3",
+   "folHlink": "9DE3D7"
+  },
+  "fonts": [
+   "majorFont:Calibri",
+   "minorFont:Calibri"
+  ],
+  "transitions": {
+   "p:random|1500": 21,
+   "p14:reveal|3400": 1
+  },
+  "anim_total": 301,
+  "anim_per_slide_avg": 13.7,
+  "presets_top": [
+   "entr#22×112",
+   "entr#2×82",
+   "entr#42×23",
+   "entr#17×14",
+   "entr#18×12",
+   "entr#23×10"
+  ],
+  "durations_top": [
+   [
+    500,
+    336
+   ],
+   [
+    1000,
+    82
+   ],
+   [
+    250,
+    81
+   ],
+   [
+    50,
+    24
+   ],
+   [
+    13,
+    16
+   ]
+  ],
+  "sizes_top": [
+   "16pt×48",
+   "14pt×36",
+   "18pt×35",
+   "12pt×27",
+   "24pt×20",
+   "20pt×11"
+  ],
+  "shapes_avg": 19.3
+ },
+ {
+  "file": "34套治愈系PPT模板\\治愈系PPT模板\\治愈系 (24).pptx",
+  "mb": 10.21,
+  "slides": 15,
+  "layouts": 11,
+  "masters": 1,
+  "media": 8,
+  "charts": 0,
+  "notes": 0,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "29B2D7",
+   "accent2": "4EBFDE",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:等线 Light",
+   "minorFont:等线"
+  ],
+  "transitions": {
+   "none|None": 15
+  },
+  "anim_total": 0,
+  "anim_per_slide_avg": 0.0,
+  "presets_top": [],
+  "durations_top": [],
+  "sizes_top": [
+   "12pt×33",
+   "16pt×32",
+   "32pt×12",
+   "24pt×9",
+   "44pt×9",
+   "20pt×8"
+  ],
+  "shapes_avg": 28.1
+ },
+ {
+  "file": "34套治愈系PPT模板(1)\\治愈系PPT模板\\治愈系 (24).pptx",
+  "mb": 10.21,
+  "slides": 15,
+  "layouts": 11,
+  "masters": 1,
+  "media": 8,
+  "charts": 0,
+  "notes": 0,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "29B2D7",
+   "accent2": "4EBFDE",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:等线 Light",
+   "minorFont:等线"
+  ],
+  "transitions": {
+   "none|None": 15
+  },
+  "anim_total": 0,
+  "anim_per_slide_avg": 0.0,
+  "presets_top": [],
+  "durations_top": [],
+  "sizes_top": [
+   "12pt×33",
+   "16pt×32",
+   "32pt×12",
+   "24pt×9",
+   "44pt×9",
+   "20pt×8"
+  ],
+  "shapes_avg": 28.1
+ },
+ {
+  "file": "35.pptx",
+  "mb": 35.49,
+  "slides": 8,
+  "layouts": 11,
+  "masters": 1,
+  "media": 14,
+  "charts": 0,
+  "notes": 0,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "0E2841",
+   "lt2": "E8E8E8",
+   "accent1": "156082",
+   "accent2": "E97132",
+   "accent3": "196B24",
+   "accent4": "0F9ED5",
+   "accent5": "A02B93",
+   "accent6": "4EA72E",
+   "hlink": "467886",
+   "folHlink": "96607D"
+  },
+  "fonts": [
+   "majorFont:等线 Light",
+   "minorFont:等线"
+  ],
+  "transitions": {
+   "p159:morph|2000": 8
+  },
+  "anim_total": 0,
+  "anim_per_slide_avg": 0.0,
+  "presets_top": [],
+  "durations_top": [],
+  "sizes_top": [
+   "12pt×13",
+   "28pt×11",
+   "60pt×6",
+   "44pt×6",
+   "10pt×6",
+   "14pt×4"
+  ],
+  "shapes_avg": 31.5
+ },
+ {
+  "file": "40套莫兰迪系列PPT\\PPT模板\\莫兰迪风尚 (23).pptx",
+  "mb": 4.21,
+  "slides": 30,
+  "layouts": 28,
+  "masters": 1,
+  "media": 55,
+  "charts": 0,
+  "notes": 4,
+  "colors": {
+   "dk1": "72808A",
+   "lt1": "FFFFFF",
+   "dk2": "38383C",
+   "lt2": "9D877A",
+   "accent1": "EF4138",
+   "accent2": "EFB374",
+   "accent3": "EAC8AD",
+   "accent4": "DDDED6",
+   "accent5": "DC522C",
+   "accent6": "F9E1DB",
+   "hlink": "1AA79E",
+   "folHlink": "D7DF27"
+  },
+  "fonts": [
+   "majorFont:Calibri Light",
+   "minorFont:Calibri"
+  ],
+  "transitions": {
+   "p:random|1500": 30
+  },
+  "anim_total": 0,
+  "anim_per_slide_avg": 0.0,
+  "presets_top": [],
+  "durations_top": [],
+  "sizes_top": [
+   "11pt×68",
+   "12pt×66",
+   "32pt×15",
+   "20pt×13",
+   "14pt×10",
+   "48pt×9"
+  ],
+  "shapes_avg": 8.9
+ },
+ {
+  "file": "40套莫兰迪系列PPT(1)\\PPT模板\\莫兰迪风尚 (23).pptx",
+  "mb": 4.21,
+  "slides": 30,
+  "layouts": 28,
+  "masters": 1,
+  "media": 55,
+  "charts": 0,
+  "notes": 4,
+  "colors": {
+   "dk1": "72808A",
+   "lt1": "FFFFFF",
+   "dk2": "38383C",
+   "lt2": "9D877A",
+   "accent1": "EF4138",
+   "accent2": "EFB374",
+   "accent3": "EAC8AD",
+   "accent4": "DDDED6",
+   "accent5": "DC522C",
+   "accent6": "F9E1DB",
+   "hlink": "1AA79E",
+   "folHlink": "D7DF27"
+  },
+  "fonts": [
+   "majorFont:Calibri Light",
+   "minorFont:Calibri"
+  ],
+  "transitions": {
+   "p:random|1500": 30
+  },
+  "anim_total": 0,
+  "anim_per_slide_avg": 0.0,
+  "presets_top": [],
+  "durations_top": [],
+  "sizes_top": [
+   "11pt×68",
+   "12pt×66",
+   "32pt×15",
+   "20pt×13",
+   "14pt×10",
+   "48pt×9"
+  ],
+  "shapes_avg": 8.9
+ },
+ {
+  "file": "43套INS风PPT\\PPT模板\\27.pptx",
+  "mb": 9.18,
+  "slides": 20,
+  "layouts": 88,
+  "masters": 1,
+  "media": 26,
+  "charts": 10,
+  "notes": 4,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "5B9BD5",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "4472C4",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:Calibri Light",
+   "minorFont:Calibri"
+  ],
+  "transitions": {
+   "p:fade|700": 20
+  },
+  "anim_total": 13,
+  "anim_per_slide_avg": 0.7,
+  "presets_top": [
+   "entr#42×4",
+   "entr#22×4",
+   "mediacall#1×1",
+   "entr#21×1",
+   "entr#53×1",
+   "entr#9×1"
+  ],
+  "durations_top": [
+   [
+    500,
+    15
+   ],
+   [
+    1000,
+    9
+   ]
+  ],
+  "sizes_top": [
+   "7pt×121",
+   "6pt×96",
+   "9pt×32",
+   "27pt×32",
+   "4pt×30",
+   "8pt×28"
+  ],
+  "shapes_avg": 19.8
+ },
+ {
+  "file": "43套INS风PPT\\PPT模板\\16.pptx",
+  "mb": 9.65,
+  "slides": 61,
+  "layouts": 11,
+  "masters": 1,
+  "media": 60,
+  "charts": 26,
+  "notes": 122,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "5B9BD5",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "4472C4",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:Calibri Light",
+   "minorFont:Calibri"
+  ],
+  "transitions": {
+   "p:fade|250": 40
+  },
+  "anim_total": 129,
+  "anim_per_slide_avg": 3.2,
+  "presets_top": [
+   "entr#10×84",
+   "entr#22×34",
+   "entr#37×10",
+   "entr#47×1"
+  ],
+  "durations_top": [
+   [
+    500,
+    117
+   ],
+   [
+    1000,
+    14
+   ],
+   [
+    750,
+    10
+   ],
+   [
+    900,
+    5
+   ],
+   [
+    100,
+    5
+   ]
+  ],
+  "sizes_top": [
+   "10pt×69",
+   "60pt×41",
+   "16pt×39",
+   "20pt×5",
+   "199pt×4",
+   "11pt×4"
+  ],
+  "shapes_avg": 9.9
+ },
+ {
+  "file": "43套日系和风PPT\\PPT模板\\日系和风PPT (18).pptx",
+  "mb": 13.72,
+  "slides": 24,
+  "layouts": 1,
+  "masters": 1,
+  "media": 12,
+  "charts": 0,
+  "notes": 48,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "5B9BD5",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "4472C4",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:Calibri Light",
+   "minorFont:Calibri"
+  ],
+  "transitions": {
+   "p:pull|None": 24
+  },
+  "anim_total": 363,
+  "anim_per_slide_avg": 15.1,
+  "presets_top": [
+   "entr#22×93",
+   "entr#53×91",
+   "entr#42×60",
+   "entr#12×36",
+   "entr#29×22",
+   "entr#35×17"
+  ],
+  "durations_top": [
+   [
+    500,
+    791
+   ],
+   [
+    1000,
+    52
+   ],
+   [
+    750,
+    6
+   ],
+   [
+    3000,
+    1
+   ]
+  ],
+  "sizes_top": [
+   "16pt×74",
+   "10pt×65",
+   "14pt×11",
+   "26pt×8",
+   "20pt×8",
+   "88pt×6"
+  ],
+  "shapes_avg": 24.5
+ },
+ {
+  "file": "47套高端北欧风PPT\\PPT模板\\北欧风 (27).pptx",
+  "mb": 8.05,
+  "slides": 17,
+  "layouts": 11,
+  "masters": 1,
+  "media": 16,
+  "charts": 0,
+  "notes": 0,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "4472C4",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:等线 Light",
+   "minorFont:等线"
+  ],
+  "transitions": {
+   "none|None": 17
+  },
+  "anim_total": 1,
+  "anim_per_slide_avg": 0.1,
+  "presets_top": [
+   "mediacall#1×1"
+  ],
+  "durations_top": [],
+  "sizes_top": [
+   "12pt×128",
+   "10pt×32",
+   "21pt×20",
+   "24pt×13",
+   "16pt×12",
+   "32pt×11"
+  ],
+  "shapes_avg": 18.2
+ },
+ {
+  "file": "47套黑白灰禁欲系PPT\\静态\\01.pptx",
+  "mb": 8.41,
+  "slides": 69,
+  "layouts": 39,
+  "masters": 1,
+  "media": 92,
+  "charts": 24,
+  "notes": 42,
+  "colors": {
+   "dk1": "7F7F7F",
+   "lt1": "FFFFFF",
+   "dk2": "000000",
+   "lt2": "FFFFFF",
+   "accent1": "000000",
+   "accent2": "ECE1D7",
+   "accent3": "545557",
+   "accent4": "91969B",
+   "accent5": "4B5050",
+   "accent6": "91969B",
+   "hlink": "4B5050",
+   "folHlink": "19BB9B"
+  },
+  "fonts": [
+   "majorFont:Lato",
+   "minorFont:Lato Light"
+  ],
+  "transitions": {
+   "none|None": 40
+  },
+  "anim_total": 0,
+  "anim_per_slide_avg": 0.0,
+  "presets_top": [],
+  "durations_top": [],
+  "sizes_top": [
+   "28pt×69",
+   "24pt×64",
+   "20pt×45",
+   "88pt×26",
+   "138pt×21",
+   "115pt×12"
+  ],
+  "shapes_avg": 9.2
+ },
+ {
+  "file": "49套轻奢大理石风PPT\\49套创意大理石风PPT\\大理石 (26).pptx",
+  "mb": 10.07,
+  "slides": 28,
+  "layouts": 27,
+  "masters": 1,
+  "media": 15,
+  "charts": 0,
+  "notes": 4,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "575F6D",
+   "lt2": "6B7EDB",
+   "accent1": "F3CAD3",
+   "accent2": "E0A5A0",
+   "accent3": "6B7EDB",
+   "accent4": "EBA7B7",
+   "accent5": "D3D3D3",
+   "accent6": "EBA7B7",
+   "hlink": "8D8D8D",
+   "folHlink": "3B435B"
+  },
+  "fonts": [
+   "majorFont:等线 Light",
+   "minorFont:等线"
+  ],
+  "transitions": {
+   "p:fade|None": 28
+  },
+  "anim_total": 5,
+  "anim_per_slide_avg": 0.2,
+  "presets_top": [
+   "entr#14×5"
+  ],
+  "durations_top": [
+   [
+    500,
+    5
+   ]
+  ],
+  "sizes_top": [
+   "12pt×685",
+   "24pt×43",
+   "16pt×31",
+   "60pt×31",
+   "40pt×8",
+   "30pt×8"
+  ],
+  "shapes_avg": 17.5
+ },
+ {
+  "file": "50套欧美简约风PPT\\欧美风PPT模板\\27.pptx",
+  "mb": 9.57,
+  "slides": 20,
+  "layouts": 12,
+  "masters": 1,
+  "media": 40,
+  "charts": 12,
+  "notes": 8,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "5B9BD5",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "4472C4",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:Segoe UI Semilight",
+   "minorFont:Segoe UI Light"
+  ],
+  "transitions": {
+   "none|None": 20
+  },
+  "anim_total": 0,
+  "anim_per_slide_avg": 0.0,
+  "presets_top": [],
+  "durations_top": [],
+  "sizes_top": [
+   "16pt×162",
+   "14pt×9",
+   "18pt×6",
+   "40pt×4",
+   "20pt×4",
+   "44pt×4"
+  ],
+  "shapes_avg": 9.7
+ },
+ {
+  "file": "50套高级极简风PPT\\高级极简PPT模板\\36.pptx",
+  "mb": 18.5,
+  "slides": 15,
+  "layouts": 26,
+  "masters": 1,
+  "media": 29,
+  "charts": 0,
+  "notes": 30,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "4472C4",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:等线 Light",
+   "minorFont:等线"
+  ],
+  "transitions": {
+   "p14:switch|1250": 15
+  },
+  "anim_total": 0,
+  "anim_per_slide_avg": 0.0,
+  "presets_top": [],
+  "durations_top": [],
+  "sizes_top": [
+   "9pt×587",
+   "8pt×202",
+   "20pt×45",
+   "12pt×16",
+   "1pt×15",
+   "10pt×11"
+  ],
+  "shapes_avg": 13.2
+ },
+ {
+  "file": "50套高级极简风PPT\\高级极简PPT模板\\13.pptx",
+  "mb": 18.57,
+  "slides": 54,
+  "layouts": 37,
+  "masters": 2,
+  "media": 88,
+  "charts": 12,
+  "notes": 108,
+  "colors": {
+   "dk1": "A29F8C",
+   "lt1": "FFFFFF",
+   "dk2": "000000",
+   "lt2": "FFFFFF",
+   "accent1": "000000",
+   "accent2": "A29F8C",
+   "accent3": "4B5050",
+   "accent4": "91969B",
+   "accent5": "4B5050",
+   "accent6": "91969B",
+   "hlink": "F33B48",
+   "folHlink": "FFC000"
+  },
+  "fonts": [
+   "majorFont:Calibri Light",
+   "minorFont:Calibri"
+  ],
+  "transitions": {
+   "none|None": 40
+  },
+  "anim_total": 0,
+  "anim_per_slide_avg": 0.0,
+  "presets_top": [],
+  "durations_top": [],
+  "sizes_top": [
+   "40pt×65",
+   "10pt×63",
+   "72pt×37",
+   "14pt×23",
+   "36pt×11",
+   "88pt×7"
+  ],
+  "shapes_avg": 9.5
+ },
+ {
+  "file": "54套纯粹简致风PPT\\简致风PPT模板\\简致风(29).pptx",
+  "mb": 7.0,
+  "slides": 18,
+  "layouts": 3,
+  "masters": 1,
+  "media": 24,
+  "charts": 0,
+  "notes": 36,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "778495",
+   "lt2": "F0F0F0",
+   "accent1": "EF701B",
+   "accent2": "3A414B",
+   "accent3": "EF701B",
+   "accent4": "3A414B",
+   "accent5": "EF701B",
+   "accent6": "3A414B",
+   "hlink": "EF701B",
+   "folHlink": "BFBFBF"
+  },
+  "fonts": [
+   "majorFont:Arial",
+   "minorFont:Arial"
+  ],
+  "transitions": {
+   "p:random|1500": 18
+  },
+  "anim_total": 53,
+  "anim_per_slide_avg": 2.9,
+  "presets_top": [
+   "entr#2×18",
+   "entr#22×10",
+   "entr#10×8",
+   "entr#53×6",
+   "entr#12×4",
+   "entr#16×3"
+  ],
+  "durations_top": [
+   [
+    500,
+    83
+   ],
+   [
+    1000,
+    13
+   ]
+  ],
+  "sizes_top": [
+   "10pt×32",
+   "24pt×19",
+   "11pt×7",
+   "36pt×7",
+   "100pt×6",
+   "12pt×6"
+  ],
+  "shapes_avg": 17.4
+ },
+ {
+  "file": "A1 动态\\动态\\【2】屎盆子镶金边ppt\\SS 屎盆子镶金边ppt合集60套\\SS17 PPT动态多图片放大展示模板\\SS17 PPT动态多图片放大展示模板 作品效果5张图.pptx",
+  "mb": 13.17,
+  "slides": 6,
+  "layouts": 11,
+  "masters": 1,
+  "media": 6,
+  "charts": 0,
+  "notes": 0,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "4472C4",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:等线 Light",
+   "minorFont:等线"
+  ],
+  "transitions": {
+   "p159:morph|1250": 6
+  },
+  "anim_total": 0,
+  "anim_per_slide_avg": 0.0,
+  "presets_top": [],
+  "durations_top": [],
+  "sizes_top": [
+   "32pt×5",
+   "18pt×5"
+  ],
+  "shapes_avg": 7.5
+ },
+ {
+  "file": "A1 动态\\动态\\【2】屎盆子镶金边ppt\\SS 屎盆子镶金边ppt合集60套\\SS26 PPT多图片放大轮播 作品效果4张图\\作品效果5张图.pptx",
+  "mb": 13.17,
+  "slides": 6,
+  "layouts": 11,
+  "masters": 1,
+  "media": 6,
+  "charts": 0,
+  "notes": 0,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "4472C4",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:等线 Light",
+   "minorFont:等线"
+  ],
+  "transitions": {
+   "p159:morph|1250": 6
+  },
+  "anim_total": 0,
+  "anim_per_slide_avg": 0.0,
+  "presets_top": [],
+  "durations_top": [],
+  "sizes_top": [
+   "32pt×5",
+   "18pt×5"
+  ],
+  "shapes_avg": 7.5
+ },
+ {
+  "file": "A1 动态\\屎盆子镶金边ppt\\SS 屎盆子镶金边ppt合集60套\\SS17 PPT动态多图片放大展示模板\\SS17 PPT动态多图片放大展示模板 作品效果5张图.pptx",
+  "mb": 13.17,
+  "slides": 6,
+  "layouts": 11,
+  "masters": 1,
+  "media": 6,
+  "charts": 0,
+  "notes": 0,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "4472C4",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:等线 Light",
+   "minorFont:等线"
+  ],
+  "transitions": {
+   "p159:morph|1250": 6
+  },
+  "anim_total": 0,
+  "anim_per_slide_avg": 0.0,
+  "presets_top": [],
+  "durations_top": [],
+  "sizes_top": [
+   "32pt×5",
+   "18pt×5"
+  ],
+  "shapes_avg": 7.5
+ },
+ {
+  "file": "中国风\\FSYC-古风中国风\\PPT模板\\中国风 (49)---FSYC设计馆.pptx",
+  "mb": 9.07,
+  "slides": 25,
+  "layouts": 13,
+  "masters": 1,
+  "media": 46,
+  "charts": 0,
+  "notes": 52,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "5B9BD5",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "4472C4",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:Calibri Light",
+   "minorFont:Calibri"
+  ],
+  "transitions": {
+   "p:blinds|1600": 25
+  },
+  "anim_total": 191,
+  "anim_per_slide_avg": 7.6,
+  "presets_top": [
+   "entr#22×64",
+   "entr#16×28",
+   "entr#42×22",
+   "entr#2×20",
+   "entr#10×18",
+   "entr#53×12"
+  ],
+  "durations_top": [
+   [
+    500,
+    202
+   ],
+   [
+    1000,
+    78
+   ],
+   [
+    750,
+    21
+   ],
+   [
+    1750,
+    3
+   ],
+   [
+    2000,
+    2
+   ]
+  ],
+  "sizes_top": [
+   "20pt×32",
+   "36pt×18",
+   "32pt×12",
+   "14pt×12",
+   "24pt×11",
+   "80pt×11"
+  ],
+  "shapes_avg": 60.0
+ },
+ {
+  "file": "中国风\\FSYC-古风中国风\\PPT模板\\中国风(82)---FSYC设计馆.pptx",
+  "mb": 9.1,
+  "slides": 19,
+  "layouts": 11,
+  "masters": 1,
+  "media": 25,
+  "charts": 0,
+  "notes": 0,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "4472C4",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:等线 Light",
+   "minorFont:等线"
+  ],
+  "transitions": {
+   "none|None": 19
+  },
+  "anim_total": 0,
+  "anim_per_slide_avg": 0.0,
+  "presets_top": [],
+  "durations_top": [],
+  "sizes_top": [
+   "14pt×19",
+   "16pt×17",
+   "36pt×15",
+   "24pt×8",
+   "28pt×7",
+   "66pt×5"
+  ],
+  "shapes_avg": 7.6
+ },
+ {
+  "file": "创赛点击进去—先下载国赛\\200套绝美PPT模板！含多份乡村振兴PPT\\139ROSE.pptx",
+  "mb": 29.69,
+  "slides": 17,
+  "layouts": 9,
+  "masters": 1,
+  "media": 20,
+  "charts": 0,
+  "notes": 34,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "C31B00",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:MiSans Bold",
+   "minorFont:MiSans Light"
+  ],
+  "transitions": {
+   "p159:morph|2000": 17
+  },
+  "anim_total": 0,
+  "anim_per_slide_avg": 0.0,
+  "presets_top": [],
+  "durations_top": [],
+  "sizes_top": [
+   "10pt×40",
+   "11pt×34",
+   "9pt×24",
+   "24pt×22",
+   "16pt×17",
+   "12pt×15"
+  ],
+  "shapes_avg": 19.7
+ },
+ {
+  "file": "创赛点击进去—先下载国赛\\200套绝美PPT模板！含多份乡村振兴PPT\\75山海经 .pptx",
+  "mb": 29.71,
+  "slides": 39,
+  "layouts": 11,
+  "masters": 1,
+  "media": 57,
+  "charts": 0,
+  "notes": 8,
+  "colors": {
+   "dk1": "000000",
+   "lt1": "FFFFFF",
+   "dk2": "44546A",
+   "lt2": "E7E6E6",
+   "accent1": "4472C4",
+   "accent2": "ED7D31",
+   "accent3": "A5A5A5",
+   "accent4": "FFC000",
+   "accent5": "5B9BD5",
+   "accent6": "70AD47",
+   "hlink": "0563C1",
+   "folHlink": "954F72"
+  },
+  "fonts": [
+   "majorFont:等线 Light",
+   "minorFont:等线"
+  ],
+  "transitions": {
+   "p15:prstTrans|1250": 39
+  },
+  "anim_total": 0,
+  "anim_per_slide_avg": 0.0,
+  "presets_top": [],
+  "durations_top": [],
+  "sizes_top": [
+   "16pt×330",
+   "28pt×26",
+   "20pt×6",
+   "199pt×4",
+   "54pt×2",
+   "36pt×1"
+  ],
+  "shapes_avg": 8.0
+ }
+]

@@ -1,0 +1,2004 @@
+{
+ "1": {
+  "label": "ppEffectNone",
+  "value": 0,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "2": {
+  "label": "ppEffectCut",
+  "value": 257,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "3": {
+  "label": "ppEffectCutThroughBlack",
+  "value": 258,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "4": {
+  "label": "ppEffectRandom",
+  "value": 513,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "5": {
+  "label": "ppEffectBlindsHorizontal",
+  "value": 769,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "6": {
+  "label": "ppEffectBlindsVertical",
+  "value": 770,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "7": {
+  "label": "ppEffectCheckerboardAcross",
+  "value": 1025,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "8": {
+  "label": "ppEffectCheckerboardDown",
+  "value": 1026,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "9": {
+  "label": "ppEffectCoverLeft",
+  "value": 1281,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "10": {
+  "label": "ppEffectCoverUp",
+  "value": 1282,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "11": {
+  "label": "ppEffectCoverRight",
+  "value": 1283,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "12": {
+  "label": "ppEffectCoverDown",
+  "value": 1284,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "13": {
+  "label": "ppEffectCoverLeftUp",
+  "value": 1285,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "14": {
+  "label": "ppEffectCoverRightUp",
+  "value": 1286,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "15": {
+  "label": "ppEffectCoverLeftDown",
+  "value": 1287,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "16": {
+  "label": "ppEffectCoverRightDown",
+  "value": 1288,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "17": {
+  "label": "ppEffectDissolve",
+  "value": 1537,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "18": {
+  "label": "ppEffectFade",
+  "value": 1793,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "19": {
+  "label": "ppEffectUncoverLeft",
+  "value": 2049,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "20": {
+  "label": "ppEffectUncoverUp",
+  "value": 2050,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "21": {
+  "label": "ppEffectUncoverRight",
+  "value": 2051,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "22": {
+  "label": "ppEffectUncoverDown",
+  "value": 2052,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "23": {
+  "label": "ppEffectUncoverLeftUp",
+  "value": 2053,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "24": {
+  "label": "ppEffectUncoverRightUp",
+  "value": 2054,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "25": {
+  "label": "ppEffectUncoverLeftDown",
+  "value": 2055,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "26": {
+  "label": "ppEffectUncoverRightDown",
+  "value": 2056,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "27": {
+  "label": "ppEffectRandomBarsHorizontal",
+  "value": 2305,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "28": {
+  "label": "ppEffectRandomBarsVertical",
+  "value": 2306,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "29": {
+  "label": "ppEffectStripsUpLeft",
+  "value": 2561,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "30": {
+  "label": "ppEffectStripsUpRight",
+  "value": 2562,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "31": {
+  "label": "ppEffectStripsDownLeft",
+  "value": 2563,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "32": {
+  "label": "ppEffectStripsDownRight",
+  "value": 2564,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "33": {
+  "label": "ppEffectStripsLeftUp",
+  "value": 2565,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "34": {
+  "label": "ppEffectStripsRightUp",
+  "value": 2566,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "35": {
+  "label": "ppEffectStripsLeftDown",
+  "value": 2567,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "36": {
+  "label": "ppEffectStripsRightDown",
+  "value": 2568,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "37": {
+  "label": "ppEffectWipeLeft",
+  "value": 2817,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "38": {
+  "label": "ppEffectWipeUp",
+  "value": 2818,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "39": {
+  "label": "ppEffectWipeRight",
+  "value": 2819,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "40": {
+  "label": "ppEffectWipeDown",
+  "value": 2820,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "41": {
+  "label": "ppEffectBoxOut",
+  "value": 3073,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "42": {
+  "label": "ppEffectBoxIn",
+  "value": 3074,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "43": {
+  "label": "ppEffectFlyFromLeft",
+  "value": 3329,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "44": {
+  "label": "ppEffectFlyFromTop",
+  "value": 3330,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "45": {
+  "label": "ppEffectFlyFromRight",
+  "value": 3331,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "46": {
+  "label": "ppEffectFlyFromBottom",
+  "value": 3332,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "47": {
+  "label": "ppEffectFlyFromTopLeft",
+  "value": 3333,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "48": {
+  "label": "ppEffectFlyFromTopRight",
+  "value": 3334,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "49": {
+  "label": "ppEffectFlyFromBottomLeft",
+  "value": 3335,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "50": {
+  "label": "ppEffectFlyFromBottomRight",
+  "value": 3336,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "51": {
+  "label": "ppEffectPeekFromLeft",
+  "value": 3337,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "52": {
+  "label": "ppEffectPeekFromDown",
+  "value": 3338,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "53": {
+  "label": "ppEffectPeekFromRight",
+  "value": 3339,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "54": {
+  "label": "ppEffectPeekFromUp",
+  "value": 3340,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "55": {
+  "label": "ppEffectCrawlFromLeft",
+  "value": 3341,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "56": {
+  "label": "ppEffectCrawlFromUp",
+  "value": 3342,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "57": {
+  "label": "ppEffectCrawlFromRight",
+  "value": 3343,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "58": {
+  "label": "ppEffectCrawlFromDown",
+  "value": 3344,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "59": {
+  "label": "ppEffectZoomIn",
+  "value": 3345,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "60": {
+  "label": "ppEffectZoomInSlightly",
+  "value": 3346,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "61": {
+  "label": "ppEffectZoomOut",
+  "value": 3347,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "62": {
+  "label": "ppEffectZoomOutSlightly",
+  "value": 3348,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "63": {
+  "label": "ppEffectZoomCenter",
+  "value": 3349,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "64": {
+  "label": "ppEffectZoomBottom",
+  "value": 3350,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "65": {
+  "label": "ppEffectStretchAcross",
+  "value": 3351,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "66": {
+  "label": "ppEffectStretchLeft",
+  "value": 3352,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "67": {
+  "label": "ppEffectStretchUp",
+  "value": 3353,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "68": {
+  "label": "ppEffectStretchRight",
+  "value": 3354,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "69": {
+  "label": "ppEffectStretchDown",
+  "value": 3355,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "70": {
+  "label": "ppEffectSwivel",
+  "value": 3356,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "71": {
+  "label": "ppEffectSpiral",
+  "value": 3357,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "72": {
+  "label": "ppEffectSplitHorizontalOut",
+  "value": 3585,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "73": {
+  "label": "ppEffectSplitHorizontalIn",
+  "value": 3586,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "74": {
+  "label": "ppEffectSplitVerticalOut",
+  "value": 3587,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "75": {
+  "label": "ppEffectSplitVerticalIn",
+  "value": 3588,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "76": {
+  "label": "ppEffectFlashOnceFast",
+  "value": 3841,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "77": {
+  "label": "ppEffectFlashOnceMedium",
+  "value": 3842,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "78": {
+  "label": "ppEffectFlashOnceSlow",
+  "value": 3843,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)"
+ },
+ "79": {
+  "label": "ppEffectAppear",
+  "value": 3844,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "80": {
+  "label": "ppEffectCircleOut",
+  "value": 3845,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "81": {
+  "label": "ppEffectDiamondOut",
+  "value": 3846,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "82": {
+  "label": "ppEffectCombHorizontal",
+  "value": 3847,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "83": {
+  "label": "ppEffectCombVertical",
+  "value": 3848,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "84": {
+  "label": "ppEffectFadeSmoothly",
+  "value": 3849,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "85": {
+  "label": "ppEffectNewsflash",
+  "value": 3850,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "86": {
+  "label": "ppEffectPlusOut",
+  "value": 3851,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "87": {
+  "label": "ppEffectPushDown",
+  "value": 3852,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "88": {
+  "label": "ppEffectPushLeft",
+  "value": 3853,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "89": {
+  "label": "ppEffectPushRight",
+  "value": 3854,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "90": {
+  "label": "ppEffectPushUp",
+  "value": 3855,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "91": {
+  "label": "ppEffectWedge",
+  "value": 3856,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "92": {
+  "label": "ppEffectWheel1Spoke",
+  "value": 3857,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "93": {
+  "label": "ppEffectWheel2Spokes",
+  "value": 3858,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "94": {
+  "label": "ppEffectWheel3Spokes",
+  "value": 3859,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "95": {
+  "label": "ppEffectWheel4Spokes",
+  "value": 3860,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "96": {
+  "label": "ppEffectWheel8Spokes",
+  "value": 3861,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "97": {
+  "label": "ppEffectWheelReverse1Spoke",
+  "value": 3862,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "98": {
+  "label": "ppEffectVortexLeft",
+  "value": 3863,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "99": {
+  "label": "ppEffectVortexUp",
+  "value": 3864,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "100": {
+  "label": "ppEffectVortexRight",
+  "value": 3865,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "101": {
+  "label": "ppEffectVortexDown",
+  "value": 3866,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "102": {
+  "label": "ppEffectRippleCenter",
+  "value": 3867,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "103": {
+  "label": "ppEffectRippleRightUp",
+  "value": 3868,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "104": {
+  "label": "ppEffectRippleLeftUp",
+  "value": 3869,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "105": {
+  "label": "ppEffectRippleLeftDown",
+  "value": 3870,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "106": {
+  "label": "ppEffectRippleRightDown",
+  "value": 3871,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "107": {
+  "label": "ppEffectGlitterDiamondLeft",
+  "value": 3872,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "108": {
+  "label": "ppEffectGlitterDiamondUp",
+  "value": 3873,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "109": {
+  "label": "ppEffectGlitterDiamondRight",
+  "value": 3874,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "110": {
+  "label": "ppEffectGlitterDiamondDown",
+  "value": 3875,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "111": {
+  "label": "ppEffectGlitterHexagonLeft",
+  "value": 3876,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "112": {
+  "label": "ppEffectGlitterHexagonUp",
+  "value": 3877,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "113": {
+  "label": "ppEffectGlitterHexagonRight",
+  "value": 3878,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "114": {
+  "label": "ppEffectGlitterHexagonDown",
+  "value": 3879,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "115": {
+  "label": "ppEffectGalleryLeft",
+  "value": 3880,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "116": {
+  "label": "ppEffectGalleryRight",
+  "value": 3881,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "117": {
+  "label": "ppEffectConveyorLeft",
+  "value": 3882,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "118": {
+  "label": "ppEffectConveyorRight",
+  "value": 3883,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "119": {
+  "label": "ppEffectDoorsVertical",
+  "value": 3884,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "120": {
+  "label": "ppEffectDoorsHorizontal",
+  "value": 3885,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "121": {
+  "label": "ppEffectWindowVertical",
+  "value": 3886,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "122": {
+  "label": "ppEffectWindowHorizontal",
+  "value": 3887,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "123": {
+  "label": "ppEffectWarpIn",
+  "value": 3888,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "124": {
+  "label": "ppEffectWarpOut",
+  "value": 3889,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "125": {
+  "label": "ppEffectFlyThroughIn",
+  "value": 3890,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "126": {
+  "label": "ppEffectFlyThroughOut",
+  "value": 3891,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "127": {
+  "label": "ppEffectFlyThroughInBounce",
+  "value": 3892,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "128": {
+  "label": "ppEffectFlyThroughOutBounce",
+  "value": 3893,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "129": {
+  "label": "ppEffectRevealSmoothLeft",
+  "value": 3894,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "130": {
+  "label": "ppEffectRevealSmoothRight",
+  "value": 3895,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "131": {
+  "label": "ppEffectRevealBlackLeft",
+  "value": 3896,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "132": {
+  "label": "ppEffectRevealBlackRight",
+  "value": 3897,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "133": {
+  "label": "ppEffectHoneycomb",
+  "value": 3898,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "134": {
+  "label": "ppEffectFerrisWheelLeft",
+  "value": 3899,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "135": {
+  "label": "ppEffectFerrisWheelRight",
+  "value": 3900,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "136": {
+  "label": "ppEffectSwitchLeft",
+  "value": 3901,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "137": {
+  "label": "ppEffectSwitchUp",
+  "value": 3902,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "138": {
+  "label": "ppEffectSwitchRight",
+  "value": 3903,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "139": {
+  "label": "ppEffectSwitchDown",
+  "value": 3904,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "140": {
+  "label": "ppEffectFlipLeft",
+  "value": 3905,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "141": {
+  "label": "ppEffectFlipUp",
+  "value": 3906,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "142": {
+  "label": "ppEffectFlipRight",
+  "value": 3907,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "143": {
+  "label": "ppEffectFlipDown",
+  "value": 3908,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "144": {
+  "label": "ppEffectFlashbulb",
+  "value": 3909,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "145": {
+  "label": "ppEffectShredStripsIn",
+  "value": 3910,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "146": {
+  "label": "ppEffectShredStripsOut",
+  "value": 3911,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "147": {
+  "label": "ppEffectShredRectangleIn",
+  "value": 3912,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "148": {
+  "label": "ppEffectShredRectangleOut",
+  "value": 3913,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "149": {
+  "label": "ppEffectCubeLeft",
+  "value": 3914,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "150": {
+  "label": "ppEffectCubeUp",
+  "value": 3915,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "151": {
+  "label": "ppEffectCubeRight",
+  "value": 3916,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "152": {
+  "label": "ppEffectCubeDown",
+  "value": 3917,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "153": {
+  "label": "ppEffectRotateLeft",
+  "value": 3918,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "154": {
+  "label": "ppEffectRotateUp",
+  "value": 3919,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "155": {
+  "label": "ppEffectRotateRight",
+  "value": 3920,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "156": {
+  "label": "ppEffectRotateDown",
+  "value": 3921,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "157": {
+  "label": "ppEffectBoxLeft",
+  "value": 3922,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "158": {
+  "label": "ppEffectBoxUp",
+  "value": 3923,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "159": {
+  "label": "ppEffectBoxRight",
+  "value": 3924,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "160": {
+  "label": "ppEffectBoxDown",
+  "value": 3925,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "161": {
+  "label": "ppEffectOrbitLeft",
+  "value": 3926,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "162": {
+  "label": "ppEffectOrbitUp",
+  "value": 3927,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "163": {
+  "label": "ppEffectOrbitRight",
+  "value": 3928,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "164": {
+  "label": "ppEffectOrbitDown",
+  "value": 3929,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "165": {
+  "label": "ppEffectPanLeft",
+  "value": 3930,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "166": {
+  "label": "ppEffectPanUp",
+  "value": 3931,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "167": {
+  "label": "ppEffectPanRight",
+  "value": 3932,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "168": {
+  "label": "ppEffectPanDown",
+  "value": 3933,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "169": {
+  "label": "ppEffectFallOverLeft",
+  "value": 3934,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "170": {
+  "label": "ppEffectFallOverRight",
+  "value": 3935,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "171": {
+  "label": "ppEffectDrapeLeft",
+  "value": 3936,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "172": {
+  "label": "ppEffectDrapeRight",
+  "value": 3937,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "173": {
+  "label": "ppEffectCurtains",
+  "value": 3938,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "174": {
+  "label": "ppEffectWindLeft",
+  "value": 3939,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "175": {
+  "label": "ppEffectWindRight",
+  "value": 3940,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "176": {
+  "label": "ppEffectPrestige",
+  "value": 3941,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "177": {
+  "label": "ppEffectFracture",
+  "value": 3942,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "178": {
+  "label": "ppEffectCrush",
+  "value": 3943,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "179": {
+  "label": "ppEffectPeelOffLeft",
+  "value": 3944,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "180": {
+  "label": "ppEffectPeelOffRight",
+  "value": 3945,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "181": {
+  "label": "ppEffectPageCurlSingleLeft",
+  "value": 3946,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "182": {
+  "label": "ppEffectPageCurlSingleRight",
+  "value": 3947,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "183": {
+  "label": "ppEffectPageCurlDoubleLeft",
+  "value": 3948,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "184": {
+  "label": "ppEffectPageCurlDoubleRight",
+  "value": 3949,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "185": {
+  "label": "ppEffectAirplaneLeft",
+  "value": 3950,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "186": {
+  "label": "ppEffectAirplaneRight",
+  "value": 3951,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "187": {
+  "label": "ppEffectOrigamiLeft",
+  "value": 3952,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "188": {
+  "label": "ppEffectOrigamiRight",
+  "value": 3953,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "189": {
+  "label": "ppEffectMorphByObject",
+  "value": 3954,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "190": {
+  "label": "ppEffectMorphByWord",
+  "value": 3955,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "191": {
+  "label": "ppEffectMorphByChar",
+  "value": 3956,
+  "kind": "enum",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "192": {
+  "label": "ppEffectFade@{'Duration': 0.5, 'Speed': 2}",
+  "value": 1793,
+  "kind": "variant",
+  "props": {
+   "Duration": 0.5,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "193": {
+  "label": "ppEffectFade@{'Duration': 2.5, 'Speed': 2}",
+  "value": 1793,
+  "kind": "variant",
+  "props": {
+   "Duration": 2.5,
+   "Speed": 2
+  },
+  "applied": true
+ },
+ "194": {
+  "label": "ppEffectFade@{'Duration': 1.0, 'Speed': 1}",
+  "value": 1793,
+  "kind": "variant",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 1
+  },
+  "applied": true
+ },
+ "195": {
+  "label": "ppEffectFade@{'Duration': 1.0, 'Speed': 3}",
+  "value": 1793,
+  "kind": "variant",
+  "props": {
+   "Duration": 1.0,
+   "Speed": 3
+  },
+  "applied": true
+ },
+ "196": {
+  "label": "ppEffectPushLeft@{'Duration': 0.25, 'Speed': 3}",
+  "value": 1281,
+  "kind": "variant",
+  "props": {
+   "Duration": 0.25,
+   "Speed": 3
+  },
+  "applied": true
+ },
+ "197": {
+  "label": "ppEffectWipeRight@{'Duration': 3.0, 'Speed': 1}",
+  "value": 1026,
+  "kind": "variant",
+  "props": {
+   "Duration": 3.0,
+   "Speed": 1
+  },
+  "applied": true
+ }
+}

@@ -1,0 +1,24 @@
+# 大体积原始素材：不入库
+Resource/
+Office16/
+
+# 生成的 pptx（示例与参考模板除外）
+pptforge/samples/*.pptx
+pptforge/samples/*.pdf
+pptforge/samples/render*/
+pptforge/rev/out/*.pptx
+pptforge/rev/out/*/
+pptx-skill/out-*.pptx
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# 编辑器与系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.log

@@ -1,0 +1,76 @@
+
+<!-- ppEffectNone = 0 -->
+<p:transition xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" spd="med"/>
+
+
+<!-- ppEffectFade = 1793 -->
+<p:transition xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" spd="med">
+    <p:fade thruBlk="1"/>
+  </p:transition>
+
+
+<!-- ppEffectFadeSmoothly = 3849 -->
+<p:transition xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" spd="med">
+    <p:fade/>
+  </p:transition>
+
+
+<!-- ppEffectPushLeft = 3853 -->
+<p:transition xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" spd="med">
+    <p:push/>
+  </p:transition>
+
+
+<!-- ppEffectGalleryLeft = 3880 -->
+<p:transition xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" spd="med">
+        <p14:gallery dir="l"/>
+      </p:transition>
+    
+
+<!-- ppEffectDoorsVertical = 3884 -->
+<p:transition xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" spd="med">
+        <p14:doors dir="vert"/>
+      </p:transition>
+    
+
+<!-- ppEffectRevealBlackLeft = 3896 -->
+<p:transition xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" spd="med">
+        <p14:reveal thruBlk="1"/>
+      </p:transition>
+    
+
+<!-- ppEffectSwitchLeft = 3901 -->
+<p:transition xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" spd="med">
+        <p14:switch dir="l"/>
+      </p:transition>
+    
+
+<!-- ppEffectFlashbulb = 3909 -->
+<p:transition xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" spd="med">
+        <p14:flash/>
+      </p:transition>
+    
+
+<!-- ppEffectShredStripsIn = 3910 -->
+<p:transition xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" spd="med">
+        <p14:shred/>
+      </p:transition>
+    
+
+<!-- ppEffectCubeLeft = 3914 -->
+<p:transition xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" spd="med">
+        <p14:prism/>
+      </p:transition>
+    
+
+<!-- ppEffectMorphByObject = 3954 -->
+<p:transition xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:p159="http://schemas.microsoft.com/office/powerpoint/2015/09/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" spd="med">
+        <p159:morph option="byObject"/>
+      </p:transition>
+    
+
+<!-- ppEffectMorphByWord = 3955 -->
+<p:transition xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:p159="http://schemas.microsoft.com/office/powerpoint/2015/09/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" spd="med">
+        <p159:morph option="byWord"/>
+      </p:transition>
+    

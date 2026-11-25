@@ -1,0 +1,78 @@
+{
+ "title": "生成式演示",
+ "subtitle": "按任务类型与风格选择模板素材",
+ "author": "pptx-skill",
+ "date": "2026",
+ "footer": "pptx-skill demo",
+ "sections": [
+  {
+   "heading": "素材怎么来",
+   "kicker": "01 · 拆解",
+   "title": "从 2125 个模板里提炼",
+   "points": [
+    {
+     "title": "结构拆解",
+     "detail": "读包内 XML：切换、动画预设、时长、版式数、配色、字体。"
+    },
+    {
+     "title": "识图指纹",
+     "detail": "渲染首页算主色占比、信息密度、饱和度，归到六类风格标签。"
+    },
+    {
+     "title": "布局测量",
+     "detail": "444 个内容页归一化坐标，得到边距、列数、图文关系与装饰构成。"
+    },
+    {
+     "title": "时序拆解",
+     "detail": "14 个高动画模板：click 组数、with 占比、delay 瀑布、预设混用。"
+    }
+   ]
+  },
+  {
+   "heading": "风格怎么选",
+   "kicker": "02 · 选择",
+   "title": "任务类型决定默认风格",
+   "points": [
+    {
+     "title": "汇报 → 商务",
+     "detail": "浅底、中饱和蓝、每页 8 条动画。"
+    },
+    {
+     "title": "路演 → 科技",
+     "detail": "亮度更高的蓝青、每页 18 条动画、左侧图位。"
+    },
+    {
+     "title": "答辩 → 极简",
+     "detail": "零动画，靠版式与留白。"
+    }
+   ]
+  },
+  {
+   "heading": "效果如何",
+   "kicker": "03 · 对标",
+   "title": "三个硬指标",
+   "cards": [
+    {
+     "value": "13",
+     "label": "前景形状/页（模板 15.5）"
+    },
+    {
+     "value": "5.0",
+     "label": "accent 对比（模板 4.7）"
+    },
+    {
+     "value": "12.7",
+     "label": "动画/页（模板 15）"
+    }
+   ]
+  },
+  {
+   "heading": "怎么用",
+   "kicker": "04 · 用法",
+   "title": "一条命令",
+   "type": "quote",
+   "quote": "给大纲和风格，剩下的交给引擎。",
+   "source": "pptx-skill"
+  }
+ ]
+}

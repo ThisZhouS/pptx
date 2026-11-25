@@ -1,0 +1,67 @@
+{
+ "fill": {
+  "case": "fill",
+  "ids": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ]
+ },
+ "line": {
+  "case": "line",
+  "ids": [
+   2,
+   3,
+   4,
+   5
+  ]
+ },
+ "effects": {
+  "case": "effects",
+  "ids": [
+   2,
+   3,
+   4,
+   5
+  ]
+ },
+ "text": {
+  "case": "text",
+  "ids": [
+   2,
+   3
+  ],
+  "bullet_props": [
+   "Application",
+   "CLSID",
+   "Character",
+   "Font",
+   "Number",
+   "Parent",
+   "Picture",
+   "RelativeSize",
+   "StartValue",
+   "Style",
+   "Type",
+   "UseTextColor",
+   "UseTextFont",
+   "Visible",
+   "coclass_clsid"
+  ]
+ },
+ "picture": {
+  "case": "picture",
+  "ids": [
+   3,
+   5
+  ]
+ },
+ "table": {
+  "case": "table",
+  "table_id": 2,
+  "style": "<win32com.gen_py.Microsoft PowerPoint 16.0 Object Library.TableStyle instance at 0x2291660444672>"
+ }
+}

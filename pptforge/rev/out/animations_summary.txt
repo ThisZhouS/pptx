@@ -1,0 +1,195 @@
+total 154  with_timing 150
+
+== by class ==
+  path     64
+  entr     53
+  emph     33
+  None     4
+
+== by presetID (top) ==
+  presetID=None   4
+  presetID=1      3
+  presetID=2      3
+  presetID=3      3
+  presetID=4      3
+  presetID=5      3
+  presetID=6      3
+  presetID=7      3
+  presetID=8      3
+  presetID=9      3
+  presetID=10     3
+  presetID=14     3
+  presetID=15     3
+  presetID=16     3
+  presetID=18     3
+  presetID=19     3
+  presetID=20     3
+  presetID=21     3
+  presetID=22     3
+  presetID=23     3
+  presetID=24     3
+  presetID=25     3
+  presetID=26     3
+  presetID=27     3
+  presetID=28     3
+  presetID=30     3
+  presetID=31     3
+  presetID=34     3
+  presetID=37     3
+  presetID=38     3
+
+== rows ==
+   83 None  pid=None  sub=None  msoAnimEffectMediaPlay             com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'Sequence.AddEffect : Invalid request.  ', '', 0, -2147188160), None)
+   84 None  pid=None  sub=None  msoAnimEffectMediaPause            com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'Sequence.AddEffect : Invalid request.  ', '', 0, -2147188160), None)
+   85 None  pid=None  sub=None  msoAnimEffectMediaStop             com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'Sequence.AddEffect : Invalid request.  ', '', 0, -2147188160), None)
+  150 None  pid=None  sub=None  msoAnimEffectMediaPlayFromBookmark com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'Sequence.AddEffect : Invalid request.  ', '', 0, -2147188160), None)
+   54 emph  pid=1     sub=2     msoAnimEffectChangeFillColor       
+   55 emph  pid=2     sub=0     msoAnimEffectChangeFont            
+   56 emph  pid=3     sub=2     msoAnimEffectChangeFontColor       
+   57 emph  pid=4     sub=2     msoAnimEffectChangeFontSize        
+   58 emph  pid=5     sub=1     msoAnimEffectChangeFontStyle       
+   59 emph  pid=6     sub=0     msoAnimEffectGrowShrink            
+   60 emph  pid=7     sub=2     msoAnimEffectChangeLineColor       
+   61 emph  pid=8     sub=0     msoAnimEffectSpin                  
+   62 emph  pid=9     sub=0     msoAnimEffectTransparency          
+   63 emph  pid=10    sub=0     msoAnimEffectBoldFlash             
+   64 emph  pid=14    sub=0     msoAnimEffectBlast                 
+   65 emph  pid=15    sub=0     msoAnimEffectBoldReveal            
+   66 emph  pid=16    sub=0     msoAnimEffectBrushOnColor          
+   67 emph  pid=18    sub=0     msoAnimEffectBrushOnUnderline      
+   68 emph  pid=19    sub=0     msoAnimEffectColorBlend            
+   69 emph  pid=20    sub=0     msoAnimEffectColorWave             
+   70 emph  pid=21    sub=0     msoAnimEffectComplementaryColor    
+   71 emph  pid=22    sub=0     msoAnimEffectComplementaryColor2   
+   72 emph  pid=23    sub=0     msoAnimEffectContrastingColor      
+   73 emph  pid=24    sub=0     msoAnimEffectDarken                
+   74 emph  pid=25    sub=0     msoAnimEffectDesaturate            
+   75 emph  pid=26    sub=0     msoAnimEffectFlashBulb             
+   76 emph  pid=27    sub=0     msoAnimEffectFlicker               
+   77 emph  pid=28    sub=0     msoAnimEffectGrowWithColor         
+   78 emph  pid=30    sub=0     msoAnimEffectLighten               
+   79 emph  pid=31    sub=0     msoAnimEffectStyleEmphasis         
+   80 emph  pid=32    sub=0     msoAnimEffectTeeter                
+   81 emph  pid=33    sub=0     msoAnimEffectVerticalGrow          
+   82 emph  pid=34    sub=0     msoAnimEffectWave                  
+   52 emph  pid=36    sub=0     msoAnimEffectShimmer               
+  152 emph  pid=37    sub=128   msoAnimEffect3DTurntable           
+  153 emph  pid=38    sub=128   msoAnimEffect3DSwing               
+  154 emph  pid=39    sub=2     msoAnimEffect3DJumpAndTurn         
+    1 entr  pid=1     sub=0     msoAnimEffectAppear                
+    2 entr  pid=2     sub=4     msoAnimEffectFly                   
+    3 entr  pid=3     sub=10    msoAnimEffectBlinds                
+    4 entr  pid=4     sub=16    msoAnimEffectBox                   
+    5 entr  pid=5     sub=10    msoAnimEffectCheckerboard          
+    6 entr  pid=6     sub=16    msoAnimEffectCircle                
+    7 entr  pid=7     sub=4     msoAnimEffectCrawl                 
+    8 entr  pid=8     sub=16    msoAnimEffectDiamond               
+    9 entr  pid=9     sub=0     msoAnimEffectDissolve              
+   10 entr  pid=10    sub=0     msoAnimEffectFade                  
+   11 entr  pid=11    sub=0     msoAnimEffectFlashOnce             
+   12 entr  pid=12    sub=4     msoAnimEffectPeek                  
+   13 entr  pid=13    sub=16    msoAnimEffectPlus                  
+   14 entr  pid=14    sub=10    msoAnimEffectRandomBars            
+   15 entr  pid=15    sub=0     msoAnimEffectSpiral                
+   16 entr  pid=16    sub=21    msoAnimEffectSplit                 
+   17 entr  pid=17    sub=10    msoAnimEffectStretch               
+   18 entr  pid=18    sub=12    msoAnimEffectStrips                
+   19 entr  pid=19    sub=10    msoAnimEffectSwivel                
+   20 entr  pid=20    sub=0     msoAnimEffectWedge                 
+   21 entr  pid=21    sub=1     msoAnimEffectWheel                 
+   22 entr  pid=22    sub=4     msoAnimEffectWipe                  
+   23 entr  pid=23    sub=16    msoAnimEffectZoom                  
+   24 entr  pid=24    sub=0     msoAnimEffectRandomEffects         
+   25 entr  pid=25    sub=0     msoAnimEffectBoomerang             
+   26 entr  pid=26    sub=0     msoAnimEffectBounce                
+   27 entr  pid=27    sub=0     msoAnimEffectColorReveal           
+   28 entr  pid=28    sub=0     msoAnimEffectCredits               
+   29 entr  pid=29    sub=0     msoAnimEffectEaseIn                
+   30 entr  pid=30    sub=0     msoAnimEffectFloat                 
+   31 entr  pid=31    sub=0     msoAnimEffectGrowAndTurn           
+   32 entr  pid=34    sub=0     msoAnimEffectLightSpeed            
+   33 entr  pid=35    sub=0     msoAnimEffectPinwheel              
+   34 entr  pid=37    sub=0     msoAnimEffectRiseUp                
+   35 entr  pid=38    sub=0     msoAnimEffectSwish                 
+   36 entr  pid=39    sub=0     msoAnimEffectThinLine              
+   37 entr  pid=40    sub=0     msoAnimEffectUnfold                
+   38 entr  pid=41    sub=0     msoAnimEffectWhip                  
+   39 entr  pid=42    sub=0     msoAnimEffectAscend                
+   40 entr  pid=43    sub=0     msoAnimEffectCenterRevolve         
+   41 entr  pid=45    sub=0     msoAnimEffectFadedSwivel           
+   42 entr  pid=47    sub=0     msoAnimEffectDescend               
+   43 entr  pid=48    sub=0     msoAnimEffectSling                 
+   44 entr  pid=49    sub=0     msoAnimEffectSpinner               
+   45 entr  pid=50    sub=0     msoAnimEffectStretchy              
+   46 entr  pid=51    sub=0     msoAnimEffectZip                   
+   47 entr  pid=52    sub=0     msoAnimEffectArcUp                 
+   48 entr  pid=53    sub=16    msoAnimEffectFadedZoom             
+   49 entr  pid=54    sub=0     msoAnimEffectGlide                 
+   50 entr  pid=55    sub=0     msoAnimEffectExpand                
+   51 entr  pid=56    sub=0     msoAnimEffectFlip                  
+   53 entr  pid=58    sub=0     msoAnimEffectFold                  
+  151 entr  pid=60    sub=128   msoAnimEffect3DArrive              
+   86 path  pid=1     sub=0     msoAnimEffectPathCircle            
+   87 path  pid=2     sub=0     msoAnimEffectPathRightTriangle     
+   88 path  pid=3     sub=0     msoAnimEffectPathDiamond           
+   89 path  pid=4     sub=0     msoAnimEffectPathHexagon           
+   90 path  pid=5     sub=0     msoAnimEffectPath5PointStar        
+   91 path  pid=6     sub=0     msoAnimEffectPathCrescentMoon      
+   92 path  pid=7     sub=0     msoAnimEffectPathSquare            
+   93 path  pid=8     sub=0     msoAnimEffectPathTrapezoid         
+   94 path  pid=9     sub=0     msoAnimEffectPathHeart             
+   95 path  pid=10    sub=0     msoAnimEffectPathOctagon           
+   96 path  pid=11    sub=0     msoAnimEffectPath6PointStar        
+   97 path  pid=12    sub=0     msoAnimEffectPathFootball          
+   98 path  pid=13    sub=0     msoAnimEffectPathEqualTriangle     
+   99 path  pid=14    sub=0     msoAnimEffectPathParallelogram     
+  100 path  pid=15    sub=0     msoAnimEffectPathPentagon          
+  101 path  pid=16    sub=0     msoAnimEffectPath4PointStar        
+  102 path  pid=17    sub=0     msoAnimEffectPath8PointStar        
+  103 path  pid=18    sub=0     msoAnimEffectPathTeardrop          
+  104 path  pid=19    sub=0     msoAnimEffectPathPointyStar        
+  105 path  pid=20    sub=0     msoAnimEffectPathCurvedSquare      
+  106 path  pid=21    sub=0     msoAnimEffectPathCurvedX           
+  107 path  pid=22    sub=0     msoAnimEffectPathVerticalFigure8   
+  108 path  pid=23    sub=0     msoAnimEffectPathCurvyStar         
+  109 path  pid=24    sub=0     msoAnimEffectPathLoopdeLoop        
+  110 path  pid=25    sub=0     msoAnimEffectPathBuzzsaw           
+  111 path  pid=26    sub=0     msoAnimEffectPathHorizontalFigure8 
+  112 path  pid=27    sub=0     msoAnimEffectPathPeanut            
+  113 path  pid=28    sub=0     msoAnimEffectPathFigure8Four       
+  114 path  pid=29    sub=0     msoAnimEffectPathNeutron           
+  115 path  pid=30    sub=0     msoAnimEffectPathSwoosh            
+  116 path  pid=31    sub=0     msoAnimEffectPathBean              
+  117 path  pid=32    sub=0     msoAnimEffectPathPlus              
+  118 path  pid=33    sub=0     msoAnimEffectPathInvertedTriangle  
+  119 path  pid=34    sub=0     msoAnimEffectPathInvertedSquare    
+  120 path  pid=35    sub=0     msoAnimEffectPathLeft              
+  121 path  pid=36    sub=0     msoAnimEffectPathTurnRight         
+  122 path  pid=37    sub=0     msoAnimEffectPathArcDown           
+  123 path  pid=38    sub=0     msoAnimEffectPathZigzag            
+  124 path  pid=39    sub=0     msoAnimEffectPathSCurve2           
+  125 path  pid=40    sub=0     msoAnimEffectPathSineWave          
+  126 path  pid=41    sub=0     msoAnimEffectPathBounceLeft        
+  127 path  pid=42    sub=0     msoAnimEffectPathDown              
+  128 path  pid=43    sub=0     msoAnimEffectPathTurnUp            
+  129 path  pid=44    sub=0     msoAnimEffectPathArcUp             
+  130 path  pid=45    sub=0     msoAnimEffectPathHeartbeat         
+  131 path  pid=46    sub=0     msoAnimEffectPathSpiralRight       
+  132 path  pid=47    sub=0     msoAnimEffectPathWave              
+  133 path  pid=48    sub=0     msoAnimEffectPathCurvyLeft         
+  134 path  pid=49    sub=0     msoAnimEffectPathDiagonalDownRight 
+  135 path  pid=50    sub=0     msoAnimEffectPathTurnDown          
+  136 path  pid=51    sub=0     msoAnimEffectPathArcLeft           
+  137 path  pid=52    sub=0     msoAnimEffectPathFunnel            
+  138 path  pid=53    sub=0     msoAnimEffectPathSpring            
+  139 path  pid=54    sub=0     msoAnimEffectPathBounceRight       
+  140 path  pid=55    sub=0     msoAnimEffectPathSpiralLeft        
+  141 path  pid=56    sub=0     msoAnimEffectPathDiagonalUpRight   
+  142 path  pid=57    sub=0     msoAnimEffectPathTurnUpRight       
+  143 path  pid=58    sub=0     msoAnimEffectPathArcRight          
+  144 path  pid=59    sub=0     msoAnimEffectPathSCurve1           
+  145 path  pid=60    sub=0     msoAnimEffectPathDecayingWave      
+  146 path  pid=61    sub=0     msoAnimEffectPathCurvyRight        
+  147 path  pid=62    sub=0     msoAnimEffectPathStairsDown        
+  149 path  pid=63    sub=0     msoAnimEffectPathRight             
+  148 path  pid=64    sub=0     msoAnimEffectPathUp                

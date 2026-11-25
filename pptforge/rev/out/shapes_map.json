@@ -1,0 +1,627 @@
+{
+ "group_only": {
+  "case": "group_only",
+  "group_name": "Group 4",
+  "group_shape_id": 5,
+  "children": [
+   2,
+   3,
+   4
+  ],
+  "child_positions": [
+   [
+    100.0,
+    100.0,
+    200.0,
+    100.0
+   ],
+   [
+    350.0,
+    160.0,
+    160.0,
+    120.0
+   ],
+   [
+    200.0,
+    300.0,
+    240.0,
+    90.0
+   ]
+  ],
+  "shape_tree": [
+   {
+    "tag": "grpSp",
+    "depth": 0,
+    "id": 5,
+    "name": "组合 4",
+    "off": [
+     1270000,
+     1270000
+    ],
+    "ext": [
+     5207000,
+     3683000
+    ],
+    "chOff": [
+     1270000,
+     1270000
+    ],
+    "chExt": [
+     5207000,
+     3683000
+    ],
+    "children": [
+     {
+      "tag": "sp",
+      "depth": 1,
+      "id": 2,
+      "name": "矩形 1",
+      "off": [
+       1270000,
+       1270000
+      ],
+      "ext": [
+       2540000,
+       1270000
+      ],
+      "text": "A"
+     },
+     {
+      "tag": "sp",
+      "depth": 1,
+      "id": 3,
+      "name": "矩形 2",
+      "off": [
+       4445000,
+       2032000
+      ],
+      "ext": [
+       2032000,
+       1524000
+      ],
+      "text": "B"
+     },
+     {
+      "tag": "sp",
+      "depth": 1,
+      "id": 4,
+      "name": "椭圆 3",
+      "off": [
+       2540000,
+       3810000
+      ],
+      "ext": [
+       3048000,
+       1143000
+      ],
+      "text": "C"
+     }
+    ]
+   }
+  ],
+  "timing_xml": null,
+  "targets": null
+ },
+ "group_anim": {
+  "case": "group_anim",
+  "group_shape_id": 4,
+  "children": [
+   2,
+   3
+  ],
+  "shape_tree": [
+   {
+    "tag": "grpSp",
+    "depth": 0,
+    "id": 4,
+    "name": "组合 3",
+    "off": [
+     1524000,
+     1524000
+    ],
+    "ext": [
+     5588000,
+     2540000
+    ],
+    "chOff": [
+     1524000,
+     1524000
+    ],
+    "chExt": [
+     5588000,
+     2540000
+    ],
+    "children": [
+     {
+      "tag": "sp",
+      "depth": 1,
+      "id": 2,
+      "name": "矩形 1",
+      "off": [
+       1524000,
+       1524000
+      ],
+      "ext": [
+       2540000,
+       1270000
+      ],
+      "text": "A"
+     },
+     {
+      "tag": "sp",
+      "depth": 1,
+      "id": 3,
+      "name": "矩形 2",
+      "off": [
+       4826000,
+       2540000
+      ],
+      "ext": [
+       2286000,
+       1524000
+      ],
+      "text": "B"
+     }
+    ]
+   }
+  ],
+  "timing_xml": "<p:timing xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\">\n    <p:tnLst>\n      <p:par>\n        <p:cTn id=\"1\" dur=\"indefinite\" restart=\"never\" nodeType=\"tmRoot\">\n          <p:childTnLst>\n            <p:seq concurrent=\"1\" nextAc=\"seek\">\n              <p:cTn id=\"2\" dur=\"indefinite\" nodeType=\"mainSeq\">\n                <p:childTnLst>\n                  <p:par>\n                    <p:cTn id=\"3\" fill=\"hold\">\n                      <p:stCondLst>\n                        <p:cond delay=\"indefinite\"/>\n                      </p:stCondLst>\n                      <p:childTnLst>\n                        <p:par>\n                          <p:cTn id=\"4\" fill=\"hold\">\n                            <p:stCondLst>\n                              <p:cond delay=\"0\"/>\n                            </p:stCondLst>\n                            <p:childTnLst>\n                              <p:par>\n                                <p:cTn id=\"5\" presetID=\"10\" presetClass=\"entr\" presetSubtype=\"0\" fill=\"hold\" nodeType=\"clickEffect\">\n                                  <p:stCondLst>\n                                    <p:cond delay=\"0\"/>\n                                  </p:stCondLst>\n                                  <p:childTnLst>\n                                    <p:set>\n                                      <p:cBhvr>\n                                        <p:cTn id=\"6\" dur=\"1\" fill=\"hold\">\n                                          <p:stCondLst>\n                                            <p:cond delay=\"0\"/>\n                                          </p:stCondLst>\n                                        </p:cTn>\n                                        <p:tgtEl>\n                                          <p:spTgt spid=\"4\"/>\n                                        </p:tgtEl>\n                                        <p:attrNameLst>\n                                          <p:attrName>style.visibility</p:attrName>\n                                        </p:attrNameLst>\n                                      </p:cBhvr>\n                                      <p:to>\n                                        <p:strVal val=\"visible\"/>\n                                      </p:to>\n                                    </p:set>\n                                    <p:animEffect transition=\"in\" filter=\"fade\">\n                                      <p:cBhvr>\n                                        <p:cTn id=\"7\" dur=\"500\"/>\n                                        <p:tgtEl>\n                                          <p:spTgt spid=\"4\"/>\n                                        </p:tgtEl>\n                                      </p:cBhvr>\n                                    </p:animEffect>\n                                  </p:childTnLst>\n                                </p:cTn>\n                              </p:par>\n                            </p:childTnLst>\n                          </p:cTn>\n                        </p:par>\n                      </p:childTnLst>\n                    </p:cTn>\n                  </p:par>\n                </p:childTnLst>\n              </p:cTn>\n              <p:prevCondLst>\n                <p:cond evt=\"onPrev\" delay=\"0\">\n                  <p:tgtEl>\n                    <p:sldTgt/>\n                  </p:tgtEl>\n                </p:cond>\n              </p:prevCondLst>\n              <p:nextCondLst>\n                <p:cond evt=\"onNext\" delay=\"0\">\n                  <p:tgtEl>\n                    <p:sldTgt/>\n                  </p:tgtEl>\n                </p:cond>\n              </p:nextCondLst>\n            </p:seq>\n          </p:childTnLst>\n        </p:cTn>\n      </p:par>\n    </p:tnLst>\n  </p:timing>\n\n",
+  "targets": {
+   "p:timing": 1,
+   "p:timing/tnLst": 1,
+   "p:timing/tnLst/par": 1,
+   "p:timing/tnLst/par/cTn": 1,
+   "p:timing/tnLst/par/cTn/childTnLst": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/stCondLst": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/stCondLst/cond": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/stCondLst": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/stCondLst/cond": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/stCondLst": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/stCondLst/cond": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/set": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/set/cBhvr": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/set/cBhvr/cTn": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/set/cBhvr/cTn/stCondLst": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/set/cBhvr/cTn/stCondLst/cond": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/set/cBhvr/tgtEl": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/set/cBhvr/tgtEl/spTgt": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/set/cBhvr/attrNameLst": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/set/cBhvr/attrNameLst/attrName": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/set/to": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/set/to/strVal": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/animEffect": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/animEffect/cBhvr": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/animEffect/cBhvr/cTn": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/animEffect/cBhvr/tgtEl": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/animEffect/cBhvr/tgtEl/spTgt": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/prevCondLst": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/prevCondLst/cond": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/prevCondLst/cond/tgtEl": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/prevCondLst/cond/tgtEl/sldTgt": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/nextCondLst": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/nextCondLst/cond": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/nextCondLst/cond/tgtEl": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/nextCondLst/cond/tgtEl/sldTgt": 1
+  }
+ },
+ "child_anim": {
+  "case": "child_anim",
+  "group_shape_id": 4,
+  "children": [
+   2,
+   3
+  ],
+  "animated_child": 2,
+  "shape_tree": [
+   {
+    "tag": "grpSp",
+    "depth": 0,
+    "id": 4,
+    "name": "组合 3",
+    "off": [
+     1524000,
+     1524000
+    ],
+    "ext": [
+     5588000,
+     2540000
+    ],
+    "chOff": [
+     1524000,
+     1524000
+    ],
+    "chExt": [
+     5588000,
+     2540000
+    ],
+    "children": [
+     {
+      "tag": "sp",
+      "depth": 1,
+      "id": 2,
+      "name": "矩形 1",
+      "off": [
+       1524000,
+       1524000
+      ],
+      "ext": [
+       2540000,
+       1270000
+      ],
+      "text": "A"
+     },
+     {
+      "tag": "sp",
+      "depth": 1,
+      "id": 3,
+      "name": "矩形 2",
+      "off": [
+       4826000,
+       2540000
+      ],
+      "ext": [
+       2286000,
+       1524000
+      ],
+      "text": "B"
+     }
+    ]
+   }
+  ],
+  "timing_xml": "<p:timing xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\">\n    <p:tnLst>\n      <p:par>\n        <p:cTn id=\"1\" dur=\"indefinite\" restart=\"never\" nodeType=\"tmRoot\">\n          <p:childTnLst>\n            <p:seq concurrent=\"1\" nextAc=\"seek\">\n              <p:cTn id=\"2\" dur=\"indefinite\" nodeType=\"mainSeq\">\n                <p:childTnLst>\n                  <p:par>\n                    <p:cTn id=\"3\" fill=\"hold\">\n                      <p:stCondLst>\n                        <p:cond delay=\"indefinite\"/>\n                      </p:stCondLst>\n                      <p:childTnLst>\n                        <p:par>\n                          <p:cTn id=\"4\" fill=\"hold\">\n                            <p:stCondLst>\n                              <p:cond delay=\"0\"/>\n                            </p:stCondLst>\n                            <p:childTnLst>\n                              <p:par>\n                                <p:cTn id=\"5\" presetID=\"8\" presetClass=\"entr\" presetSubtype=\"16\" fill=\"hold\" grpId=\"0\" nodeType=\"clickEffect\">\n                                  <p:stCondLst>\n                                    <p:cond delay=\"0\"/>\n                                  </p:stCondLst>\n                                  <p:childTnLst>\n                                    <p:set>\n                                      <p:cBhvr>\n                                        <p:cTn id=\"6\" dur=\"1\" fill=\"hold\">\n                                          <p:stCondLst>\n                                            <p:cond delay=\"0\"/>\n                                          </p:stCondLst>\n                                        </p:cTn>\n                                        <p:tgtEl>\n                                          <p:spTgt spid=\"2\"/>\n                                        </p:tgtEl>\n                                        <p:attrNameLst>\n                                          <p:attrName>style.visibility</p:attrName>\n                                        </p:attrNameLst>\n                                      </p:cBhvr>\n                                      <p:to>\n                                        <p:strVal val=\"visible\"/>\n                                      </p:to>\n                                    </p:set>\n                                    <p:animEffect transition=\"in\" filter=\"diamond(in)\">\n                                      <p:cBhvr>\n                                        <p:cTn id=\"7\" dur=\"2000\"/>\n                                        <p:tgtEl>\n                                          <p:spTgt spid=\"2\"/>\n                                        </p:tgtEl>\n                                      </p:cBhvr>\n                                    </p:animEffect>\n                                  </p:childTnLst>\n                                </p:cTn>\n                              </p:par>\n                            </p:childTnLst>\n                          </p:cTn>\n                        </p:par>\n                      </p:childTnLst>\n                    </p:cTn>\n                  </p:par>\n                </p:childTnLst>\n              </p:cTn>\n              <p:prevCondLst>\n                <p:cond evt=\"onPrev\" delay=\"0\">\n                  <p:tgtEl>\n                    <p:sldTgt/>\n                  </p:tgtEl>\n                </p:cond>\n              </p:prevCondLst>\n              <p:nextCondLst>\n                <p:cond evt=\"onNext\" delay=\"0\">\n                  <p:tgtEl>\n                    <p:sldTgt/>\n                  </p:tgtEl>\n                </p:cond>\n              </p:nextCondLst>\n            </p:seq>\n          </p:childTnLst>\n        </p:cTn>\n      </p:par>\n    </p:tnLst>\n    <p:bldLst>\n      <p:bldP spid=\"2\" grpId=\"0\" animBg=\"1\"/>\n    </p:bldLst>\n  </p:timing>\n\n",
+  "targets": {
+   "p:timing": 1,
+   "p:timing/tnLst": 1,
+   "p:timing/tnLst/par": 1,
+   "p:timing/tnLst/par/cTn": 1,
+   "p:timing/tnLst/par/cTn/childTnLst": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/stCondLst": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/stCondLst/cond": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/stCondLst": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/stCondLst/cond": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/stCondLst": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/stCondLst/cond": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/set": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/set/cBhvr": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/set/cBhvr/cTn": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/set/cBhvr/cTn/stCondLst": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/set/cBhvr/cTn/stCondLst/cond": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/set/cBhvr/tgtEl": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/set/cBhvr/tgtEl/spTgt": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/set/cBhvr/attrNameLst": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/set/cBhvr/attrNameLst/attrName": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/set/to": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/set/to/strVal": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/animEffect": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/animEffect/cBhvr": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/animEffect/cBhvr/cTn": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/animEffect/cBhvr/tgtEl": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/par/cTn/childTnLst/animEffect/cBhvr/tgtEl/spTgt": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/prevCondLst": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/prevCondLst/cond": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/prevCondLst/cond/tgtEl": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/prevCondLst/cond/tgtEl/sldTgt": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/nextCondLst": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/nextCondLst/cond": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/nextCondLst/cond/tgtEl": 1,
+   "p:timing/tnLst/par/cTn/childTnLst/seq/nextCondLst/cond/tgtEl/sldTgt": 1,
+   "p:timing/bldLst": 1,
+   "p:timing/bldLst/bldP": 1
+  }
+ },
+ "rotate_flip": {
+  "case": "rotate_flip",
+  "ids": [
+   2,
+   3,
+   4
+  ],
+  "shape_tree": [
+   {
+    "tag": "sp",
+    "depth": 0,
+    "id": 2,
+    "name": "矩形 1",
+    "off": [
+     1524000,
+     1524000
+    ],
+    "ext": [
+     3048000,
+     1524000
+    ],
+    "rot": 1800000,
+    "text": "rot30"
+   },
+   {
+    "tag": "sp",
+    "depth": 0,
+    "id": 3,
+    "name": "矩形 2",
+    "off": [
+     5334000,
+     1524000
+    ],
+    "ext": [
+     3048000,
+     1524000
+    ],
+    "flip": [
+     "flipH"
+    ],
+    "text": "flipH"
+   },
+   {
+    "tag": "sp",
+    "depth": 0,
+    "id": 4,
+    "name": "矩形 3",
+    "off": [
+     1524000,
+     4064000
+    ],
+    "ext": [
+     2540000,
+     1270000
+    ],
+    "flip": [
+     "flipV"
+    ],
+    "text": "flipV"
+   }
+  ],
+  "timing_xml": null,
+  "targets": null
+ },
+ "style": {
+  "case": "style",
+  "ids": [
+   2,
+   3,
+   4
+  ],
+  "shape_tree": [
+   {
+    "tag": "sp",
+    "depth": 0,
+    "id": 2,
+    "name": "矩形 1",
+    "off": [
+     1524000,
+     1524000
+    ],
+    "ext": [
+     3048000,
+     1524000
+    ],
+    "text": "alpha50"
+   },
+   {
+    "tag": "sp",
+    "depth": 0,
+    "id": 3,
+    "name": "矩形 2",
+    "off": [
+     5334000,
+     1524000
+    ],
+    "ext": [
+     3048000,
+     1524000
+    ],
+    "text": "line2pt"
+   },
+   {
+    "tag": "sp",
+    "depth": 0,
+    "id": 4,
+    "name": "矩形 3",
+    "off": [
+     1524000,
+     4064000
+    ],
+    "ext": [
+     3048000,
+     1524000
+    ],
+    "text": "gradient"
+   }
+  ],
+  "timing_xml": null,
+  "targets": null
+ },
+ "group_move": {
+  "case": "group_move",
+  "group_shape_id": 4,
+  "children": [
+   2,
+   3
+  ],
+  "child_before": [
+   100.0,
+   100.0
+  ],
+  "child_after": [
+   220.0,
+   140.0
+  ],
+  "group_box": [
+   220.0,
+   140.0,
+   420.0,
+   200.0
+  ],
+  "shape_tree": [
+   {
+    "tag": "grpSp",
+    "depth": 0,
+    "id": 4,
+    "name": "组合 3",
+    "off": [
+     2794000,
+     1778000
+    ],
+    "ext": [
+     5334000,
+     2540000
+    ],
+    "chOff": [
+     1270000,
+     1270000
+    ],
+    "chExt": [
+     5334000,
+     2540000
+    ],
+    "children": [
+     {
+      "tag": "sp",
+      "depth": 1,
+      "id": 2,
+      "name": "矩形 1",
+      "off": [
+       1270000,
+       1270000
+      ],
+      "ext": [
+       2540000,
+       1270000
+      ],
+      "text": "A"
+     },
+     {
+      "tag": "sp",
+      "depth": 1,
+      "id": 3,
+      "name": "矩形 2",
+      "off": [
+       4572000,
+       2286000
+      ],
+      "ext": [
+       2032000,
+       1524000
+      ],
+      "text": "B"
+     }
+    ]
+   }
+  ],
+  "timing_xml": null,
+  "targets": null
+ },
+ "group_scale": {
+  "case": "group_scale",
+  "group_shape_id": 4,
+  "children": [
+   2,
+   3
+  ],
+  "group_before": [
+   100.0,
+   100.0,
+   420.0,
+   200.0
+  ],
+  "group_after": [
+   100.0,
+   100.0,
+   252.0,
+   120.0
+  ],
+  "child_before": [
+   100.0,
+   100.0,
+   200.0,
+   100.0
+  ],
+  "child_after": [
+   100.0,
+   100.0,
+   120.0,
+   60.0
+  ],
+  "shape_tree": [
+   {
+    "tag": "grpSp",
+    "depth": 0,
+    "id": 4,
+    "name": "组合 3",
+    "off": [
+     1270000,
+     1270000
+    ],
+    "ext": [
+     3200400,
+     1524000
+    ],
+    "chOff": [
+     1270000,
+     1270000
+    ],
+    "chExt": [
+     5334000,
+     2540000
+    ],
+    "children": [
+     {
+      "tag": "sp",
+      "depth": 1,
+      "id": 2,
+      "name": "矩形 1",
+      "off": [
+       1270000,
+       1270000
+      ],
+      "ext": [
+       2540000,
+       1270000
+      ],
+      "text": "A"
+     },
+     {
+      "tag": "sp",
+      "depth": 1,
+      "id": 3,
+      "name": "矩形 2",
+      "off": [
+       4572000,
+       2286000
+      ],
+      "ext": [
+       2032000,
+       1524000
+      ],
+      "text": "B"
+     }
+    ]
+   }
+  ],
+  "timing_xml": null,
+  "targets": null
+ }
+}

@@ -1,0 +1,10 @@
+# 核心依赖（生成）
+python-pptx>=1.0.2
+lxml>=5.0
+# MCP 服务
+mcp>=1.16
+anyio>=4.5,<5
+pydantic>=2.5
+# 可选：用本机 PowerPoint 做回读验证 / 导图 / 导 PDF
+# pywin32>=306
+# Pillow>=10  （render_png 的像素统计）

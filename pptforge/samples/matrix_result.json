@@ -1,0 +1,1326 @@
+{
+ "build": {
+  "file": "E:\\pptx\\pptforge\\samples\\matrix.pptx",
+  "theme": "dark",
+  "slides": [
+   {
+    "index": 1,
+    "layout": "bullets",
+    "title": "trans-fade",
+    "shapes": {
+     "kicker": {
+      "id": 2,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title": {
+      "id": 3,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title-rule": {
+      "id": 4,
+      "kind": "shape",
+      "paragraphs": 1
+     },
+     "bullets": {
+      "id": 5,
+      "kind": "text",
+      "paragraphs": 3
+     },
+     "footer": {
+      "id": 6,
+      "kind": "text",
+      "paragraphs": 1
+     }
+    },
+    "transition": {
+     "effect": "fade",
+     "zh": "淡出",
+     "requires": "p14",
+     "spd": null,
+     "duration_ms": 900,
+     "advance_ms": null,
+     "advance_on_click": null,
+     "alternate_content": true,
+     "warnings": []
+    },
+    "animations": {
+     "items": 0
+    }
+   },
+   {
+    "index": 2,
+    "layout": "bullets",
+    "title": "trans-fade-smooth",
+    "shapes": {
+     "kicker": {
+      "id": 2,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title": {
+      "id": 3,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title-rule": {
+      "id": 4,
+      "kind": "shape",
+      "paragraphs": 1
+     },
+     "bullets": {
+      "id": 5,
+      "kind": "text",
+      "paragraphs": 3
+     },
+     "footer": {
+      "id": 6,
+      "kind": "text",
+      "paragraphs": 1
+     }
+    },
+    "transition": {
+     "effect": "fade-smoothly",
+     "zh": "平滑淡出",
+     "spd": "med",
+     "duration_ms": null,
+     "advance_ms": null,
+     "alternate_content": false,
+     "warnings": []
+    },
+    "animations": {
+     "items": 0
+    }
+   },
+   {
+    "index": 3,
+    "layout": "bullets",
+    "title": "trans-cut",
+    "shapes": {
+     "kicker": {
+      "id": 2,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title": {
+      "id": 3,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title-rule": {
+      "id": 4,
+      "kind": "shape",
+      "paragraphs": 1
+     },
+     "bullets": {
+      "id": 5,
+      "kind": "text",
+      "paragraphs": 3
+     },
+     "footer": {
+      "id": 6,
+      "kind": "text",
+      "paragraphs": 1
+     }
+    },
+    "transition": {
+     "effect": "cut",
+     "zh": "切割",
+     "spd": "med",
+     "duration_ms": null,
+     "advance_ms": null,
+     "alternate_content": false,
+     "warnings": []
+    },
+    "animations": {
+     "items": 0
+    }
+   },
+   {
+    "index": 4,
+    "layout": "bullets",
+    "title": "trans-cover-left",
+    "shapes": {
+     "kicker": {
+      "id": 2,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title": {
+      "id": 3,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title-rule": {
+      "id": 4,
+      "kind": "shape",
+      "paragraphs": 1
+     },
+     "bullets": {
+      "id": 5,
+      "kind": "text",
+      "paragraphs": 3
+     },
+     "footer": {
+      "id": 6,
+      "kind": "text",
+      "paragraphs": 1
+     }
+    },
+    "transition": {
+     "effect": "cover-left",
+     "zh": "覆盖（左）",
+     "requires": "p14",
+     "spd": null,
+     "duration_ms": 500,
+     "advance_ms": null,
+     "advance_on_click": null,
+     "alternate_content": true,
+     "warnings": []
+    },
+    "animations": {
+     "items": 0
+    }
+   },
+   {
+    "index": 5,
+    "layout": "bullets",
+    "title": "trans-push-up",
+    "shapes": {
+     "kicker": {
+      "id": 2,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title": {
+      "id": 3,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title-rule": {
+      "id": 4,
+      "kind": "shape",
+      "paragraphs": 1
+     },
+     "bullets": {
+      "id": 5,
+      "kind": "text",
+      "paragraphs": 3
+     },
+     "footer": {
+      "id": 6,
+      "kind": "text",
+      "paragraphs": 1
+     }
+    },
+    "transition": {
+     "effect": "push-up",
+     "zh": "推进（上）",
+     "spd": "med",
+     "duration_ms": null,
+     "advance_ms": null,
+     "alternate_content": false,
+     "warnings": []
+    },
+    "animations": {
+     "items": 0
+    }
+   },
+   {
+    "index": 6,
+    "layout": "bullets",
+    "title": "trans-split-h",
+    "shapes": {
+     "kicker": {
+      "id": 2,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title": {
+      "id": 3,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title-rule": {
+      "id": 4,
+      "kind": "shape",
+      "paragraphs": 1
+     },
+     "bullets": {
+      "id": 5,
+      "kind": "text",
+      "paragraphs": 3
+     },
+     "footer": {
+      "id": 6,
+      "kind": "text",
+      "paragraphs": 1
+     }
+    },
+    "transition": {
+     "effect": "split-horizontal-out",
+     "zh": "分割（水平向外）",
+     "spd": "med",
+     "duration_ms": null,
+     "advance_ms": null,
+     "alternate_content": false,
+     "warnings": []
+    },
+    "animations": {
+     "items": 0
+    }
+   },
+   {
+    "index": 7,
+    "layout": "bullets",
+    "title": "trans-zoom-in",
+    "shapes": {
+     "kicker": {
+      "id": 2,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title": {
+      "id": 3,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title-rule": {
+      "id": 4,
+      "kind": "shape",
+      "paragraphs": 1
+     },
+     "bullets": {
+      "id": 5,
+      "kind": "text",
+      "paragraphs": 3
+     },
+     "footer": {
+      "id": 6,
+      "kind": "text",
+      "paragraphs": 1
+     }
+    },
+    "transition": {
+     "effect": "box-in",
+     "zh": "缩放（向内）",
+     "spd": "med",
+     "duration_ms": null,
+     "advance_ms": null,
+     "alternate_content": false,
+     "warnings": []
+    },
+    "animations": {
+     "items": 0
+    }
+   },
+   {
+    "index": 8,
+    "layout": "bullets",
+    "title": "trans-vortex-left",
+    "shapes": {
+     "kicker": {
+      "id": 2,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title": {
+      "id": 3,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title-rule": {
+      "id": 4,
+      "kind": "shape",
+      "paragraphs": 1
+     },
+     "bullets": {
+      "id": 5,
+      "kind": "text",
+      "paragraphs": 3
+     },
+     "footer": {
+      "id": 6,
+      "kind": "text",
+      "paragraphs": 1
+     }
+    },
+    "transition": {
+     "effect": "vortex-left",
+     "zh": "涡流（左）",
+     "requires": "p14",
+     "spd": "med",
+     "duration_ms": null,
+     "advance_ms": null,
+     "advance_on_click": null,
+     "alternate_content": true,
+     "warnings": []
+    },
+    "animations": {
+     "items": 0
+    }
+   },
+   {
+    "index": 9,
+    "layout": "bullets",
+    "title": "trans-glitter-hex",
+    "shapes": {
+     "kicker": {
+      "id": 2,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title": {
+      "id": 3,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title-rule": {
+      "id": 4,
+      "kind": "shape",
+      "paragraphs": 1
+     },
+     "bullets": {
+      "id": 5,
+      "kind": "text",
+      "paragraphs": 3
+     },
+     "footer": {
+      "id": 6,
+      "kind": "text",
+      "paragraphs": 1
+     }
+    },
+    "transition": {
+     "effect": "glitter-diamond-left",
+     "zh": "闪耀（diamond-left）",
+     "requires": "p14",
+     "spd": "med",
+     "duration_ms": null,
+     "advance_ms": null,
+     "advance_on_click": null,
+     "alternate_content": true,
+     "warnings": []
+    },
+    "animations": {
+     "items": 0
+    }
+   },
+   {
+    "index": 10,
+    "layout": "bullets",
+    "title": "trans-doors-v",
+    "shapes": {
+     "kicker": {
+      "id": 2,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title": {
+      "id": 3,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title-rule": {
+      "id": 4,
+      "kind": "shape",
+      "paragraphs": 1
+     },
+     "bullets": {
+      "id": 5,
+      "kind": "text",
+      "paragraphs": 3
+     },
+     "footer": {
+      "id": 6,
+      "kind": "text",
+      "paragraphs": 1
+     }
+    },
+    "transition": {
+     "effect": "doors-vertical",
+     "zh": "门（垂直）",
+     "requires": "p14",
+     "spd": null,
+     "duration_ms": 1100,
+     "advance_ms": null,
+     "advance_on_click": null,
+     "alternate_content": true,
+     "warnings": []
+    },
+    "animations": {
+     "items": 0
+    }
+   },
+   {
+    "index": 11,
+    "layout": "bullets",
+    "title": "trans-morph",
+    "shapes": {
+     "kicker": {
+      "id": 2,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title": {
+      "id": 3,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title-rule": {
+      "id": 4,
+      "kind": "shape",
+      "paragraphs": 1
+     },
+     "bullets": {
+      "id": 5,
+      "kind": "text",
+      "paragraphs": 3
+     },
+     "footer": {
+      "id": 6,
+      "kind": "text",
+      "paragraphs": 1
+     }
+    },
+    "transition": {
+     "effect": "morph-by-object",
+     "zh": "变形（按对象）",
+     "requires": "p159",
+     "spd": "med",
+     "duration_ms": null,
+     "advance_ms": null,
+     "advance_on_click": null,
+     "alternate_content": true,
+     "warnings": []
+    },
+    "animations": {
+     "items": 0
+    }
+   },
+   {
+    "index": 12,
+    "layout": "bullets",
+    "title": "trans-morph-word",
+    "shapes": {
+     "kicker": {
+      "id": 2,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title": {
+      "id": 3,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title-rule": {
+      "id": 4,
+      "kind": "shape",
+      "paragraphs": 1
+     },
+     "bullets": {
+      "id": 5,
+      "kind": "text",
+      "paragraphs": 3
+     },
+     "footer": {
+      "id": 6,
+      "kind": "text",
+      "paragraphs": 1
+     }
+    },
+    "transition": {
+     "effect": "morph-by-word",
+     "zh": "变形（按单词）",
+     "requires": "p159",
+     "spd": null,
+     "duration_ms": 1500,
+     "advance_ms": null,
+     "advance_on_click": null,
+     "alternate_content": true,
+     "warnings": []
+    },
+    "animations": {
+     "items": 0
+    }
+   },
+   {
+    "index": 13,
+    "layout": "bullets",
+    "title": "trans-fallover-left",
+    "shapes": {
+     "kicker": {
+      "id": 2,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title": {
+      "id": 3,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title-rule": {
+      "id": 4,
+      "kind": "shape",
+      "paragraphs": 1
+     },
+     "bullets": {
+      "id": 5,
+      "kind": "text",
+      "paragraphs": 3
+     },
+     "footer": {
+      "id": 6,
+      "kind": "text",
+      "paragraphs": 1
+     }
+    },
+    "transition": {
+     "effect": "fall-over-left",
+     "zh": "翻覆（左）",
+     "requires": "p15",
+     "spd": "med",
+     "duration_ms": null,
+     "advance_ms": null,
+     "advance_on_click": null,
+     "alternate_content": true,
+     "warnings": []
+    },
+    "animations": {
+     "items": 0
+    }
+   },
+   {
+    "index": 14,
+    "layout": "bullets",
+    "title": "trans-origami-right",
+    "shapes": {
+     "kicker": {
+      "id": 2,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title": {
+      "id": 3,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title-rule": {
+      "id": 4,
+      "kind": "shape",
+      "paragraphs": 1
+     },
+     "bullets": {
+      "id": 5,
+      "kind": "text",
+      "paragraphs": 3
+     },
+     "footer": {
+      "id": 6,
+      "kind": "text",
+      "paragraphs": 1
+     }
+    },
+    "transition": {
+     "effect": "origami-right",
+     "zh": "折纸（右）",
+     "requires": "p15",
+     "spd": "med",
+     "duration_ms": null,
+     "advance_ms": null,
+     "advance_on_click": null,
+     "alternate_content": true,
+     "warnings": []
+    },
+    "animations": {
+     "items": 0
+    }
+   },
+   {
+    "index": 15,
+    "layout": "bullets",
+    "title": "trans-none-advance",
+    "shapes": {
+     "kicker": {
+      "id": 2,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title": {
+      "id": 3,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title-rule": {
+      "id": 4,
+      "kind": "shape",
+      "paragraphs": 1
+     },
+     "bullets": {
+      "id": 5,
+      "kind": "text",
+      "paragraphs": 3
+     },
+     "footer": {
+      "id": 6,
+      "kind": "text",
+      "paragraphs": 1
+     }
+    },
+    "transition": {
+     "effect": "none",
+     "zh": "无切换",
+     "spd": "med",
+     "duration_ms": null,
+     "advance_ms": 2000,
+     "alternate_content": false,
+     "warnings": []
+    },
+    "animations": {
+     "items": 0
+    }
+   },
+   {
+    "index": 16,
+    "layout": "bullets",
+    "title": "anim-fade-click",
+    "shapes": {
+     "kicker": {
+      "id": 2,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title": {
+      "id": 3,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title-rule": {
+      "id": 4,
+      "kind": "shape",
+      "paragraphs": 1
+     },
+     "bullets": {
+      "id": 5,
+      "kind": "text",
+      "paragraphs": 3
+     },
+     "footer": {
+      "id": 6,
+      "kind": "text",
+      "paragraphs": 1
+     }
+    },
+    "transition": null,
+    "animations": {
+     "items": 1,
+     "groups": 1,
+     "built_shapes": [
+      3
+     ],
+     "ids_used": 7
+    }
+   },
+   {
+    "index": 17,
+    "layout": "bullets",
+    "title": "anim-fly-with",
+    "shapes": {
+     "kicker": {
+      "id": 2,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title": {
+      "id": 3,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title-rule": {
+      "id": 4,
+      "kind": "shape",
+      "paragraphs": 1
+     },
+     "bullets": {
+      "id": 5,
+      "kind": "text",
+      "paragraphs": 3
+     },
+     "footer": {
+      "id": 6,
+      "kind": "text",
+      "paragraphs": 1
+     }
+    },
+    "transition": null,
+    "animations": {
+     "items": 1,
+     "groups": 1,
+     "built_shapes": [
+      3
+     ],
+     "ids_used": 8
+    }
+   },
+   {
+    "index": 18,
+    "layout": "bullets",
+    "title": "anim-zoom-after",
+    "shapes": {
+     "kicker": {
+      "id": 2,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title": {
+      "id": 3,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title-rule": {
+      "id": 4,
+      "kind": "shape",
+      "paragraphs": 1
+     },
+     "bullets": {
+      "id": 5,
+      "kind": "text",
+      "paragraphs": 3
+     },
+     "footer": {
+      "id": 6,
+      "kind": "text",
+      "paragraphs": 1
+     }
+    },
+    "transition": null,
+    "animations": {
+     "items": 1,
+     "groups": 1,
+     "built_shapes": [
+      3
+     ],
+     "ids_used": 8
+    }
+   },
+   {
+    "index": 19,
+    "layout": "bullets",
+    "title": "anim-exit-fade",
+    "shapes": {
+     "kicker": {
+      "id": 2,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title": {
+      "id": 3,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title-rule": {
+      "id": 4,
+      "kind": "shape",
+      "paragraphs": 1
+     },
+     "bullets": {
+      "id": 5,
+      "kind": "text",
+      "paragraphs": 3
+     },
+     "footer": {
+      "id": 6,
+      "kind": "text",
+      "paragraphs": 1
+     }
+    },
+    "transition": null,
+    "animations": {
+     "items": 1,
+     "groups": 1,
+     "built_shapes": [
+      3
+     ],
+     "ids_used": 7
+    }
+   },
+   {
+    "index": 20,
+    "layout": "bullets",
+    "title": "anim-path-circle",
+    "shapes": {
+     "kicker": {
+      "id": 2,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title": {
+      "id": 3,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title-rule": {
+      "id": 4,
+      "kind": "shape",
+      "paragraphs": 1
+     },
+     "bullets": {
+      "id": 5,
+      "kind": "text",
+      "paragraphs": 3
+     },
+     "footer": {
+      "id": 6,
+      "kind": "text",
+      "paragraphs": 1
+     }
+    },
+    "transition": null,
+    "animations": {
+     "items": 1,
+     "groups": 1,
+     "built_shapes": [
+      3
+     ],
+     "ids_used": 6
+    }
+   },
+   {
+    "index": 21,
+    "layout": "bullets",
+    "title": "anim-spin-repeat",
+    "shapes": {
+     "kicker": {
+      "id": 2,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title": {
+      "id": 3,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title-rule": {
+      "id": 4,
+      "kind": "shape",
+      "paragraphs": 1
+     },
+     "bullets": {
+      "id": 5,
+      "kind": "text",
+      "paragraphs": 3
+     },
+     "footer": {
+      "id": 6,
+      "kind": "text",
+      "paragraphs": 1
+     }
+    },
+    "transition": null,
+    "animations": {
+     "items": 1,
+     "groups": 1,
+     "built_shapes": [
+      3
+     ],
+     "ids_used": 6
+    }
+   },
+   {
+    "index": 22,
+    "layout": "bullets",
+    "title": "anim-smooth",
+    "shapes": {
+     "kicker": {
+      "id": 2,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title": {
+      "id": 3,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title-rule": {
+      "id": 4,
+      "kind": "shape",
+      "paragraphs": 1
+     },
+     "bullets": {
+      "id": 5,
+      "kind": "text",
+      "paragraphs": 3
+     },
+     "footer": {
+      "id": 6,
+      "kind": "text",
+      "paragraphs": 1
+     }
+    },
+    "transition": null,
+    "animations": {
+     "items": 1,
+     "groups": 1,
+     "built_shapes": [
+      3
+     ],
+     "ids_used": 7
+    }
+   },
+   {
+    "index": 23,
+    "layout": "bullets",
+    "title": "anim-multi",
+    "shapes": {
+     "kicker": {
+      "id": 2,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title": {
+      "id": 3,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title-rule": {
+      "id": 4,
+      "kind": "shape",
+      "paragraphs": 1
+     },
+     "bullets": {
+      "id": 5,
+      "kind": "text",
+      "paragraphs": 3
+     },
+     "footer": {
+      "id": 6,
+      "kind": "text",
+      "paragraphs": 1
+     }
+    },
+    "transition": null,
+    "animations": {
+     "items": 3,
+     "groups": 1,
+     "built_shapes": [
+      3,
+      5
+     ],
+     "ids_used": 13
+    }
+   },
+   {
+    "index": 24,
+    "layout": "bullets",
+    "title": "anim-paragraph",
+    "shapes": {
+     "kicker": {
+      "id": 2,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title": {
+      "id": 3,
+      "kind": "text",
+      "paragraphs": 1
+     },
+     "title-rule": {
+      "id": 4,
+      "kind": "shape",
+      "paragraphs": 1
+     },
+     "bullets": {
+      "id": 5,
+      "kind": "text",
+      "paragraphs": 3
+     },
+     "footer": {
+      "id": 6,
+      "kind": "text",
+      "paragraphs": 1
+     }
+    },
+    "transition": null,
+    "animations": {
+     "items": 3,
+     "groups": 3,
+     "built_shapes": [
+      5
+     ],
+     "ids_used": 17
+    }
+   }
+  ],
+  "warnings": [
+   "第 17 页动画: 首个动画设为 with/after，已按 PowerPoint 行为保留（组同时可被点击触发）",
+   "第 18 页动画: 首个动画设为 with/after，已按 PowerPoint 行为保留（组同时可被点击触发）"
+  ],
+  "slide_count": 24
+ },
+ "validate": {
+  "file": "E:\\pptx\\pptforge\\samples\\matrix.pptx",
+  "problems": [],
+  "stats": {
+   "slides": 24,
+   "pages_with_transition": 15,
+   "animation_effects": 13,
+   "problems": 0
+  }
+ },
+ "com": {
+  "available": true,
+  "slides": [
+   {
+    "index": 1,
+    "entry_effect": 1793,
+    "slide_shapes": 5,
+    "animations": []
+   },
+   {
+    "index": 2,
+    "entry_effect": 3849,
+    "slide_shapes": 5,
+    "animations": []
+   },
+   {
+    "index": 3,
+    "entry_effect": 257,
+    "slide_shapes": 5,
+    "animations": []
+   },
+   {
+    "index": 4,
+    "entry_effect": 1281,
+    "slide_shapes": 5,
+    "animations": []
+   },
+   {
+    "index": 5,
+    "entry_effect": 3855,
+    "slide_shapes": 5,
+    "animations": []
+   },
+   {
+    "index": 6,
+    "entry_effect": 3585,
+    "slide_shapes": 5,
+    "animations": []
+   },
+   {
+    "index": 7,
+    "entry_effect": 3074,
+    "slide_shapes": 5,
+    "animations": []
+   },
+   {
+    "index": 8,
+    "entry_effect": 3863,
+    "slide_shapes": 5,
+    "animations": []
+   },
+   {
+    "index": 9,
+    "entry_effect": 3872,
+    "slide_shapes": 5,
+    "animations": []
+   },
+   {
+    "index": 10,
+    "entry_effect": 3884,
+    "slide_shapes": 5,
+    "animations": []
+   },
+   {
+    "index": 11,
+    "entry_effect": 3954,
+    "slide_shapes": 5,
+    "animations": []
+   },
+   {
+    "index": 12,
+    "entry_effect": 3955,
+    "slide_shapes": 5,
+    "animations": []
+   },
+   {
+    "index": 13,
+    "entry_effect": 3934,
+    "slide_shapes": 5,
+    "animations": []
+   },
+   {
+    "index": 14,
+    "entry_effect": 3953,
+    "slide_shapes": 5,
+    "animations": []
+   },
+   {
+    "index": 15,
+    "entry_effect": 0,
+    "slide_shapes": 5,
+    "animations": []
+   },
+   {
+    "index": 16,
+    "entry_effect": 0,
+    "slide_shapes": 5,
+    "animations": [
+     {
+      "type": 10,
+      "exit": false,
+      "trigger": 1,
+      "duration": 0.5,
+      "shape_id": 3,
+      "shape_name": "title"
+     }
+    ]
+   },
+   {
+    "index": 17,
+    "entry_effect": 0,
+    "slide_shapes": 5,
+    "animations": [
+     {
+      "type": 2,
+      "exit": false,
+      "trigger": 2,
+      "duration": 0.5,
+      "shape_id": 3,
+      "shape_name": "title"
+     }
+    ]
+   },
+   {
+    "index": 18,
+    "entry_effect": 0,
+    "slide_shapes": 5,
+    "animations": [
+     {
+      "type": 23,
+      "exit": false,
+      "trigger": 3,
+      "duration": 0.8,
+      "shape_id": 3,
+      "shape_name": "title"
+     }
+    ]
+   },
+   {
+    "index": 19,
+    "entry_effect": 0,
+    "slide_shapes": 5,
+    "animations": [
+     {
+      "type": 10,
+      "exit": true,
+      "trigger": 1,
+      "duration": 1.499,
+      "shape_id": 3,
+      "shape_name": "title"
+     }
+    ]
+   },
+   {
+    "index": 20,
+    "entry_effect": 0,
+    "slide_shapes": 5,
+    "animations": [
+     {
+      "type": 86,
+      "exit": false,
+      "trigger": 1,
+      "duration": 1.2,
+      "shape_id": 3,
+      "shape_name": "title"
+     }
+    ]
+   },
+   {
+    "index": 21,
+    "entry_effect": 0,
+    "slide_shapes": 5,
+    "animations": [
+     {
+      "type": 61,
+      "exit": false,
+      "trigger": 1,
+      "duration": 0.5,
+      "shape_id": 3,
+      "shape_name": "title"
+     }
+    ]
+   },
+   {
+    "index": 22,
+    "entry_effect": 0,
+    "slide_shapes": 5,
+    "animations": [
+     {
+      "type": 10,
+      "exit": false,
+      "trigger": 1,
+      "duration": 1.0,
+      "shape_id": 3,
+      "shape_name": "title"
+     }
+    ]
+   },
+   {
+    "index": 23,
+    "entry_effect": 0,
+    "slide_shapes": 5,
+    "animations": [
+     {
+      "type": 10,
+      "exit": false,
+      "trigger": 1,
+      "duration": 0.5,
+      "shape_id": 3,
+      "shape_name": "title"
+     },
+     {
+      "type": 2,
+      "exit": false,
+      "trigger": 2,
+      "duration": 0.7,
+      "shape_id": 5,
+      "shape_name": "bullets"
+     }
+    ]
+   },
+   {
+    "index": 24,
+    "entry_effect": 0,
+    "slide_shapes": 5,
+    "animations": [
+     {
+      "type": 22,
+      "exit": false,
+      "trigger": 1,
+      "duration": 0.5,
+      "shape_id": 5,
+      "shape_name": "bullets"
+     },
+     {
+      "type": 22,
+      "exit": false,
+      "trigger": 1,
+      "duration": 0.5,
+      "shape_id": 5,
+      "shape_name": "bullets"
+     },
+     {
+      "type": 22,
+      "exit": false,
+      "trigger": 1,
+      "duration": 0.5,
+      "shape_id": 5,
+      "shape_name": "bullets"
+     }
+    ]
+   }
+  ],
+  "slide_count": 24
+ }
+}

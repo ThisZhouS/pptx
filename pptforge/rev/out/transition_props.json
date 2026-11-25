@@ -1,0 +1,328 @@
+{
+ "fade_base": {
+  "label": "fade_base",
+  "entry_effect": 1793,
+  "kwargs": {
+   "Speed": 2
+  },
+  "results": {
+   "Speed": [
+    "ok",
+    2
+   ]
+  },
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "fade"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:fade thruBlk=\"1\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "fade_dur_only": {
+  "label": "fade_dur_only",
+  "entry_effect": 1793,
+  "kwargs": {
+   "Duration": 2.5
+  },
+  "results": {
+   "Duration": [
+    "ok",
+    2.5
+   ]
+  },
+  "transition": {
+   "attrs": {
+    "spd": "slow",
+    "dur": "2500"
+   },
+   "children": [
+    "fade"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"slow\" p14:dur=\"2500\">\n        <p:fade thruBlk=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "fade_dur03_fast": {
+  "label": "fade_dur03_fast",
+  "entry_effect": 1793,
+  "kwargs": {
+   "Duration": 0.3,
+   "Speed": 3
+  },
+  "results": {
+   "Duration": [
+    "ok",
+    0.30000001192092896
+   ],
+   "Speed": [
+    "ok",
+    3
+   ]
+  },
+  "transition": {
+   "attrs": {},
+   "children": [
+    "fade"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\">\n    <p:fade thruBlk=\"1\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "fade_slow": {
+  "label": "fade_slow",
+  "entry_effect": 1793,
+  "kwargs": {
+   "Speed": 1
+  },
+  "results": {
+   "Speed": [
+    "ok",
+    1
+   ]
+  },
+  "transition": {
+   "attrs": {
+    "spd": "slow"
+   },
+   "children": [
+    "fade"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"slow\">\n    <p:fade thruBlk=\"1\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "fade_fast": {
+  "label": "fade_fast",
+  "entry_effect": 1793,
+  "kwargs": {
+   "Speed": 3
+  },
+  "results": {
+   "Speed": [
+    "ok",
+    3
+   ]
+  },
+  "transition": {
+   "attrs": {},
+   "children": [
+    "fade"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\">\n    <p:fade thruBlk=\"1\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "fade_adv_click_off": {
+  "label": "fade_adv_click_off",
+  "entry_effect": 1793,
+  "kwargs": {
+   "AdvanceOnClick": 0
+  },
+  "results": {
+   "AdvanceOnClick": [
+    "ok",
+    0
+   ]
+  },
+  "transition": {
+   "attrs": {
+    "spd": "slow",
+    "dur": "2000",
+    "advClick": "0"
+   },
+   "children": [
+    "fade"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"slow\" p14:dur=\"2000\" advClick=\"0\">\n        <p:fade thruBlk=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "fade_adv_time3": {
+  "label": "fade_adv_time3",
+  "entry_effect": 1793,
+  "kwargs": {
+   "AdvanceOnTime": -1,
+   "AdvanceTime": 3.0
+  },
+  "results": {
+   "AdvanceOnTime": [
+    "ok",
+    -1
+   ],
+   "AdvanceTime": [
+    "ok",
+    3.0
+   ]
+  },
+  "transition": {
+   "attrs": {
+    "spd": "slow",
+    "dur": "2000",
+    "advTm": "3000"
+   },
+   "children": [
+    "fade"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"slow\" p14:dur=\"2000\" advTm=\"3000\">\n        <p:fade thruBlk=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "fade_adv_click_off_time1": {
+  "label": "fade_adv_click_off_time1",
+  "entry_effect": 1793,
+  "kwargs": {
+   "AdvanceOnClick": 0,
+   "AdvanceOnTime": -1,
+   "AdvanceTime": 1.0
+  },
+  "results": {
+   "AdvanceOnClick": [
+    "ok",
+    0
+   ],
+   "AdvanceOnTime": [
+    "ok",
+    -1
+   ],
+   "AdvanceTime": [
+    "ok",
+    1.0
+   ]
+  },
+  "transition": {
+   "attrs": {
+    "spd": "slow",
+    "dur": "2000",
+    "advClick": "0",
+    "advTm": "1000"
+   },
+   "children": [
+    "fade"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"slow\" p14:dur=\"2000\" advClick=\"0\" advTm=\"1000\">\n        <p:fade thruBlk=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "morph_dur2": {
+  "label": "morph_dur2",
+  "entry_effect": 3954,
+  "kwargs": {
+   "Duration": 2.0
+  },
+  "results": {
+   "Duration": [
+    "ok",
+    2.0
+   ]
+  },
+  "transition": {
+   "attrs": {
+    "spd": "slow",
+    "dur": "2000"
+   },
+   "children": [
+    "morph"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2015/09/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p159=\"http://schemas.microsoft.com/office/powerpoint/2015/09/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"slow\" p14:dur=\"2000\">\n        <p159:morph option=\"byObject\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "push_dur15": {
+  "label": "push_dur15",
+  "entry_effect": 3853,
+  "kwargs": {
+   "Duration": 1.5,
+   "Speed": 2
+  },
+  "results": {
+   "Duration": [
+    "ok",
+    1.5
+   ],
+   "Speed": [
+    "ok",
+    2
+   ]
+  },
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "push"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:push/>\n  </p:transition>\n\n"
+  }
+ },
+ "none_plain": {
+  "label": "none_plain",
+  "entry_effect": 0,
+  "kwargs": {},
+  "results": {},
+  "transition": null
+ },
+ "none_adv_time2": {
+  "label": "none_adv_time2",
+  "entry_effect": 0,
+  "kwargs": {
+   "AdvanceOnTime": -1,
+   "AdvanceTime": 2.0
+  },
+  "results": {
+   "AdvanceOnTime": [
+    "ok",
+    -1
+   ],
+   "AdvanceTime": [
+    "ok",
+    2.0
+   ]
+  },
+  "transition": {
+   "attrs": {
+    "spd": "slow",
+    "dur": "2000",
+    "advTm": "2000"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"slow\" p14:dur=\"2000\" advTm=\"2000\"/>\n    \n"
+  }
+ }
+}

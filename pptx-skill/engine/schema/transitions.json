@@ -1,0 +1,2697 @@
+{
+ "meta": {
+  "source": "PowerPoint 16.0 (build 20625) ground-truth sampling via COM SlideShowTransition",
+  "generated_by": "rev/acquire_transitions.py + rev/acquire_transition_props.py",
+  "rules": {
+   "placement": "<p:transition> 位于 <p:sld> 内、<p:clrMapOvr> 之后、<p:timing> 之前",
+   "p_elements": "p 命名空间元素可直接写裸 <p:transition>",
+   "p14_p15_p159": "非 p 命名空间元素必须包在 mc:AlternateContent/mc:Choice Requires=\"p14|p15|p159\"；mc:Fallback 写 <p:transition><p:fade/></p:transition>",
+   "p14_dur": "精确时长用属性 p14:dur（毫秒）；一旦使用就必须走 mc:AlternateContent Requires=\"p14\"，Fallback 为去掉该属性的同名 transition",
+   "spd": "spd=slow|med|fast 对应 COM Speed=1/2/3；fast 为默认可省略",
+   "fast_default": "Duration 与 Speed 互相覆盖，先设者被后者覆盖（COM 行为，写 PPT 时二选一）",
+   "advTm": "自动换片毫秒；advClick=\"0\" 关闭点击换片",
+   "empty": "无效果但需要换片条件时写空 <p:transition spd=\"...\"/>"
+  }
+ },
+ "effects": {
+  "cut": {
+   "id": "cut",
+   "zh": "切割",
+   "enum_name": "ppEffectCut",
+   "pp_value": 257,
+   "element": "p:cut",
+   "prefix": "p",
+   "local": "cut",
+   "element_attrs": {},
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   },
+   "also": [
+    "ppEffectAppear"
+   ]
+  },
+  "cut-through-black": {
+   "id": "cut-through-black",
+   "zh": "通过黑场切割",
+   "enum_name": "ppEffectCutThroughBlack",
+   "pp_value": 258,
+   "element": "p:cut",
+   "prefix": "p",
+   "local": "cut",
+   "element_attrs": {
+    "thruBlk": "1"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "random": {
+   "id": "random",
+   "zh": "随机",
+   "enum_name": "ppEffectRandom",
+   "pp_value": 513,
+   "element": "p:random",
+   "prefix": "p",
+   "local": "random",
+   "element_attrs": {},
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "blinds-horizontal": {
+   "id": "blinds-horizontal",
+   "zh": "百叶窗（水平）",
+   "enum_name": "ppEffectBlindsHorizontal",
+   "pp_value": 769,
+   "element": "p:blinds",
+   "prefix": "p",
+   "local": "blinds",
+   "element_attrs": {},
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "blinds-vertical": {
+   "id": "blinds-vertical",
+   "zh": "百叶窗（垂直）",
+   "enum_name": "ppEffectBlindsVertical",
+   "pp_value": 770,
+   "element": "p:blinds",
+   "prefix": "p",
+   "local": "blinds",
+   "element_attrs": {
+    "dir": "vert"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "checkerboard-across": {
+   "id": "checkerboard-across",
+   "zh": "棋盘（横向）",
+   "enum_name": "ppEffectCheckerboardAcross",
+   "pp_value": 1025,
+   "element": "p:checker",
+   "prefix": "p",
+   "local": "checker",
+   "element_attrs": {},
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "checkerboard-down": {
+   "id": "checkerboard-down",
+   "zh": "棋盘（下）",
+   "enum_name": "ppEffectCheckerboardDown",
+   "pp_value": 1026,
+   "element": "p:checker",
+   "prefix": "p",
+   "local": "checker",
+   "element_attrs": {
+    "dir": "vert"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "cover-left": {
+   "id": "cover-left",
+   "zh": "覆盖（左）",
+   "enum_name": "ppEffectCoverLeft",
+   "pp_value": 1281,
+   "element": "p:cover",
+   "prefix": "p",
+   "local": "cover",
+   "element_attrs": {},
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "cover-up": {
+   "id": "cover-up",
+   "zh": "覆盖（上）",
+   "enum_name": "ppEffectCoverUp",
+   "pp_value": 1282,
+   "element": "p:cover",
+   "prefix": "p",
+   "local": "cover",
+   "element_attrs": {
+    "dir": "u"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "cover-right": {
+   "id": "cover-right",
+   "zh": "覆盖（右）",
+   "enum_name": "ppEffectCoverRight",
+   "pp_value": 1283,
+   "element": "p:cover",
+   "prefix": "p",
+   "local": "cover",
+   "element_attrs": {
+    "dir": "r"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "cover-down": {
+   "id": "cover-down",
+   "zh": "覆盖（下）",
+   "enum_name": "ppEffectCoverDown",
+   "pp_value": 1284,
+   "element": "p:cover",
+   "prefix": "p",
+   "local": "cover",
+   "element_attrs": {
+    "dir": "d"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "cover-left-up": {
+   "id": "cover-left-up",
+   "zh": "覆盖（左上）",
+   "enum_name": "ppEffectCoverLeftUp",
+   "pp_value": 1285,
+   "element": "p:cover",
+   "prefix": "p",
+   "local": "cover",
+   "element_attrs": {
+    "dir": "lu"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "cover-right-up": {
+   "id": "cover-right-up",
+   "zh": "覆盖（右上）",
+   "enum_name": "ppEffectCoverRightUp",
+   "pp_value": 1286,
+   "element": "p:cover",
+   "prefix": "p",
+   "local": "cover",
+   "element_attrs": {
+    "dir": "ru"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "cover-left-down": {
+   "id": "cover-left-down",
+   "zh": "覆盖（左下）",
+   "enum_name": "ppEffectCoverLeftDown",
+   "pp_value": 1287,
+   "element": "p:cover",
+   "prefix": "p",
+   "local": "cover",
+   "element_attrs": {
+    "dir": "ld"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "cover-right-down": {
+   "id": "cover-right-down",
+   "zh": "覆盖（右下）",
+   "enum_name": "ppEffectCoverRightDown",
+   "pp_value": 1288,
+   "element": "p:cover",
+   "prefix": "p",
+   "local": "cover",
+   "element_attrs": {
+    "dir": "rd"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "dissolve": {
+   "id": "dissolve",
+   "zh": "溶解",
+   "enum_name": "ppEffectDissolve",
+   "pp_value": 1537,
+   "element": "p:dissolve",
+   "prefix": "p",
+   "local": "dissolve",
+   "element_attrs": {},
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "fade": {
+   "id": "fade",
+   "zh": "淡出",
+   "enum_name": "ppEffectFade",
+   "pp_value": 1793,
+   "element": "p:fade",
+   "prefix": "p",
+   "local": "fade",
+   "element_attrs": {
+    "thruBlk": "1"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "uncover-left": {
+   "id": "uncover-left",
+   "zh": "揭开（左）",
+   "enum_name": "ppEffectUncoverLeft",
+   "pp_value": 2049,
+   "element": "p:pull",
+   "prefix": "p",
+   "local": "pull",
+   "element_attrs": {},
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "uncover-up": {
+   "id": "uncover-up",
+   "zh": "揭开（上）",
+   "enum_name": "ppEffectUncoverUp",
+   "pp_value": 2050,
+   "element": "p:pull",
+   "prefix": "p",
+   "local": "pull",
+   "element_attrs": {
+    "dir": "u"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "uncover-right": {
+   "id": "uncover-right",
+   "zh": "揭开（右）",
+   "enum_name": "ppEffectUncoverRight",
+   "pp_value": 2051,
+   "element": "p:pull",
+   "prefix": "p",
+   "local": "pull",
+   "element_attrs": {
+    "dir": "r"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "uncover-down": {
+   "id": "uncover-down",
+   "zh": "揭开（下）",
+   "enum_name": "ppEffectUncoverDown",
+   "pp_value": 2052,
+   "element": "p:pull",
+   "prefix": "p",
+   "local": "pull",
+   "element_attrs": {
+    "dir": "d"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "uncover-left-up": {
+   "id": "uncover-left-up",
+   "zh": "揭开（左上）",
+   "enum_name": "ppEffectUncoverLeftUp",
+   "pp_value": 2053,
+   "element": "p:pull",
+   "prefix": "p",
+   "local": "pull",
+   "element_attrs": {
+    "dir": "lu"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "uncover-right-up": {
+   "id": "uncover-right-up",
+   "zh": "揭开（右上）",
+   "enum_name": "ppEffectUncoverRightUp",
+   "pp_value": 2054,
+   "element": "p:pull",
+   "prefix": "p",
+   "local": "pull",
+   "element_attrs": {
+    "dir": "ru"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "uncover-left-down": {
+   "id": "uncover-left-down",
+   "zh": "揭开（左下）",
+   "enum_name": "ppEffectUncoverLeftDown",
+   "pp_value": 2055,
+   "element": "p:pull",
+   "prefix": "p",
+   "local": "pull",
+   "element_attrs": {
+    "dir": "ld"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "uncover-right-down": {
+   "id": "uncover-right-down",
+   "zh": "揭开（右下）",
+   "enum_name": "ppEffectUncoverRightDown",
+   "pp_value": 2056,
+   "element": "p:pull",
+   "prefix": "p",
+   "local": "pull",
+   "element_attrs": {
+    "dir": "rd"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "random-bars-horizontal": {
+   "id": "random-bars-horizontal",
+   "zh": "随机线条（水平）",
+   "enum_name": "ppEffectRandomBarsHorizontal",
+   "pp_value": 2305,
+   "element": "p:randomBar",
+   "prefix": "p",
+   "local": "randomBar",
+   "element_attrs": {},
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "random-bars-vertical": {
+   "id": "random-bars-vertical",
+   "zh": "随机线条（垂直）",
+   "enum_name": "ppEffectRandomBarsVertical",
+   "pp_value": 2306,
+   "element": "p:randomBar",
+   "prefix": "p",
+   "local": "randomBar",
+   "element_attrs": {
+    "dir": "vert"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "strips-up-left": {
+   "id": "strips-up-left",
+   "zh": "剥离（左上）",
+   "enum_name": "ppEffectStripsUpLeft",
+   "pp_value": 2561,
+   "element": "p:strips",
+   "prefix": "p",
+   "local": "strips",
+   "element_attrs": {},
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   },
+   "also": [
+    "ppEffectStripsLeftUp"
+   ]
+  },
+  "strips-up-right": {
+   "id": "strips-up-right",
+   "zh": "剥离（右上）",
+   "enum_name": "ppEffectStripsUpRight",
+   "pp_value": 2562,
+   "element": "p:strips",
+   "prefix": "p",
+   "local": "strips",
+   "element_attrs": {
+    "dir": "ru"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   },
+   "also": [
+    "ppEffectStripsRightUp"
+   ]
+  },
+  "strips-down-left": {
+   "id": "strips-down-left",
+   "zh": "剥离（左下）",
+   "enum_name": "ppEffectStripsDownLeft",
+   "pp_value": 2563,
+   "element": "p:strips",
+   "prefix": "p",
+   "local": "strips",
+   "element_attrs": {
+    "dir": "ld"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   },
+   "also": [
+    "ppEffectStripsLeftDown"
+   ]
+  },
+  "strips-down-right": {
+   "id": "strips-down-right",
+   "zh": "剥离（右下）",
+   "enum_name": "ppEffectStripsDownRight",
+   "pp_value": 2564,
+   "element": "p:strips",
+   "prefix": "p",
+   "local": "strips",
+   "element_attrs": {
+    "dir": "rd"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   },
+   "also": [
+    "ppEffectStripsRightDown"
+   ]
+  },
+  "wipe-left": {
+   "id": "wipe-left",
+   "zh": "擦除（左）",
+   "enum_name": "ppEffectWipeLeft",
+   "pp_value": 2817,
+   "element": "p:wipe",
+   "prefix": "p",
+   "local": "wipe",
+   "element_attrs": {},
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "wipe-up": {
+   "id": "wipe-up",
+   "zh": "擦除（上）",
+   "enum_name": "ppEffectWipeUp",
+   "pp_value": 2818,
+   "element": "p:wipe",
+   "prefix": "p",
+   "local": "wipe",
+   "element_attrs": {
+    "dir": "u"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "wipe-right": {
+   "id": "wipe-right",
+   "zh": "擦除（右）",
+   "enum_name": "ppEffectWipeRight",
+   "pp_value": 2819,
+   "element": "p:wipe",
+   "prefix": "p",
+   "local": "wipe",
+   "element_attrs": {
+    "dir": "r"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "wipe-down": {
+   "id": "wipe-down",
+   "zh": "擦除（下）",
+   "enum_name": "ppEffectWipeDown",
+   "pp_value": 2820,
+   "element": "p:wipe",
+   "prefix": "p",
+   "local": "wipe",
+   "element_attrs": {
+    "dir": "d"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "box-out": {
+   "id": "box-out",
+   "zh": "缩放（向外）",
+   "enum_name": "ppEffectBoxOut",
+   "pp_value": 3073,
+   "element": "p:zoom",
+   "prefix": "p",
+   "local": "zoom",
+   "element_attrs": {},
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "box-in": {
+   "id": "box-in",
+   "zh": "缩放（向内）",
+   "enum_name": "ppEffectBoxIn",
+   "pp_value": 3074,
+   "element": "p:zoom",
+   "prefix": "p",
+   "local": "zoom",
+   "element_attrs": {
+    "dir": "in"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "split-horizontal-out": {
+   "id": "split-horizontal-out",
+   "zh": "分割（水平向外）",
+   "enum_name": "ppEffectSplitHorizontalOut",
+   "pp_value": 3585,
+   "element": "p:split",
+   "prefix": "p",
+   "local": "split",
+   "element_attrs": {},
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "split-horizontal-in": {
+   "id": "split-horizontal-in",
+   "zh": "分割（水平向内）",
+   "enum_name": "ppEffectSplitHorizontalIn",
+   "pp_value": 3586,
+   "element": "p:split",
+   "prefix": "p",
+   "local": "split",
+   "element_attrs": {
+    "dir": "in"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "split-vertical-out": {
+   "id": "split-vertical-out",
+   "zh": "分割（垂直向外）",
+   "enum_name": "ppEffectSplitVerticalOut",
+   "pp_value": 3587,
+   "element": "p:split",
+   "prefix": "p",
+   "local": "split",
+   "element_attrs": {
+    "orient": "vert"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "split-vertical-in": {
+   "id": "split-vertical-in",
+   "zh": "分割（垂直向内）",
+   "enum_name": "ppEffectSplitVerticalIn",
+   "pp_value": 3588,
+   "element": "p:split",
+   "prefix": "p",
+   "local": "split",
+   "element_attrs": {
+    "orient": "vert",
+    "dir": "in"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "circle-out": {
+   "id": "circle-out",
+   "zh": "圆形（向外）",
+   "enum_name": "ppEffectCircleOut",
+   "pp_value": 3845,
+   "element": "p:circle",
+   "prefix": "p",
+   "local": "circle",
+   "element_attrs": {},
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "diamond-out": {
+   "id": "diamond-out",
+   "zh": "菱形（向外）",
+   "enum_name": "ppEffectDiamondOut",
+   "pp_value": 3846,
+   "element": "p:diamond",
+   "prefix": "p",
+   "local": "diamond",
+   "element_attrs": {},
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "comb-horizontal": {
+   "id": "comb-horizontal",
+   "zh": "梳状（水平）",
+   "enum_name": "ppEffectCombHorizontal",
+   "pp_value": 3847,
+   "element": "p:comb",
+   "prefix": "p",
+   "local": "comb",
+   "element_attrs": {},
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "comb-vertical": {
+   "id": "comb-vertical",
+   "zh": "梳状（垂直）",
+   "enum_name": "ppEffectCombVertical",
+   "pp_value": 3848,
+   "element": "p:comb",
+   "prefix": "p",
+   "local": "comb",
+   "element_attrs": {
+    "dir": "vert"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "fade-smoothly": {
+   "id": "fade-smoothly",
+   "zh": "平滑淡出",
+   "enum_name": "ppEffectFadeSmoothly",
+   "pp_value": 3849,
+   "element": "p:fade",
+   "prefix": "p",
+   "local": "fade",
+   "element_attrs": {},
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "newsflash": {
+   "id": "newsflash",
+   "zh": "新闻快报",
+   "enum_name": "ppEffectNewsflash",
+   "pp_value": 3850,
+   "element": "p:newsflash",
+   "prefix": "p",
+   "local": "newsflash",
+   "element_attrs": {},
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "plus-out": {
+   "id": "plus-out",
+   "zh": "加号（向外）",
+   "enum_name": "ppEffectPlusOut",
+   "pp_value": 3851,
+   "element": "p:plus",
+   "prefix": "p",
+   "local": "plus",
+   "element_attrs": {},
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "push-down": {
+   "id": "push-down",
+   "zh": "推进（下）",
+   "enum_name": "ppEffectPushDown",
+   "pp_value": 3852,
+   "element": "p:push",
+   "prefix": "p",
+   "local": "push",
+   "element_attrs": {
+    "dir": "d"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "push-left": {
+   "id": "push-left",
+   "zh": "推进（左）",
+   "enum_name": "ppEffectPushLeft",
+   "pp_value": 3853,
+   "element": "p:push",
+   "prefix": "p",
+   "local": "push",
+   "element_attrs": {},
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "push-right": {
+   "id": "push-right",
+   "zh": "推进（右）",
+   "enum_name": "ppEffectPushRight",
+   "pp_value": 3854,
+   "element": "p:push",
+   "prefix": "p",
+   "local": "push",
+   "element_attrs": {
+    "dir": "r"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "push-up": {
+   "id": "push-up",
+   "zh": "推进（上）",
+   "enum_name": "ppEffectPushUp",
+   "pp_value": 3855,
+   "element": "p:push",
+   "prefix": "p",
+   "local": "push",
+   "element_attrs": {
+    "dir": "u"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "wedge": {
+   "id": "wedge",
+   "zh": "楔形",
+   "enum_name": "ppEffectWedge",
+   "pp_value": 3856,
+   "element": "p:wedge",
+   "prefix": "p",
+   "local": "wedge",
+   "element_attrs": {},
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "wheel1-spoke": {
+   "id": "wheel1-spoke",
+   "zh": "wheel1-spoke",
+   "enum_name": "ppEffectWheel1Spoke",
+   "pp_value": 3857,
+   "element": "p:wheel",
+   "prefix": "p",
+   "local": "wheel",
+   "element_attrs": {
+    "spokes": "1"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "wheel2-spokes": {
+   "id": "wheel2-spokes",
+   "zh": "wheel2-spokes",
+   "enum_name": "ppEffectWheel2Spokes",
+   "pp_value": 3858,
+   "element": "p:wheel",
+   "prefix": "p",
+   "local": "wheel",
+   "element_attrs": {
+    "spokes": "2"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "wheel3-spokes": {
+   "id": "wheel3-spokes",
+   "zh": "wheel3-spokes",
+   "enum_name": "ppEffectWheel3Spokes",
+   "pp_value": 3859,
+   "element": "p:wheel",
+   "prefix": "p",
+   "local": "wheel",
+   "element_attrs": {
+    "spokes": "3"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "wheel4-spokes": {
+   "id": "wheel4-spokes",
+   "zh": "wheel4-spokes",
+   "enum_name": "ppEffectWheel4Spokes",
+   "pp_value": 3860,
+   "element": "p:wheel",
+   "prefix": "p",
+   "local": "wheel",
+   "element_attrs": {},
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "wheel8-spokes": {
+   "id": "wheel8-spokes",
+   "zh": "wheel8-spokes",
+   "enum_name": "ppEffectWheel8Spokes",
+   "pp_value": 3861,
+   "element": "p:wheel",
+   "prefix": "p",
+   "local": "wheel",
+   "element_attrs": {
+    "spokes": "8"
+   },
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "wheel-reverse1-spoke": {
+   "id": "wheel-reverse1-spoke",
+   "zh": "轮子（reverse1-spoke）",
+   "enum_name": "ppEffectWheelReverse1Spoke",
+   "pp_value": 3862,
+   "element": "p14:wheelReverse",
+   "prefix": "p14",
+   "local": "wheelReverse",
+   "element_attrs": {
+    "spokes": "1"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "vortex-left": {
+   "id": "vortex-left",
+   "zh": "涡流（左）",
+   "enum_name": "ppEffectVortexLeft",
+   "pp_value": 3863,
+   "element": "p14:vortex",
+   "prefix": "p14",
+   "local": "vortex",
+   "element_attrs": {},
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "vortex-up": {
+   "id": "vortex-up",
+   "zh": "涡流（上）",
+   "enum_name": "ppEffectVortexUp",
+   "pp_value": 3864,
+   "element": "p14:vortex",
+   "prefix": "p14",
+   "local": "vortex",
+   "element_attrs": {
+    "dir": "u"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "vortex-right": {
+   "id": "vortex-right",
+   "zh": "涡流（右）",
+   "enum_name": "ppEffectVortexRight",
+   "pp_value": 3865,
+   "element": "p14:vortex",
+   "prefix": "p14",
+   "local": "vortex",
+   "element_attrs": {
+    "dir": "r"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "vortex-down": {
+   "id": "vortex-down",
+   "zh": "涡流（下）",
+   "enum_name": "ppEffectVortexDown",
+   "pp_value": 3866,
+   "element": "p14:vortex",
+   "prefix": "p14",
+   "local": "vortex",
+   "element_attrs": {
+    "dir": "d"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "ripple-center": {
+   "id": "ripple-center",
+   "zh": "涟漪（center）",
+   "enum_name": "ppEffectRippleCenter",
+   "pp_value": 3867,
+   "element": "p14:ripple",
+   "prefix": "p14",
+   "local": "ripple",
+   "element_attrs": {},
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "ripple-right-up": {
+   "id": "ripple-right-up",
+   "zh": "涟漪（右上）",
+   "enum_name": "ppEffectRippleRightUp",
+   "pp_value": 3868,
+   "element": "p14:ripple",
+   "prefix": "p14",
+   "local": "ripple",
+   "element_attrs": {
+    "dir": "ru"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "ripple-left-up": {
+   "id": "ripple-left-up",
+   "zh": "涟漪（左上）",
+   "enum_name": "ppEffectRippleLeftUp",
+   "pp_value": 3869,
+   "element": "p14:ripple",
+   "prefix": "p14",
+   "local": "ripple",
+   "element_attrs": {
+    "dir": "lu"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "ripple-left-down": {
+   "id": "ripple-left-down",
+   "zh": "涟漪（左下）",
+   "enum_name": "ppEffectRippleLeftDown",
+   "pp_value": 3870,
+   "element": "p14:ripple",
+   "prefix": "p14",
+   "local": "ripple",
+   "element_attrs": {
+    "dir": "ld"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "ripple-right-down": {
+   "id": "ripple-right-down",
+   "zh": "涟漪（右下）",
+   "enum_name": "ppEffectRippleRightDown",
+   "pp_value": 3871,
+   "element": "p14:ripple",
+   "prefix": "p14",
+   "local": "ripple",
+   "element_attrs": {
+    "dir": "rd"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "glitter-diamond-left": {
+   "id": "glitter-diamond-left",
+   "zh": "闪耀（diamond-left）",
+   "enum_name": "ppEffectGlitterDiamondLeft",
+   "pp_value": 3872,
+   "element": "p14:glitter",
+   "prefix": "p14",
+   "local": "glitter",
+   "element_attrs": {
+    "dir": "r"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "glitter-diamond-up": {
+   "id": "glitter-diamond-up",
+   "zh": "闪耀（diamond-up）",
+   "enum_name": "ppEffectGlitterDiamondUp",
+   "pp_value": 3873,
+   "element": "p14:glitter",
+   "prefix": "p14",
+   "local": "glitter",
+   "element_attrs": {
+    "dir": "d"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "glitter-diamond-right": {
+   "id": "glitter-diamond-right",
+   "zh": "闪耀（diamond-right）",
+   "enum_name": "ppEffectGlitterDiamondRight",
+   "pp_value": 3874,
+   "element": "p14:glitter",
+   "prefix": "p14",
+   "local": "glitter",
+   "element_attrs": {},
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "glitter-diamond-down": {
+   "id": "glitter-diamond-down",
+   "zh": "闪耀（diamond-down）",
+   "enum_name": "ppEffectGlitterDiamondDown",
+   "pp_value": 3875,
+   "element": "p14:glitter",
+   "prefix": "p14",
+   "local": "glitter",
+   "element_attrs": {
+    "dir": "u"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "glitter-hexagon-left": {
+   "id": "glitter-hexagon-left",
+   "zh": "闪耀（hexagon-left）",
+   "enum_name": "ppEffectGlitterHexagonLeft",
+   "pp_value": 3876,
+   "element": "p14:glitter",
+   "prefix": "p14",
+   "local": "glitter",
+   "element_attrs": {
+    "dir": "r",
+    "pattern": "hexagon"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "glitter-hexagon-up": {
+   "id": "glitter-hexagon-up",
+   "zh": "闪耀（hexagon-up）",
+   "enum_name": "ppEffectGlitterHexagonUp",
+   "pp_value": 3877,
+   "element": "p14:glitter",
+   "prefix": "p14",
+   "local": "glitter",
+   "element_attrs": {
+    "dir": "d",
+    "pattern": "hexagon"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "glitter-hexagon-right": {
+   "id": "glitter-hexagon-right",
+   "zh": "闪耀（hexagon-right）",
+   "enum_name": "ppEffectGlitterHexagonRight",
+   "pp_value": 3878,
+   "element": "p14:glitter",
+   "prefix": "p14",
+   "local": "glitter",
+   "element_attrs": {
+    "pattern": "hexagon"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "glitter-hexagon-down": {
+   "id": "glitter-hexagon-down",
+   "zh": "闪耀（hexagon-down）",
+   "enum_name": "ppEffectGlitterHexagonDown",
+   "pp_value": 3879,
+   "element": "p14:glitter",
+   "prefix": "p14",
+   "local": "glitter",
+   "element_attrs": {
+    "dir": "u",
+    "pattern": "hexagon"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "gallery-left": {
+   "id": "gallery-left",
+   "zh": "图库（左）",
+   "enum_name": "ppEffectGalleryLeft",
+   "pp_value": 3880,
+   "element": "p14:gallery",
+   "prefix": "p14",
+   "local": "gallery",
+   "element_attrs": {
+    "dir": "l"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "gallery-right": {
+   "id": "gallery-right",
+   "zh": "图库（右）",
+   "enum_name": "ppEffectGalleryRight",
+   "pp_value": 3881,
+   "element": "p14:gallery",
+   "prefix": "p14",
+   "local": "gallery",
+   "element_attrs": {
+    "dir": "r"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "conveyor-left": {
+   "id": "conveyor-left",
+   "zh": "传送带（左）",
+   "enum_name": "ppEffectConveyorLeft",
+   "pp_value": 3882,
+   "element": "p14:conveyor",
+   "prefix": "p14",
+   "local": "conveyor",
+   "element_attrs": {
+    "dir": "l"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "conveyor-right": {
+   "id": "conveyor-right",
+   "zh": "传送带（右）",
+   "enum_name": "ppEffectConveyorRight",
+   "pp_value": 3883,
+   "element": "p14:conveyor",
+   "prefix": "p14",
+   "local": "conveyor",
+   "element_attrs": {
+    "dir": "r"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "doors-vertical": {
+   "id": "doors-vertical",
+   "zh": "门（垂直）",
+   "enum_name": "ppEffectDoorsVertical",
+   "pp_value": 3884,
+   "element": "p14:doors",
+   "prefix": "p14",
+   "local": "doors",
+   "element_attrs": {
+    "dir": "vert"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "doors-horizontal": {
+   "id": "doors-horizontal",
+   "zh": "门（水平）",
+   "enum_name": "ppEffectDoorsHorizontal",
+   "pp_value": 3885,
+   "element": "p14:doors",
+   "prefix": "p14",
+   "local": "doors",
+   "element_attrs": {},
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "window-vertical": {
+   "id": "window-vertical",
+   "zh": "窗户（垂直）",
+   "enum_name": "ppEffectWindowVertical",
+   "pp_value": 3886,
+   "element": "p14:window",
+   "prefix": "p14",
+   "local": "window",
+   "element_attrs": {
+    "dir": "vert"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "window-horizontal": {
+   "id": "window-horizontal",
+   "zh": "窗户（水平）",
+   "enum_name": "ppEffectWindowHorizontal",
+   "pp_value": 3887,
+   "element": "p14:window",
+   "prefix": "p14",
+   "local": "window",
+   "element_attrs": {},
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "warp-in": {
+   "id": "warp-in",
+   "zh": "曲变（向内）",
+   "enum_name": "ppEffectWarpIn",
+   "pp_value": 3888,
+   "element": "p14:warp",
+   "prefix": "p14",
+   "local": "warp",
+   "element_attrs": {
+    "dir": "in"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "warp-out": {
+   "id": "warp-out",
+   "zh": "曲变（向外）",
+   "enum_name": "ppEffectWarpOut",
+   "pp_value": 3889,
+   "element": "p14:warp",
+   "prefix": "p14",
+   "local": "warp",
+   "element_attrs": {},
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "fly-through-in": {
+   "id": "fly-through-in",
+   "zh": "飞越（向内）",
+   "enum_name": "ppEffectFlyThroughIn",
+   "pp_value": 3890,
+   "element": "p14:flythrough",
+   "prefix": "p14",
+   "local": "flythrough",
+   "element_attrs": {},
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "fly-through-out": {
+   "id": "fly-through-out",
+   "zh": "飞越（向外）",
+   "enum_name": "ppEffectFlyThroughOut",
+   "pp_value": 3891,
+   "element": "p14:flythrough",
+   "prefix": "p14",
+   "local": "flythrough",
+   "element_attrs": {
+    "dir": "out"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "fly-through-in-bounce": {
+   "id": "fly-through-in-bounce",
+   "zh": "飞越（进入带弹跳）",
+   "enum_name": "ppEffectFlyThroughInBounce",
+   "pp_value": 3892,
+   "element": "p14:flythrough",
+   "prefix": "p14",
+   "local": "flythrough",
+   "element_attrs": {
+    "hasBounce": "1"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "fly-through-out-bounce": {
+   "id": "fly-through-out-bounce",
+   "zh": "飞越（退出带弹跳）",
+   "enum_name": "ppEffectFlyThroughOutBounce",
+   "pp_value": 3893,
+   "element": "p14:flythrough",
+   "prefix": "p14",
+   "local": "flythrough",
+   "element_attrs": {
+    "dir": "out",
+    "hasBounce": "1"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "reveal-smooth-left": {
+   "id": "reveal-smooth-left",
+   "zh": "平滑揭开（左）",
+   "enum_name": "ppEffectRevealSmoothLeft",
+   "pp_value": 3894,
+   "element": "p14:reveal",
+   "prefix": "p14",
+   "local": "reveal",
+   "element_attrs": {},
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "reveal-smooth-right": {
+   "id": "reveal-smooth-right",
+   "zh": "平滑揭开（右）",
+   "enum_name": "ppEffectRevealSmoothRight",
+   "pp_value": 3895,
+   "element": "p14:reveal",
+   "prefix": "p14",
+   "local": "reveal",
+   "element_attrs": {
+    "dir": "r"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "reveal-black-left": {
+   "id": "reveal-black-left",
+   "zh": "揭开（黑场左）",
+   "enum_name": "ppEffectRevealBlackLeft",
+   "pp_value": 3896,
+   "element": "p14:reveal",
+   "prefix": "p14",
+   "local": "reveal",
+   "element_attrs": {
+    "thruBlk": "1"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "reveal-black-right": {
+   "id": "reveal-black-right",
+   "zh": "揭开（黑场右）",
+   "enum_name": "ppEffectRevealBlackRight",
+   "pp_value": 3897,
+   "element": "p14:reveal",
+   "prefix": "p14",
+   "local": "reveal",
+   "element_attrs": {
+    "thruBlk": "1",
+    "dir": "r"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "honeycomb": {
+   "id": "honeycomb",
+   "zh": "蜂巢",
+   "enum_name": "ppEffectHoneycomb",
+   "pp_value": 3898,
+   "element": "p14:honeycomb",
+   "prefix": "p14",
+   "local": "honeycomb",
+   "element_attrs": {},
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "ferris-wheel-left": {
+   "id": "ferris-wheel-left",
+   "zh": "摩天轮（左）",
+   "enum_name": "ppEffectFerrisWheelLeft",
+   "pp_value": 3899,
+   "element": "p14:ferris",
+   "prefix": "p14",
+   "local": "ferris",
+   "element_attrs": {
+    "dir": "l"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "ferris-wheel-right": {
+   "id": "ferris-wheel-right",
+   "zh": "摩天轮（右）",
+   "enum_name": "ppEffectFerrisWheelRight",
+   "pp_value": 3900,
+   "element": "p14:ferris",
+   "prefix": "p14",
+   "local": "ferris",
+   "element_attrs": {
+    "dir": "r"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "switch-left": {
+   "id": "switch-left",
+   "zh": "切换（左）",
+   "enum_name": "ppEffectSwitchLeft",
+   "pp_value": 3901,
+   "element": "p14:switch",
+   "prefix": "p14",
+   "local": "switch",
+   "element_attrs": {
+    "dir": "l"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "switch-up": {
+   "id": "switch-up",
+   "zh": "切换（上）",
+   "enum_name": "ppEffectSwitchUp",
+   "pp_value": 3902,
+   "element": "p14:switch",
+   "prefix": "p14",
+   "local": "switch",
+   "element_attrs": {
+    "dir": "r"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   },
+   "also": [
+    "ppEffectSwitchRight",
+    "ppEffectSwitchDown"
+   ]
+  },
+  "flip-left": {
+   "id": "flip-left",
+   "zh": "翻转（左）",
+   "enum_name": "ppEffectFlipLeft",
+   "pp_value": 3905,
+   "element": "p14:flip",
+   "prefix": "p14",
+   "local": "flip",
+   "element_attrs": {
+    "dir": "l"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "flip-up": {
+   "id": "flip-up",
+   "zh": "翻转（上）",
+   "enum_name": "ppEffectFlipUp",
+   "pp_value": 3906,
+   "element": "p14:flip",
+   "prefix": "p14",
+   "local": "flip",
+   "element_attrs": {
+    "dir": "r"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   },
+   "also": [
+    "ppEffectFlipRight",
+    "ppEffectFlipDown"
+   ]
+  },
+  "flashbulb": {
+   "id": "flashbulb",
+   "zh": "闪光灯",
+   "enum_name": "ppEffectFlashbulb",
+   "pp_value": 3909,
+   "element": "p14:flash",
+   "prefix": "p14",
+   "local": "flash",
+   "element_attrs": {},
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "shred-strips-in": {
+   "id": "shred-strips-in",
+   "zh": "碎片（条状进入）",
+   "enum_name": "ppEffectShredStripsIn",
+   "pp_value": 3910,
+   "element": "p14:shred",
+   "prefix": "p14",
+   "local": "shred",
+   "element_attrs": {},
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "shred-strips-out": {
+   "id": "shred-strips-out",
+   "zh": "碎片（条状退出）",
+   "enum_name": "ppEffectShredStripsOut",
+   "pp_value": 3911,
+   "element": "p14:shred",
+   "prefix": "p14",
+   "local": "shred",
+   "element_attrs": {
+    "dir": "out"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "shred-rectangle-in": {
+   "id": "shred-rectangle-in",
+   "zh": "碎片（矩形进入）",
+   "enum_name": "ppEffectShredRectangleIn",
+   "pp_value": 3912,
+   "element": "p14:shred",
+   "prefix": "p14",
+   "local": "shred",
+   "element_attrs": {
+    "pattern": "rectangle"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "shred-rectangle-out": {
+   "id": "shred-rectangle-out",
+   "zh": "碎片（矩形退出）",
+   "enum_name": "ppEffectShredRectangleOut",
+   "pp_value": 3913,
+   "element": "p14:shred",
+   "prefix": "p14",
+   "local": "shred",
+   "element_attrs": {
+    "pattern": "rectangle",
+    "dir": "out"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "cube-left": {
+   "id": "cube-left",
+   "zh": "立方体（左）",
+   "enum_name": "ppEffectCubeLeft",
+   "pp_value": 3914,
+   "element": "p14:prism",
+   "prefix": "p14",
+   "local": "prism",
+   "element_attrs": {},
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "cube-up": {
+   "id": "cube-up",
+   "zh": "立方体（上）",
+   "enum_name": "ppEffectCubeUp",
+   "pp_value": 3915,
+   "element": "p14:prism",
+   "prefix": "p14",
+   "local": "prism",
+   "element_attrs": {
+    "dir": "u"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "cube-right": {
+   "id": "cube-right",
+   "zh": "立方体（右）",
+   "enum_name": "ppEffectCubeRight",
+   "pp_value": 3916,
+   "element": "p14:prism",
+   "prefix": "p14",
+   "local": "prism",
+   "element_attrs": {
+    "dir": "r"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "cube-down": {
+   "id": "cube-down",
+   "zh": "立方体（下）",
+   "enum_name": "ppEffectCubeDown",
+   "pp_value": 3917,
+   "element": "p14:prism",
+   "prefix": "p14",
+   "local": "prism",
+   "element_attrs": {
+    "dir": "d"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "rotate-left": {
+   "id": "rotate-left",
+   "zh": "rotate-left",
+   "enum_name": "ppEffectRotateLeft",
+   "pp_value": 3918,
+   "element": "p14:prism",
+   "prefix": "p14",
+   "local": "prism",
+   "element_attrs": {
+    "isContent": "1"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "rotate-up": {
+   "id": "rotate-up",
+   "zh": "rotate-up",
+   "enum_name": "ppEffectRotateUp",
+   "pp_value": 3919,
+   "element": "p14:prism",
+   "prefix": "p14",
+   "local": "prism",
+   "element_attrs": {
+    "dir": "u",
+    "isContent": "1"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "rotate-right": {
+   "id": "rotate-right",
+   "zh": "rotate-right",
+   "enum_name": "ppEffectRotateRight",
+   "pp_value": 3920,
+   "element": "p14:prism",
+   "prefix": "p14",
+   "local": "prism",
+   "element_attrs": {
+    "dir": "r",
+    "isContent": "1"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "rotate-down": {
+   "id": "rotate-down",
+   "zh": "rotate-down",
+   "enum_name": "ppEffectRotateDown",
+   "pp_value": 3921,
+   "element": "p14:prism",
+   "prefix": "p14",
+   "local": "prism",
+   "element_attrs": {
+    "dir": "d",
+    "isContent": "1"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "box-left": {
+   "id": "box-left",
+   "zh": "缩放（左）",
+   "enum_name": "ppEffectBoxLeft",
+   "pp_value": 3922,
+   "element": "p14:prism",
+   "prefix": "p14",
+   "local": "prism",
+   "element_attrs": {
+    "isInverted": "1"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "box-up": {
+   "id": "box-up",
+   "zh": "缩放（上）",
+   "enum_name": "ppEffectBoxUp",
+   "pp_value": 3923,
+   "element": "p14:prism",
+   "prefix": "p14",
+   "local": "prism",
+   "element_attrs": {
+    "dir": "u",
+    "isInverted": "1"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "box-right": {
+   "id": "box-right",
+   "zh": "缩放（右）",
+   "enum_name": "ppEffectBoxRight",
+   "pp_value": 3924,
+   "element": "p14:prism",
+   "prefix": "p14",
+   "local": "prism",
+   "element_attrs": {
+    "dir": "r",
+    "isInverted": "1"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "box-down": {
+   "id": "box-down",
+   "zh": "缩放（下）",
+   "enum_name": "ppEffectBoxDown",
+   "pp_value": 3925,
+   "element": "p14:prism",
+   "prefix": "p14",
+   "local": "prism",
+   "element_attrs": {
+    "dir": "d",
+    "isInverted": "1"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "orbit-left": {
+   "id": "orbit-left",
+   "zh": "轨道（左）",
+   "enum_name": "ppEffectOrbitLeft",
+   "pp_value": 3926,
+   "element": "p14:prism",
+   "prefix": "p14",
+   "local": "prism",
+   "element_attrs": {
+    "isContent": "1",
+    "isInverted": "1"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "orbit-up": {
+   "id": "orbit-up",
+   "zh": "轨道（上）",
+   "enum_name": "ppEffectOrbitUp",
+   "pp_value": 3927,
+   "element": "p14:prism",
+   "prefix": "p14",
+   "local": "prism",
+   "element_attrs": {
+    "dir": "u",
+    "isContent": "1",
+    "isInverted": "1"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "orbit-right": {
+   "id": "orbit-right",
+   "zh": "轨道（右）",
+   "enum_name": "ppEffectOrbitRight",
+   "pp_value": 3928,
+   "element": "p14:prism",
+   "prefix": "p14",
+   "local": "prism",
+   "element_attrs": {
+    "dir": "r",
+    "isContent": "1",
+    "isInverted": "1"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "orbit-down": {
+   "id": "orbit-down",
+   "zh": "轨道（下）",
+   "enum_name": "ppEffectOrbitDown",
+   "pp_value": 3929,
+   "element": "p14:prism",
+   "prefix": "p14",
+   "local": "prism",
+   "element_attrs": {
+    "dir": "d",
+    "isContent": "1",
+    "isInverted": "1"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "pan-left": {
+   "id": "pan-left",
+   "zh": "平移（左）",
+   "enum_name": "ppEffectPanLeft",
+   "pp_value": 3930,
+   "element": "p14:pan",
+   "prefix": "p14",
+   "local": "pan",
+   "element_attrs": {},
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "pan-up": {
+   "id": "pan-up",
+   "zh": "平移（上）",
+   "enum_name": "ppEffectPanUp",
+   "pp_value": 3931,
+   "element": "p14:pan",
+   "prefix": "p14",
+   "local": "pan",
+   "element_attrs": {
+    "dir": "u"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "pan-right": {
+   "id": "pan-right",
+   "zh": "平移（右）",
+   "enum_name": "ppEffectPanRight",
+   "pp_value": 3932,
+   "element": "p14:pan",
+   "prefix": "p14",
+   "local": "pan",
+   "element_attrs": {
+    "dir": "r"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "pan-down": {
+   "id": "pan-down",
+   "zh": "平移（下）",
+   "enum_name": "ppEffectPanDown",
+   "pp_value": 3933,
+   "element": "p14:pan",
+   "prefix": "p14",
+   "local": "pan",
+   "element_attrs": {
+    "dir": "d"
+   },
+   "needs_alternate_content": true,
+   "requires": "p14",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "fall-over-left": {
+   "id": "fall-over-left",
+   "zh": "翻覆（左）",
+   "enum_name": "ppEffectFallOverLeft",
+   "pp_value": 3934,
+   "element": "p15:prstTrans",
+   "prefix": "p15",
+   "local": "prstTrans",
+   "element_attrs": {
+    "prst": "fallOver"
+   },
+   "needs_alternate_content": true,
+   "requires": "p15",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "fall-over-right": {
+   "id": "fall-over-right",
+   "zh": "翻覆（右）",
+   "enum_name": "ppEffectFallOverRight",
+   "pp_value": 3935,
+   "element": "p15:prstTrans",
+   "prefix": "p15",
+   "local": "prstTrans",
+   "element_attrs": {
+    "prst": "fallOver",
+    "invX": "1"
+   },
+   "needs_alternate_content": true,
+   "requires": "p15",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "drape-left": {
+   "id": "drape-left",
+   "zh": "垂坠（左）",
+   "enum_name": "ppEffectDrapeLeft",
+   "pp_value": 3936,
+   "element": "p15:prstTrans",
+   "prefix": "p15",
+   "local": "prstTrans",
+   "element_attrs": {
+    "prst": "drape"
+   },
+   "needs_alternate_content": true,
+   "requires": "p15",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "drape-right": {
+   "id": "drape-right",
+   "zh": "垂坠（右）",
+   "enum_name": "ppEffectDrapeRight",
+   "pp_value": 3937,
+   "element": "p15:prstTrans",
+   "prefix": "p15",
+   "local": "prstTrans",
+   "element_attrs": {
+    "prst": "drape",
+    "invX": "1"
+   },
+   "needs_alternate_content": true,
+   "requires": "p15",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "curtains": {
+   "id": "curtains",
+   "zh": "窗帘",
+   "enum_name": "ppEffectCurtains",
+   "pp_value": 3938,
+   "element": "p15:prstTrans",
+   "prefix": "p15",
+   "local": "prstTrans",
+   "element_attrs": {
+    "prst": "curtains"
+   },
+   "needs_alternate_content": true,
+   "requires": "p15",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "wind-left": {
+   "id": "wind-left",
+   "zh": "风（左）",
+   "enum_name": "ppEffectWindLeft",
+   "pp_value": 3939,
+   "element": "p15:prstTrans",
+   "prefix": "p15",
+   "local": "prstTrans",
+   "element_attrs": {
+    "prst": "wind",
+    "invX": "1"
+   },
+   "needs_alternate_content": true,
+   "requires": "p15",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "wind-right": {
+   "id": "wind-right",
+   "zh": "风（右）",
+   "enum_name": "ppEffectWindRight",
+   "pp_value": 3940,
+   "element": "p15:prstTrans",
+   "prefix": "p15",
+   "local": "prstTrans",
+   "element_attrs": {
+    "prst": "wind"
+   },
+   "needs_alternate_content": true,
+   "requires": "p15",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "prestige": {
+   "id": "prestige",
+   "zh": "华丽",
+   "enum_name": "ppEffectPrestige",
+   "pp_value": 3941,
+   "element": "p15:prstTrans",
+   "prefix": "p15",
+   "local": "prstTrans",
+   "element_attrs": {
+    "prst": "prestige"
+   },
+   "needs_alternate_content": true,
+   "requires": "p15",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "fracture": {
+   "id": "fracture",
+   "zh": "碎裂",
+   "enum_name": "ppEffectFracture",
+   "pp_value": 3942,
+   "element": "p15:prstTrans",
+   "prefix": "p15",
+   "local": "prstTrans",
+   "element_attrs": {
+    "prst": "fracture"
+   },
+   "needs_alternate_content": true,
+   "requires": "p15",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "crush": {
+   "id": "crush",
+   "zh": "压碎",
+   "enum_name": "ppEffectCrush",
+   "pp_value": 3943,
+   "element": "p15:prstTrans",
+   "prefix": "p15",
+   "local": "prstTrans",
+   "element_attrs": {
+    "prst": "crush"
+   },
+   "needs_alternate_content": true,
+   "requires": "p15",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "peel-off-left": {
+   "id": "peel-off-left",
+   "zh": "剥落（左）",
+   "enum_name": "ppEffectPeelOffLeft",
+   "pp_value": 3944,
+   "element": "p15:prstTrans",
+   "prefix": "p15",
+   "local": "prstTrans",
+   "element_attrs": {
+    "prst": "peelOff"
+   },
+   "needs_alternate_content": true,
+   "requires": "p15",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "peel-off-right": {
+   "id": "peel-off-right",
+   "zh": "剥落（右）",
+   "enum_name": "ppEffectPeelOffRight",
+   "pp_value": 3945,
+   "element": "p15:prstTrans",
+   "prefix": "p15",
+   "local": "prstTrans",
+   "element_attrs": {
+    "prst": "peelOff",
+    "invX": "1"
+   },
+   "needs_alternate_content": true,
+   "requires": "p15",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "page-curl-single-left": {
+   "id": "page-curl-single-left",
+   "zh": "卷页（单页，左）",
+   "enum_name": "ppEffectPageCurlSingleLeft",
+   "pp_value": 3946,
+   "element": "p15:prstTrans",
+   "prefix": "p15",
+   "local": "prstTrans",
+   "element_attrs": {
+    "prst": "pageCurlSingle"
+   },
+   "needs_alternate_content": true,
+   "requires": "p15",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "page-curl-single-right": {
+   "id": "page-curl-single-right",
+   "zh": "卷页（单页，右）",
+   "enum_name": "ppEffectPageCurlSingleRight",
+   "pp_value": 3947,
+   "element": "p15:prstTrans",
+   "prefix": "p15",
+   "local": "prstTrans",
+   "element_attrs": {
+    "prst": "pageCurlSingle",
+    "invX": "1"
+   },
+   "needs_alternate_content": true,
+   "requires": "p15",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "page-curl-double-left": {
+   "id": "page-curl-double-left",
+   "zh": "卷页（双页，左）",
+   "enum_name": "ppEffectPageCurlDoubleLeft",
+   "pp_value": 3948,
+   "element": "p15:prstTrans",
+   "prefix": "p15",
+   "local": "prstTrans",
+   "element_attrs": {
+    "prst": "pageCurlDouble"
+   },
+   "needs_alternate_content": true,
+   "requires": "p15",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "page-curl-double-right": {
+   "id": "page-curl-double-right",
+   "zh": "卷页（双页，右）",
+   "enum_name": "ppEffectPageCurlDoubleRight",
+   "pp_value": 3949,
+   "element": "p15:prstTrans",
+   "prefix": "p15",
+   "local": "prstTrans",
+   "element_attrs": {
+    "prst": "pageCurlDouble",
+    "invX": "1"
+   },
+   "needs_alternate_content": true,
+   "requires": "p15",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "airplane-left": {
+   "id": "airplane-left",
+   "zh": "飞机（左）",
+   "enum_name": "ppEffectAirplaneLeft",
+   "pp_value": 3950,
+   "element": "p15:prstTrans",
+   "prefix": "p15",
+   "local": "prstTrans",
+   "element_attrs": {
+    "prst": "airplane",
+    "invX": "1"
+   },
+   "needs_alternate_content": true,
+   "requires": "p15",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "airplane-right": {
+   "id": "airplane-right",
+   "zh": "飞机（右）",
+   "enum_name": "ppEffectAirplaneRight",
+   "pp_value": 3951,
+   "element": "p15:prstTrans",
+   "prefix": "p15",
+   "local": "prstTrans",
+   "element_attrs": {
+    "prst": "airplane"
+   },
+   "needs_alternate_content": true,
+   "requires": "p15",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "origami-left": {
+   "id": "origami-left",
+   "zh": "折纸（左）",
+   "enum_name": "ppEffectOrigamiLeft",
+   "pp_value": 3952,
+   "element": "p15:prstTrans",
+   "prefix": "p15",
+   "local": "prstTrans",
+   "element_attrs": {
+    "prst": "origami",
+    "invX": "1"
+   },
+   "needs_alternate_content": true,
+   "requires": "p15",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "origami-right": {
+   "id": "origami-right",
+   "zh": "折纸（右）",
+   "enum_name": "ppEffectOrigamiRight",
+   "pp_value": 3953,
+   "element": "p15:prstTrans",
+   "prefix": "p15",
+   "local": "prstTrans",
+   "element_attrs": {
+    "prst": "origami"
+   },
+   "needs_alternate_content": true,
+   "requires": "p15",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "morph-by-object": {
+   "id": "morph-by-object",
+   "zh": "变形（按对象）",
+   "enum_name": "ppEffectMorphByObject",
+   "pp_value": 3954,
+   "element": "p159:morph",
+   "prefix": "p159",
+   "local": "morph",
+   "element_attrs": {
+    "option": "byObject"
+   },
+   "needs_alternate_content": true,
+   "requires": "p159",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "morph-by-word": {
+   "id": "morph-by-word",
+   "zh": "变形（按单词）",
+   "enum_name": "ppEffectMorphByWord",
+   "pp_value": 3955,
+   "element": "p159:morph",
+   "prefix": "p159",
+   "local": "morph",
+   "element_attrs": {
+    "option": "byWord"
+   },
+   "needs_alternate_content": true,
+   "requires": "p159",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "morph-by-char": {
+   "id": "morph-by-char",
+   "zh": "变形（按字符）",
+   "enum_name": "ppEffectMorphByChar",
+   "pp_value": 3956,
+   "element": "p159:morph",
+   "prefix": "p159",
+   "local": "morph",
+   "element_attrs": {
+    "option": "byChar"
+   },
+   "needs_alternate_content": true,
+   "requires": "p159",
+   "fallback": "p:fade",
+   "ground_truth_attrs": {
+    "spd": "med"
+   }
+  },
+  "none": {
+   "id": "none",
+   "zh": "无切换",
+   "enum_name": "ppEffectNone",
+   "pp_value": 0,
+   "element": null,
+   "prefix": null,
+   "local": null,
+   "element_attrs": {},
+   "needs_alternate_content": false,
+   "requires": null,
+   "fallback": null,
+   "ground_truth_attrs": {}
+  }
+ }
+}

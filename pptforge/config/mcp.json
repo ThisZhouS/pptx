@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "pptforge": {
+      "command": "python",
+      "args": ["-m", "mcp_ppt.server"],
+      "cwd": "E:\\pptx\\pptforge",
+      "env": { "PYTHONIOENCODING": "utf-8" }
+    }
+  }
+}

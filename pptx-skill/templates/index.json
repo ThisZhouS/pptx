@@ -1,0 +1,65 @@
+{
+ "note": "三份参考模板：极简（0 动画）/ 商务（低动画）/ 动态（高动画）",
+ "templates": [
+  {
+   "file": "极简参考-马卡龙色系PPT__(2).pptx",
+   "label": "极简参考",
+   "origin": "228-马卡龙PPT\\PPT\\马卡龙色系PPT  (2).pptx",
+   "group": "228-马卡龙PPT",
+   "pages": 24,
+   "anim_per_page": 0.0,
+   "shapes_per_page": 12.0,
+   "layouts": 16,
+   "media": 2,
+   "transition": [
+    "p14:ripple|1400"
+   ],
+   "accent1": "FAA0AA",
+   "fonts": [
+    "majorFont:Century Gothic",
+    "minorFont:Century Gothic"
+   ],
+   "size_kb": 269
+  },
+  {
+   "file": "商务参考-马卡龙色系PPT_(16).pptx",
+   "label": "商务参考",
+   "origin": "228-马卡龙PPT\\PPT\\马卡龙色系PPT (16).pptx",
+   "group": "228-马卡龙PPT",
+   "pages": 25,
+   "anim_per_page": 1.5,
+   "shapes_per_page": 26.0,
+   "layouts": 10,
+   "media": 12,
+   "transition": [
+    "p14:gallery|1600"
+   ],
+   "accent1": "333F50",
+   "fonts": [
+    "majorFont:微软雅黑",
+    "minorFont:微软雅黑"
+   ],
+   "size_kb": 566
+  },
+  {
+   "file": "动态参考-简致风_(1).pptx",
+   "label": "动态参考",
+   "origin": "54套纯粹简致风PPT\\简致风PPT模板\\简致风 (1).pptx",
+   "group": "54套纯粹简致风PPT",
+   "pages": 20,
+   "anim_per_page": 7.0,
+   "shapes_per_page": 13.6,
+   "layouts": 12,
+   "media": 1,
+   "transition": [
+    "p:wipe|None"
+   ],
+   "accent1": "4472C4",
+   "fonts": [
+    "majorFont:Arial",
+    "minorFont:Arial"
+   ],
+   "size_kb": 325
+  }
+ ]
+}

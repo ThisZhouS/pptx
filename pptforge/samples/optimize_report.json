@@ -1,0 +1,106 @@
+{
+ "source": "C:\\Users\\zs\\Desktop\\CodeCraft AI  基于大语言模型的自主软件架构优化与重构引擎.pptx",
+ "output": "E:\\pptx\\pptforge\\samples\\codecraft-optimized-v2.pptx",
+ "fonts_replaced": {
+  "MiSans Normal": 698,
+  "汉仪刚艺体-85W": 124
+ },
+ "validate": {
+  "slides": 19,
+  "pages_with_transition": 19,
+  "animation_effects": 98,
+  "problems": 0
+ },
+ "layout_issues": 19,
+ "overflow_fixed": [
+  "#4 Text Placeholder 9 (240→224pt, 92%)",
+  "#4 Text Placeholder 13 (240→224pt, 92%)"
+ ],
+ "layout_detail": [
+  "#2 Text Placeholder 3: 文本可能溢出（文本高 49pt > 框高 40pt）; Text Placeholder 3: 文本宽度超出（59pt > 47pt）; 装饰  3: 文本宽度超出（14pt > 2pt）; Text Placeholder 6: 文本可能溢出（文本高 49pt > 框高 40pt）; Text Placeholder 6: 文本宽度超出（59pt > 47pt）; 装饰  6: 文本宽度超出（14pt > 2pt）; Text Placeholder 9: 文本可能溢出（文本高 49pt > 框高 40pt）; Text Placeholder 9: 文本宽度超出（59pt > 47pt）; 装饰  9: 文本宽度超出（14pt > 2pt）; Text Placeholder 12: 文本可能溢出（文本高 49pt > 框高 40pt）; Text Placeholder 12: 文本宽度超出（59pt > 47pt）; 装饰  2: 文本宽度超出（14pt > 2pt）",
+  "#7 装饰  7: 文本宽度超出（14pt > 4pt）",
+  "#9 装饰  7: 文本宽度超出（14pt > 4pt）",
+  "#13 装饰  2: 文本宽度超出（14pt > 4pt）; 装饰  5: 文本宽度超出（14pt > 4pt）",
+  "#15 装饰  2: 文本宽度超出（14pt > 4pt）",
+  "#17 装饰  2: 文本宽度超出（14pt > 4pt）",
+  "#18 装饰  2: 文本宽度超出（14pt > 4pt）"
+ ],
+ "pages": [
+  {
+   "index": 1,
+   "shapes": 3
+  },
+  {
+   "index": 2,
+   "shapes": 14
+  },
+  {
+   "index": 3,
+   "shapes": 2
+  },
+  {
+   "index": 4,
+   "shapes": 13
+  },
+  {
+   "index": 5,
+   "shapes": 10
+  },
+  {
+   "index": 6,
+   "shapes": 2
+  },
+  {
+   "index": 7,
+   "shapes": 5
+  },
+  {
+   "index": 8,
+   "shapes": 4
+  },
+  {
+   "index": 9,
+   "shapes": 5
+  },
+  {
+   "index": 10,
+   "shapes": 5
+  },
+  {
+   "index": 11,
+   "shapes": 5
+  },
+  {
+   "index": 12,
+   "shapes": 2
+  },
+  {
+   "index": 13,
+   "shapes": 8
+  },
+  {
+   "index": 14,
+   "shapes": 5
+  },
+  {
+   "index": 15,
+   "shapes": 5
+  },
+  {
+   "index": 16,
+   "shapes": 2
+  },
+  {
+   "index": 17,
+   "shapes": 5
+  },
+  {
+   "index": 18,
+   "shapes": 5
+  },
+  {
+   "index": 19,
+   "shapes": 2
+  }
+ ]
+}

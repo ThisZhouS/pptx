@@ -1,0 +1,246 @@
+total mapped entries: 197
+applied=True: 165   applied=False: 32
+
+== child element counts ==
+  None                         33
+  prstTrans                    20
+  prism                        16
+  cover                        9
+  pull                         8
+  strips                       8
+  glitter                      8
+  fade                         6
+  wheel                        5
+  ripple                       5
+  wipe                         4
+  split                        4
+  push                         4
+  vortex                       4
+  flythrough                   4
+  reveal                       4
+  switch                       4
+  flip                         4
+  shred                        4
+  pan                          4
+  cut                          3
+  checker                      3
+  morph                        3
+  blinds                       2
+  randomBar                    2
+  zoom                         2
+  comb                         2
+  gallery                      2
+  conveyor                     2
+  doors                        2
+  window                       2
+  warp                         2
+  ferris                       2
+  random                       1
+  dissolve                     1
+  circle                       1
+  diamond                      1
+  newsflash                    1
+  plus                         1
+  wedge                        1
+  wheelReverse                 1
+  honeycomb                    1
+  flash                        1
+
+== rows ==
+769   blinds         presentationml/2006/main {}                                                                ppEffectBlindsHorizontal
+770   blinds         presentationml/2006/main {}                                                                ppEffectBlindsVertical
+1025  checker        presentationml/2006/main {}                                                                ppEffectCheckerboardAcross
+1026  checker        presentationml/2006/main {}                                                                ppEffectCheckerboardDown
+1026  checker        presentationml/2006/main {}                                                                ppEffectWipeRight@{'Duration': 3.0, 'Speed': 1}
+3845  circle         presentationml/2006/main {}                                                                ppEffectCircleOut
+3847  comb           presentationml/2006/main {}                                                                ppEffectCombHorizontal
+3848  comb           presentationml/2006/main {}                                                                ppEffectCombVertical
+3882  conveyor       ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectConveyorLeft
+3883  conveyor       ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectConveyorRight
+1281  cover          presentationml/2006/main {}                                                                ppEffectCoverLeft
+1281  cover          presentationml/2006/main {}                                                                ppEffectPushLeft@{'Duration': 0.25, 'Speed': 3}
+1282  cover          presentationml/2006/main {}                                                                ppEffectCoverUp
+1283  cover          presentationml/2006/main {}                                                                ppEffectCoverRight
+1284  cover          presentationml/2006/main {}                                                                ppEffectCoverDown
+1285  cover          presentationml/2006/main {}                                                                ppEffectCoverLeftUp
+1286  cover          presentationml/2006/main {}                                                                ppEffectCoverRightUp
+1287  cover          presentationml/2006/main {}                                                                ppEffectCoverLeftDown
+1288  cover          presentationml/2006/main {}                                                                ppEffectCoverRightDown
+257   cut            presentationml/2006/main {}                                                                ppEffectCut
+258   cut            presentationml/2006/main {}                                                                ppEffectCutThroughBlack
+3844  cut            presentationml/2006/main {}                                                                ppEffectAppear
+3846  diamond        presentationml/2006/main {}                                                                ppEffectDiamondOut
+1537  dissolve       presentationml/2006/main {}                                                                ppEffectDissolve
+3884  doors          ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectDoorsVertical
+3885  doors          ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectDoorsHorizontal
+1793  fade           presentationml/2006/main {}                                                                ppEffectFade
+1793  fade           presentationml/2006/main {}                                                                ppEffectFade@{'Duration': 0.5, 'Speed': 2}
+1793  fade           presentationml/2006/main {}                                                                ppEffectFade@{'Duration': 2.5, 'Speed': 2}
+1793  fade           presentationml/2006/main {}                                                                ppEffectFade@{'Duration': 1.0, 'Speed': 1}
+1793  fade           presentationml/2006/main {}                                                                ppEffectFade@{'Duration': 1.0, 'Speed': 3}
+3849  fade           presentationml/2006/main {}                                                                ppEffectFadeSmoothly
+3899  ferris         ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectFerrisWheelLeft
+3900  ferris         ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectFerrisWheelRight
+3909  flash          ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectFlashbulb
+3905  flip           ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectFlipLeft
+3906  flip           ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectFlipUp
+3907  flip           ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectFlipRight
+3908  flip           ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectFlipDown
+3890  flythrough     ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectFlyThroughIn
+3891  flythrough     ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectFlyThroughOut
+3892  flythrough     ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectFlyThroughInBounce
+3893  flythrough     ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectFlyThroughOutBounce
+3880  gallery        ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectGalleryLeft
+3881  gallery        ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectGalleryRight
+3872  glitter        ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectGlitterDiamondLeft
+3873  glitter        ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectGlitterDiamondUp
+3874  glitter        ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectGlitterDiamondRight
+3875  glitter        ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectGlitterDiamondDown
+3876  glitter        ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectGlitterHexagonLeft
+3877  glitter        ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectGlitterHexagonUp
+3878  glitter        ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectGlitterHexagonRight
+3879  glitter        ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectGlitterHexagonDown
+3898  honeycomb      ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectHoneycomb
+3954  morph          /powerpoint/2015/09/main {}                                       mc:AlternateContent/mc:Choice ppEffectMorphByObject
+3955  morph          /powerpoint/2015/09/main {}                                       mc:AlternateContent/mc:Choice ppEffectMorphByWord
+3956  morph          /powerpoint/2015/09/main {}                                       mc:AlternateContent/mc:Choice ppEffectMorphByChar
+3850  newsflash      presentationml/2006/main {}                                                                ppEffectNewsflash
+3930  pan            ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectPanLeft
+3931  pan            ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectPanUp
+3932  pan            ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectPanRight
+3933  pan            ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectPanDown
+3851  plus           presentationml/2006/main {}                                                                ppEffectPlusOut
+3914  prism          ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectCubeLeft
+3915  prism          ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectCubeUp
+3916  prism          ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectCubeRight
+3917  prism          ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectCubeDown
+3918  prism          ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectRotateLeft
+3919  prism          ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectRotateUp
+3920  prism          ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectRotateRight
+3921  prism          ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectRotateDown
+3922  prism          ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectBoxLeft
+3923  prism          ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectBoxUp
+3924  prism          ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectBoxRight
+3925  prism          ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectBoxDown
+3926  prism          ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectOrbitLeft
+3927  prism          ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectOrbitUp
+3928  prism          ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectOrbitRight
+3929  prism          ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectOrbitDown
+3934  prstTrans      ice/powerpoint/2012/main {}                                       mc:AlternateContent/mc:Choice ppEffectFallOverLeft
+3935  prstTrans      ice/powerpoint/2012/main {}                                       mc:AlternateContent/mc:Choice ppEffectFallOverRight
+3936  prstTrans      ice/powerpoint/2012/main {}                                       mc:AlternateContent/mc:Choice ppEffectDrapeLeft
+3937  prstTrans      ice/powerpoint/2012/main {}                                       mc:AlternateContent/mc:Choice ppEffectDrapeRight
+3938  prstTrans      ice/powerpoint/2012/main {}                                       mc:AlternateContent/mc:Choice ppEffectCurtains
+3939  prstTrans      ice/powerpoint/2012/main {}                                       mc:AlternateContent/mc:Choice ppEffectWindLeft
+3940  prstTrans      ice/powerpoint/2012/main {}                                       mc:AlternateContent/mc:Choice ppEffectWindRight
+3941  prstTrans      ice/powerpoint/2012/main {}                                       mc:AlternateContent/mc:Choice ppEffectPrestige
+3942  prstTrans      ice/powerpoint/2012/main {}                                       mc:AlternateContent/mc:Choice ppEffectFracture
+3943  prstTrans      ice/powerpoint/2012/main {}                                       mc:AlternateContent/mc:Choice ppEffectCrush
+3944  prstTrans      ice/powerpoint/2012/main {}                                       mc:AlternateContent/mc:Choice ppEffectPeelOffLeft
+3945  prstTrans      ice/powerpoint/2012/main {}                                       mc:AlternateContent/mc:Choice ppEffectPeelOffRight
+3946  prstTrans      ice/powerpoint/2012/main {}                                       mc:AlternateContent/mc:Choice ppEffectPageCurlSingleLeft
+3947  prstTrans      ice/powerpoint/2012/main {}                                       mc:AlternateContent/mc:Choice ppEffectPageCurlSingleRight
+3948  prstTrans      ice/powerpoint/2012/main {}                                       mc:AlternateContent/mc:Choice ppEffectPageCurlDoubleLeft
+3949  prstTrans      ice/powerpoint/2012/main {}                                       mc:AlternateContent/mc:Choice ppEffectPageCurlDoubleRight
+3950  prstTrans      ice/powerpoint/2012/main {}                                       mc:AlternateContent/mc:Choice ppEffectAirplaneLeft
+3951  prstTrans      ice/powerpoint/2012/main {}                                       mc:AlternateContent/mc:Choice ppEffectAirplaneRight
+3952  prstTrans      ice/powerpoint/2012/main {}                                       mc:AlternateContent/mc:Choice ppEffectOrigamiLeft
+3953  prstTrans      ice/powerpoint/2012/main {}                                       mc:AlternateContent/mc:Choice ppEffectOrigamiRight
+2049  pull           presentationml/2006/main {}                                                                ppEffectUncoverLeft
+2050  pull           presentationml/2006/main {}                                                                ppEffectUncoverUp
+2051  pull           presentationml/2006/main {}                                                                ppEffectUncoverRight
+2052  pull           presentationml/2006/main {}                                                                ppEffectUncoverDown
+2053  pull           presentationml/2006/main {}                                                                ppEffectUncoverLeftUp
+2054  pull           presentationml/2006/main {}                                                                ppEffectUncoverRightUp
+2055  pull           presentationml/2006/main {}                                                                ppEffectUncoverLeftDown
+2056  pull           presentationml/2006/main {}                                                                ppEffectUncoverRightDown
+3852  push           presentationml/2006/main {}                                                                ppEffectPushDown
+3853  push           presentationml/2006/main {}                                                                ppEffectPushLeft
+3854  push           presentationml/2006/main {}                                                                ppEffectPushRight
+3855  push           presentationml/2006/main {}                                                                ppEffectPushUp
+513   random         presentationml/2006/main {}                                                                ppEffectRandom
+2305  randomBar      presentationml/2006/main {}                                                                ppEffectRandomBarsHorizontal
+2306  randomBar      presentationml/2006/main {}                                                                ppEffectRandomBarsVertical
+3894  reveal         ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectRevealSmoothLeft
+3895  reveal         ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectRevealSmoothRight
+3896  reveal         ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectRevealBlackLeft
+3897  reveal         ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectRevealBlackRight
+3867  ripple         ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectRippleCenter
+3868  ripple         ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectRippleRightUp
+3869  ripple         ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectRippleLeftUp
+3870  ripple         ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectRippleLeftDown
+3871  ripple         ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectRippleRightDown
+3910  shred          ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectShredStripsIn
+3911  shred          ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectShredStripsOut
+3912  shred          ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectShredRectangleIn
+3913  shred          ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectShredRectangleOut
+3585  split          presentationml/2006/main {}                                                                ppEffectSplitHorizontalOut
+3586  split          presentationml/2006/main {}                                                                ppEffectSplitHorizontalIn
+3587  split          presentationml/2006/main {}                                                                ppEffectSplitVerticalOut
+3588  split          presentationml/2006/main {}                                                                ppEffectSplitVerticalIn
+2561  strips         presentationml/2006/main {}                                                                ppEffectStripsUpLeft
+2562  strips         presentationml/2006/main {}                                                                ppEffectStripsUpRight
+2563  strips         presentationml/2006/main {}                                                                ppEffectStripsDownLeft
+2564  strips         presentationml/2006/main {}                                                                ppEffectStripsDownRight
+2565  strips         presentationml/2006/main {}                                                                ppEffectStripsLeftUp
+2566  strips         presentationml/2006/main {}                                                                ppEffectStripsRightUp
+2567  strips         presentationml/2006/main {}                                                                ppEffectStripsLeftDown
+2568  strips         presentationml/2006/main {}                                                                ppEffectStripsRightDown
+3901  switch         ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectSwitchLeft
+3902  switch         ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectSwitchUp
+3903  switch         ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectSwitchRight
+3904  switch         ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectSwitchDown
+3863  vortex         ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectVortexLeft
+3864  vortex         ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectVortexUp
+3865  vortex         ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectVortexRight
+3866  vortex         ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectVortexDown
+3888  warp           ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectWarpIn
+3889  warp           ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectWarpOut
+3856  wedge          presentationml/2006/main {}                                                                ppEffectWedge
+3857  wheel          presentationml/2006/main {}                                                                ppEffectWheel1Spoke
+3858  wheel          presentationml/2006/main {}                                                                ppEffectWheel2Spokes
+3859  wheel          presentationml/2006/main {}                                                                ppEffectWheel3Spokes
+3860  wheel          presentationml/2006/main {}                                                                ppEffectWheel4Spokes
+3861  wheel          presentationml/2006/main {}                                                                ppEffectWheel8Spokes
+3862  wheelReverse   ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectWheelReverse1Spoke
+3886  window         ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectWindowVertical
+3887  window         ice/powerpoint/2010/main {}                                       mc:AlternateContent/mc:Choice ppEffectWindowHorizontal
+2817  wipe           presentationml/2006/main {}                                                                ppEffectWipeLeft
+2818  wipe           presentationml/2006/main {}                                                                ppEffectWipeUp
+2819  wipe           presentationml/2006/main {}                                                                ppEffectWipeRight
+2820  wipe           presentationml/2006/main {}                                                                ppEffectWipeDown
+3073  zoom           presentationml/2006/main {}                                                                ppEffectBoxOut
+3074  zoom           presentationml/2006/main {}                                                                ppEffectBoxIn
+0     None                                    {}                                                                ppEffectNone
+3329  None                                    {}                                                                ppEffectFlyFromLeft
+3330  None                                    {}                                                                ppEffectFlyFromTop
+3331  None                                    {}                                                                ppEffectFlyFromRight
+3332  None                                    {}                                                                ppEffectFlyFromBottom
+3333  None                                    {}                                                                ppEffectFlyFromTopLeft
+3334  None                                    {}                                                                ppEffectFlyFromTopRight
+3335  None                                    {}                                                                ppEffectFlyFromBottomLeft
+3336  None                                    {}                                                                ppEffectFlyFromBottomRight
+3337  None                                    {}                                                                ppEffectPeekFromLeft
+3338  None                                    {}                                                                ppEffectPeekFromDown
+3339  None                                    {}                                                                ppEffectPeekFromRight
+3340  None                                    {}                                                                ppEffectPeekFromUp
+3341  None                                    {}                                                                ppEffectCrawlFromLeft
+3342  None                                    {}                                                                ppEffectCrawlFromUp
+3343  None                                    {}                                                                ppEffectCrawlFromRight
+3344  None                                    {}                                                                ppEffectCrawlFromDown
+3345  None                                    {}                                                                ppEffectZoomIn
+3346  None                                    {}                                                                ppEffectZoomInSlightly
+3347  None                                    {}                                                                ppEffectZoomOut
+3348  None                                    {}                                                                ppEffectZoomOutSlightly
+3349  None                                    {}                                                                ppEffectZoomCenter
+3350  None                                    {}                                                                ppEffectZoomBottom
+3351  None                                    {}                                                                ppEffectStretchAcross
+3352  None                                    {}                                                                ppEffectStretchLeft
+3353  None                                    {}                                                                ppEffectStretchUp
+3354  None                                    {}                                                                ppEffectStretchRight
+3355  None                                    {}                                                                ppEffectStretchDown
+3356  None                                    {}                                                                ppEffectSwivel
+3357  None                                    {}                                                                ppEffectSpiral
+3841  None                                    {}                                                                ppEffectFlashOnceFast
+3842  None                                    {}                                                                ppEffectFlashOnceMedium
+3843  None                                    {}                                                                ppEffectFlashOnceSlow

@@ -1,0 +1,115 @@
+{
+ "before": {
+  "file": "C:\\Users\\zs\\Desktop\\CodeCraft AI  基于大语言模型的自主软件架构优化与重构引擎.pptx",
+  "pages": 19,
+  "ink": [
+   0.9851,
+   0.5893,
+   0.9851,
+   0.8686,
+   0.6564,
+   0.9851,
+   0.8169,
+   0.7659,
+   0.7856,
+   0.7478,
+   0.7264,
+   0.9851,
+   0.7812,
+   0.8798,
+   0.8038,
+   0.9851,
+   0.7486,
+   0.8371,
+   0.9851
+  ],
+  "files": [
+   "E:\\pptx\\pptforge\\samples\\render-codecraft\\before\\slide_001.png",
+   "E:\\pptx\\pptforge\\samples\\render-codecraft\\before\\slide_002.png"
+  ],
+  "entry_effects": [
+   0,
+   3849
+  ],
+  "animations": 0,
+  "anim_types": []
+ },
+ "after": {
+  "file": "E:\\pptx\\pptforge\\samples\\codecraft-optimized.pptx",
+  "pages": 19,
+  "ink": [
+   0.9851,
+   0.5893,
+   0.9851,
+   0.8686,
+   0.6564,
+   0.9851,
+   0.8169,
+   0.7659,
+   0.7856,
+   0.7478,
+   0.7264,
+   0.9851,
+   0.7812,
+   0.8798,
+   0.8038,
+   0.9851,
+   0.7486,
+   0.8371,
+   0.9851
+  ],
+  "files": [
+   "E:\\pptx\\pptforge\\samples\\render-codecraft\\after\\slide_001.png",
+   "E:\\pptx\\pptforge\\samples\\render-codecraft\\after\\slide_002.png"
+  ],
+  "entry_effects": [
+   1793,
+   3849
+  ],
+  "animations": 98,
+  "anim_types": [
+   10,
+   22,
+   23
+  ]
+ },
+ "motion": {
+  "file": "E:\\pptx\\pptforge\\samples\\codecraft-motion-only.pptx",
+  "pages": 19,
+  "ink": [
+   0.9851,
+   0.5893,
+   0.9851,
+   0.8686,
+   0.6564,
+   0.9851,
+   0.8169,
+   0.7659,
+   0.7856,
+   0.7478,
+   0.7264,
+   0.9851,
+   0.7812,
+   0.8798,
+   0.8038,
+   0.9851,
+   0.7486,
+   0.8371,
+   0.9851
+  ],
+  "files": [
+   "E:\\pptx\\pptforge\\samples\\render-codecraft\\motion\\slide_001.png",
+   "E:\\pptx\\pptforge\\samples\\render-codecraft\\motion\\slide_002.png"
+  ],
+  "entry_effects": [
+   1793,
+   3849
+  ],
+  "animations": 98,
+  "anim_types": [
+   10,
+   22,
+   23
+  ]
+ }
+}

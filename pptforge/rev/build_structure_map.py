@@ -1,0 +1,362 @@
+"""生成机器可读的结构地图 schema/ooxml_structure.json（逆向结论的结构化表达）。
+
+每条结论都能在 out/ 的采样证据里找到对照：
+  transitions_map.json / transition_props.json / animations_map.json /
+  anim_exit_map.json / anim_variants.json / *_raw/slide_*.xml
+"""
+from __future__ import annotations
+
+import json
+import os
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
+SCHEMA = os.path.join(ROOT, "schema")
+os.makedirs(SCHEMA, exist_ok=True)
+
+TRANSITION_SKELETON = """<p:transition spd="med">
+  <p:fade thruBlk="1"/>
+</p:transition>"""
+
+TRANSITION_ALT_SKELETON = """<mc:AlternateContent xmlns:mc="...markup-compatibility/2006">
+  <mc:Choice xmlns:p14="...office/powerpoint/2010/main" Requires="p14">
+    <p:transition spd="slow" p14:dur="2500">
+      <p14:vortex dir="l"/>
+    </p:transition>
+  </mc:Choice>
+  <mc:Fallback>
+    <p:transition spd="slow">
+      <p:fade/>
+    </p:transition>
+  </mc:Fallback>
+</mc:AlternateContent>"""
+
+TIMING_SKELETON = """<p:timing>
+  <p:tnLst>
+    <p:par>
+      <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+        <p:childTnLst>
+          <p:seq concurrent="1" nextAc="seek">
+            <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+              <p:childTnLst>
+                <p:par>                                  <!-- click 组 -->
+                  <p:cTn id="3" fill="hold">
+                    <p:stCondLst><p:cond delay="indefinite"/></p:stCondLst>
+                    <p:childTnLst>
+                      <p:par>                            <!-- 效果容器 -->
+                        <p:cTn id="4" fill="hold">
+                          <p:stCondLst><p:cond delay="0"/></p:stCondLst>
+                          <p:childTnLst>
+                            <p:par>                      <!-- 效果 -->
+                              <p:cTn id="5" presetID="10" presetClass="entr"
+                                     presetSubtype="0" fill="hold" grpId="0"
+                                     nodeType="clickEffect">
+                                <p:stCondLst><p:cond delay="0"/></p:stCondLst>
+                                <p:childTnLst>
+                                  <p:set>...</p:set>      <!-- 行为节点 -->
+                                  <p:animEffect transition="in" filter="fade">
+                                    <p:cBhvr>
+                                      <p:cTn id="7" dur="500"/>
+                                      <p:tgtEl><p:spTgt spid="3"/></p:tgtEl>
+                                    </p:cBhvr>
+                                  </p:animEffect>
+                                </p:childTnLst>
+                              </p:cTn>
+                            </p:par>
+                          </p:childTnLst>
+                        </p:cTn>
+                      </p:par>
+                    </p:childTnLst>
+                  </p:cTn>
+                </p:par>
+              </p:childTnLst>
+            </p:cTn>
+            <p:prevCondLst>
+              <p:cond evt="onPrev" delay="0"><p:tgtEl><p:sldTgt/></p:tgtEl></p:cond>
+            </p:prevCondLst>
+            <p:nextCondLst>
+              <p:cond evt="onNext" delay="0"><p:tgtEl><p:sldTgt/></p:tgtEl></p:cond>
+            </p:nextCondLst>
+          </p:seq>
+        </p:childTnLst>
+      </p:cTn>
+    </p:par>
+  </p:tnLst>
+  <p:bldLst>
+    <p:bldP spid="3" grpId="0" animBg="1"/>
+  </p:bldLst>
+</p:timing>"""
+
+SLIDE_SKELETON = """<p:sld xmlns:p="...presentationml/2006/main"
+       xmlns:a="...drawingml/2006/main"
+       xmlns:r="...officeDocument/2006/relationships">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr><p:cNvPr id="1" name=""/><p:cNvGrpSpPr/><p:nvPr/></p:nvGrpSpPr>
+      <p:grpSpPr/>
+      <!-- 形状：p:sp / p:pic / p:graphicFrame ... -->
+    </p:spTree>
+  </p:cSld>
+  <p:clrMapOvr><a:masterClrMapping/></p:clrMapOvr>
+  <!-- ① p:transition 或 mc:AlternateContent（切换） -->
+  <!-- ② p:timing（对象动画） -->
+  <!-- ③ p:extLst -->
+</p:sld>"""
+
+
+def main() -> int:
+    with open(os.path.join(SCHEMA, "transitions.json"), encoding="utf-8") as fh:
+        tr = json.load(fh)
+    with open(os.path.join(SCHEMA, "animations.json"), encoding="utf-8") as fh:
+        an = json.load(fh)
+
+    doc = {
+        "meta": {
+            "name": "PowerPoint 演示结构地图（逆向产物）",
+            "source": "PowerPoint 16.0 build 20625 真机采样",
+            "generated_by": "pptforge/rev/build_structure_map.py",
+            "counts": {
+                "transition_effects": len(tr["effects"]),
+                "animation_effects": len(an["effects"]),
+                "sampled_pages": {
+                    "transitions": 197,
+                    "transition_props": 12,
+                    "animations": 154,
+                    "animation_exit": 150,
+                    "animation_variants": 21,
+                    "shapes_and_groups": 7,
+                    "drawing_styles": 6,
+                    "theme_and_presprops": 3,
+                    "table_and_chart": 4,
+                },
+            },
+            "key_rules": [
+                "切换与动画是两套独立机制：<p:transition> 管翻页，<p:timing> 管对象。",
+                "页内顺序固定：cSld → clrMapOvr → transition(或 mc:AlternateContent) → timing → extLst。",
+                "p14/p15/p159 扩展效果必须包在 mc:AlternateContent/mc:Choice(Requires=对应前缀) 中，并给 mc:Fallback。",
+                "精确切换时长 p14:dur（毫秒）是扩展属性，一旦使用也必须走 mc:AlternateContent。",
+                "p:cTn 的 id 在同一页内必须唯一，行为节点里的 id 也要一起重编号。",
+                "动画的时长落在行为节点 cTn/@dur（毫秒）；set 节点的 dur=\"1\" 是瞬时标记，不能改。",
+                "触发方式用 nodeType 区分：clickEffect / withEffect / afterEffect；组内后续效果共用同一 click 组。",
+                "文本分级动画：每个段落一个 click 组，p:spTgt 内嵌 p:txEl/p:pRg st,end，并在 p:bldLst 标 build=\"p\"。",
+                "动作路径是 p:animMotion，path 用相对坐标（0..1 相对形状尺寸），pathEditMode=\"relative\"。",
+                "放映设置不在 presentation.xml，而在 ppt/presProps.xml 的 p:presentationPr/p:showPr。",
+                "theme1.xml 的 dk1/lt1 用 sysClr+lastClr，其余 10 个键用 srgbClr@val；改主题只需改这些值。",
+                "图表是 p:graphicFrame + 独立 chart 部件（数据在内嵌 xlsx）；图表分级动画在 COM 上不可用，只能整体动画。",
+                "表格合并= gridSpan（主）+ hMerge（被吞），边框是 tcPr 内的 a:lnL/lnR/lnT/lnB。",
+                "绘图属性：填充/线条/效果/文本/图片的单位全是 1000 或 60000 的整数倍（pct×1000、rot×60000、srcRect×100000）。",
+                "组合是 p:grpSp：a:xfrm 同时有 off/ext（组在父坐标的位置）与 chOff/chExt（子坐标）；PowerPoint 组合时两者 1:1。",
+                "组平移只改 off（chOff 不动），组缩放只改 ext（chExt 不动）——子形状视觉位置 = off + (child_off - chOff) × (ext/chExt)。",
+                "组动画的 target 仍是 p:spTgt（指向组 id）；组内单形状动画用子形状 id。",
+                "旋转是 a:xfrm/@rot（度×60000），翻转是 @flipH/@flipV=\"1\"；透明度是 srgbClr/a:alpha@val（百分比×1000）。",
+            ],
+        },
+        "package": {
+            "parts": {
+                "ppt/presentation.xml": "页序（p:sldIdLst/p:sldId r:id）",
+                "ppt/_rels/presentation.xml.rels": "rId → slides/slideN.xml 映射",
+                "ppt/slides/slideN.xml": "单页内容 + 切换 + 动画",
+                "ppt/slideMasters/": "母版主题与占位符",
+                "ppt/slideLayouts/": "版式",
+                "ppt/theme/": "配色与字体",
+                "ppt/media/": "图片与音视频",
+            },
+            "resolve_order": "presentation.xml sldIdLst → rels → slide 部件（编号不一定等于页序）",
+        },
+        "slide": {
+            "skeleton": SLIDE_SKELETON,
+            "child_sequence": ["p:cSld", "p:clrMapOvr", "p:transition|mc:AlternateContent", "p:timing", "p:extLst"],
+            "note": "顺序错误会让 PowerPoint 报修复；transition 必须早于 timing",
+        },
+        "transition": {
+            "skeleton_p_namespace": TRANSITION_SKELETON,
+            "skeleton_alternate_content": TRANSITION_ALT_SKELETON,
+            "attributes": {
+                "spd": "slow|med|fast，对应 COM Speed 1/2/3；fast 是默认值，可省",
+                "p14:dur": "毫秒；与 spd 并存，PowerPoint 以 dur 为准",
+                "advTm": "毫秒，自动换片",
+                "advClick": "0 表示关闭点击换片",
+            },
+            "effects_element_form": "效果是 <p:transition> 的子元素（不是属性），如 <p:fade thruBlk=\"1\"/>、<p14:vortex dir=\"l\"/>",
+            "namespace_rule": {
+                "p": "可直接写在 p:sld 下",
+                "p14 / p15 / p159": "必须 mc:AlternateContent + mc:Choice Requires=前缀 + mc:Fallback（p:fade）",
+            },
+            "com_enum": "PpEntryEffect（192 个成员，取有效 150 个）",
+        },
+        "timing": {
+            "skeleton": TIMING_SKELETON,
+            "node_types": {
+                "tmRoot": "时间轴根，id=1，dur=indefinite",
+                "mainSeq": "主序列，id=2，包住所有 click 组",
+                "clickEffect": "单击触发",
+                "withEffect": "与上一动画同时",
+                "afterEffect": "上一动画之后",
+            },
+            "conditions": {
+                "click_group_first_click": "<p:cond delay=\"indefinite\"/>",
+                "click_group_first_with_or_after": "<p:cond delay=\"indefinite\"/> + <p:cond evt=\"onBegin\" delay=\"0\"><p:tn val=\"2\"/></p:cond>",
+                "effect_delay": "<p:cond delay=\"{毫秒}\"/>",
+                "seq_guard": "seq 下 prevCondLst/nextCondLst 各一个 onPrev/onNext + sldTgt",
+            },
+            "grouping": "trigger=click 开新 click 组；with_previous / after_previous 追加到当前组（与首个效果并列在同一个 par 下）",
+            "attributes_on_preset_ctn": {
+                "presetID": "效果编号；与 presetClass、presetSubtype 共同定位效果",
+                "presetClass": "entr | emph | exit | path",
+                "presetSubtype": "方向/变体编号",
+                "grpId": "分组 id，通常 0",
+                "nodeType": "见 node_types",
+                "repeatCount": "重复次数×1000（2 次 → 2000）",
+                "accel / decel": "平滑开始/结束，百分比×1000（50% → 50000）",
+                "fill": "hold",
+            },
+            "behaviors": {
+                "p:set": "visibility 类效果的起点（style.visibility → visible）",
+                "p:animEffect": "滤镜/淡入淡出类，filter=\"fade\"、transition=\"in|out\"",
+                "p:animMotion": "动作路径，path 用相对坐标，pathEditMode=\"relative\"",
+                "p:anim": "数值/颜色插值（位置、旋转、缩放等），配 attrName",
+            },
+            "build_list": {
+                "普通形状": "<p:bldP spid=\"{id}\" grpId=\"0\" animBg=\"1\"/>",
+                "按段落": "<p:bldP spid=\"{id}\" grpId=\"0\" build=\"p\"/>",
+                "整体": "build=\"allAtOnce\"",
+            },
+            "text_level": "p:spTgt 内 <p:txEl><p:pRg st=\"i\" end=\"i\"/></p:txEl>；按段落时每段各成一个 click 组",
+            "units": {"dur": "毫秒", "delay": "毫秒", "repeatCount": "次数×1000",
+                      "accel/decel": "百分比×1000", "advTm": "毫秒"},
+        },
+        "animation_catalog": {
+            "effects": len(an["effects"]),
+            "with_exit_variant": sum(1 for v in an["effects"].values() if v["variants"].get("exit")),
+            "preset_classes": an["meta"]["preset_class"],
+        },
+        "transition_catalog": {
+            "effects": len(tr["effects"]),
+            "namespaces": {
+                "p": sum(1 for v in tr["effects"].values() if v.get("prefix") == "p"),
+                "p14": sum(1 for v in tr["effects"].values() if v.get("prefix") == "p14"),
+                "p15": sum(1 for v in tr["effects"].values() if v.get("prefix") == "p15"),
+                "p159": sum(1 for v in tr["effects"].values() if v.get("prefix") == "p159"),
+            },
+            "with_alias_duplicates": sum(1 for v in tr["effects"].values() if v.get("also")),
+        },
+        "shape_layer": {
+            "geometry": {
+                "container": "a:xfrm（sp/pic 在 p:spPr 下，grpSp 在 p:grpSpPr 下，connector 在 p:spPr 下）",
+                "position": "a:off/@x, @y（EMU，914400 = 1 英寸）",
+                "size": "a:ext/@cx, @cy（EMU）",
+                "rotation": "a:xfrm/@rot，单位 1/60000 度（30° → 1800000）",
+                "flip": "a:xfrm/@flipH, @flipV = \"1\"",
+                "measured": "shape.Rotation=30 → rot=\"1800000\"；Fill.Transparency=0.5 → srgbClr/a:alpha val=\"50000\"",
+            },
+            "group": {
+                "element": "p:grpSp",
+                "structure": ["p:nvGrpSpPr（cNvPr + cNvGrpSpPr + nvPr）", "p:grpSpPr（a:xfrm）", "子形状直接挂在 p:grpSp 下（没有 p:spTree）"],
+                "coordinate_system": "a:chOff/a:chExt 定义子坐标系；组合时 chOff = 子包围盒左上、chExt = 包围盒尺寸、off = chOff、ext = chExt",
+                "measured": "3 形状组合：off=[1270000,1270000]=chOff，ext=[5207000,3683000]=chExt，子形状 off/ext 不变",
+                "move": "只改 off，chOff 不动（子形状 XML 不变，视觉整体平移）",
+                "scale": "只改 ext，chExt 不动（宽 0.6 倍 → ext 3200400 / chExt 5334000）",
+                "group_animation": "对组加动画仍写 <p:spTgt spid=\"组id\"/>，PowerPoint 认这个组",
+                "skeleton": "<p:grpSp><p:nvGrpSpPr><p:cNvPr id=\"9\" name=\"row\"/><p:cNvGrpSpPr/><p:nvPr/></p:nvGrpSpPr><p:grpSpPr><a:xfrm><a:off x=\"..\" y=\"..\"/><a:ext cx=\"..\" cy=\"..\"/><a:chOff x=\"..\" y=\"..\"/><a:chExt cx=\"..\" cy=\"..\"/></a:xfrm></p:grpSpPr><p:sp>..</p:sp><p:sp>..</p:sp></p:grpSp>",
+            },
+            "style": {
+                "fill": {
+                    "solid": "<a:solidFill><a:srgbClr val=\"RRGGBB\"><a:alpha val=\"50000\"/></a:srgbClr></a:solidFill>",
+                    "gradient_linear": "<a:gradFill flip=\"none\" rotWithShape=\"1\"><a:gsLst><a:gs pos=\"0\">…</a:gs><a:gs pos=\"100000\">…</a:gs></a:gsLst><a:lin ang=\"2700000\" scaled=\"0\"/></a:gradFill>",
+                    "gradient_radial": "同上，收尾改为 <a:path path=\"rect\"><a:fillToRect l=\"50000\" t=\"50000\" r=\"50000\" b=\"50000\"/></a:path>",
+                    "none": "<a:noFill/>",
+                    "measured": "TwoColorGradient + GradientAngle=45 → lin ang=\"2700000\"；gs 的 pos 单位 1/1000 %",
+                },
+                "line": {
+                    "element": "<a:ln w=\"{pt×12700}\" cap=\"rnd\"><a:solidFill>…</a:solidFill><a:prstDash val=\"dash\"/><a:headEnd type=\"triangle\"/><a:tailEnd type=\"arrow\"/></a:ln>",
+                    "dash_values": "solid|dash|dashDot|lgDash|lgDashDot|lgDashDotDot|sysDash|sysDot|dot|round|square|none",
+                    "arrow_types": "none|triangle|stealth|diamond|oval|arrow",
+                    "measured": "DashStyle=4 → prstDash val=\"dash\"；BeginArrowheadStyle=2 → headEnd type=\"triangle\"；Transparency=0.5 → srgbClr/a:alpha val=\"50000\"",
+                },
+                "effects": {
+                    "order": "effectLst 子元素必须是 blur → fillOverlay → glow → innerShdw → outerShdw → prstShdw → reflection → softEdge",
+                    "outer_shadow": "<a:effectLst><a:outerShdw blurRad=\"152400\" dist=\"107763\" dir=\"2699994\" rotWithShape=\"0\"><a:srgbClr val=\"000000\"><a:alpha val=\"65000\"/></a:srgbClr></a:outerShdw></a:effectLst>",
+                    "glow": "<a:glow rad=\"152400\">…</a:glow>",
+                    "soft_edge": "<a:softEdge rad=\"127000\"/>",
+                    "measured": "Shadow.Blur=12 → blurRad=\"152400\"（12×12700）；Glow.Radius=12 → glow rad 同值；SoftEdge.Radius=10 → softEdge rad=\"127000\"",
+                },
+                "text": {
+                    "run": "<a:r><a:rPr lang=\"zh-CN\" altLang=\"en-US\" sz=\"3400\" b=\"1\" i=\"1\" u=\"sng\"><a:solidFill>…</a:solidFill><a:latin typeface=\"Arial\"/><a:ea typeface=\"Microsoft YaHei\"/></a:rPr><a:t>文字</a:t></a:r>",
+                    "run_units": "sz=1/100 pt；u=\"sng\"；strike=\"sngStrike\"；baseline=1/1000 %；spc=1/100 pt",
+                    "paragraph": "<a:pPr marL=\"914400\" lvl=\"1\" indent=\"-457200\" algn=\"ctr\"><a:lnSpc><a:spcPct val=\"140000\"/></a:lnSpc><a:spcBef><a:spcPts val=\"1200\"/></a:spcBef><a:spcAft><a:spcPts val=\"800\"/></a:spcAft><a:buSzPct val=\"110000\"/><a:buFont typeface=\"Arial\"/><a:buChar char=\"•\"/></a:pPr>",
+                    "paragraph_units": "lnSpc 用 spcPct（百分比×1000）；spcBef/spcAft 用 spcPts（1/100 pt）；marL/indent 为 EMU；lvl 从 0 开始",
+                },
+                "picture": {
+                    "crop": "<p:blipFill><a:srcRect l=\"10000\" t=\"8000\" r=\"5000\"/><a:blip r:embed=\"…\"/></p:blipFill>",
+                    "crop_units": "srcRect 用比例×100000；COM 的 PictureFormat.CropXxx 单位是磅（相对图片原始尺寸），别混用",
+                    "lum": "<a:blip><a:lum bright=\"10000\" contrast=\"15000\"/></a:blip>",
+                },
+                "table": {
+                    "structure": "p:graphicFrame/a:graphic/a:graphicData(uri=…/table)/a:tbl → a:tblPr + a:tblGrid + a:tr*",
+                    "style": "<a:tblPr firstRow=\"1\" bandRow=\"1\"><a:tableStyleId>{GUID}</a:tableStyleId></a:tblPr>",
+                    "grid": "a:tblGrid/a:gridCol@w（列宽 EMU）；a:tr@h（行高 EMU）",
+                    "merge": "主单元格 gridSpan=\"2\"；被吞掉的单元格写 hMerge=\"1\"（纵向 rowSpan/vMerge）",
+                    "cell": "a:tc/a:tcPr 内按 lnL → lnR → lnT → lnB → lnTlToBr → lnBlToTr → 填充 的顺序",
+                    "border": "<a:lnB w=\"19050\" cmpd=\"sng\"><a:solidFill><a:srgbClr val=\"457AFF\"/></a:solidFill><a:prstDash val=\"solid\"/></a:lnB>",
+                    "measured": "Columns(1).Width=140pt → gridCol w=\"1778000\"；Cell(1,1).Merge(Cell(1,2)) → gridSpan=\"2\" + hMerge=\"1\"",
+                },
+                "chart": {
+                    "structure": "p:graphicFrame/a:graphic/a:graphicData(uri=…/chart)/c:chart r:id → ppt/charts/chartN.xml（数据在 ppt/embeddings/*.xlsx）",
+                    "parts": ["ppt/charts/chartN.xml", "ppt/charts/_rels/chartN.xml.rels", "ppt/embeddings/Microsoft_Excel_SheetN.xlsx"],
+                    "animation": "图表就是 graphicFrame，动画目标写它自己的 spid（整体动画可用）",
+                    "chart_animation_limit": "msoAnimateChart* 分级（按系列/类别）在 COM 的 AddEffect 上一律 Invalid request（7/8/10 实测全失败），引擎只支持整体动画",
+                },
+                "units": "pct = 百分比×1000；spcPts = 1/100 pt；EMU = 914400/英寸；srcRect = 比例×100000；COM 的 RGB 是 BGR 顺序（0xBBGGRR）",
+                "evidence": ["rev/out/gt_styles.pptx", "rev/out/styles_raw/slide_00N.xml", "rev/out/styles_map.json"],
+            },
+            "z_order": "形状在 p:spTree/p:grpSp 中的元素顺序即层级：末尾 = 最上层",
+            "evidence": ["rev/out/gt_shapes.pptx", "rev/out/shapes_raw/slide_00N.xml", "rev/out/shapes_map.json"],
+        },
+        "theme_and_show": {
+            "theme_part": "ppt/theme/theme1.xml（每个 slideMaster 一份）",
+            "clrScheme": {
+                "dk1": "<a:dk1><a:sysClr val=\"windowText\" lastClr=\"000000\"/></a:dk1>",
+                "lt1": "<a:lt1><a:sysClr val=\"window\" lastClr=\"FFFFFF\"/></a:lt1>",
+                "others": "dk2 / lt2 / accent1..accent6 / hlink / folHlink 都是 <a:srgbClr val=\"RRGGBB\"/>",
+                "measured": "Theme.ThemeColorScheme.Colors(5).RGB=0xFF7A45 → accent1 val=\"FF7A45\"（COM 索引 5=accent1）",
+            },
+            "fontScheme": {
+                "structure": "<a:majorFont><a:latin typeface=\"…\"/><a:ea typeface=\"…\"/><a:cs typeface=\"\"/><a:font script=\"Hans\" typeface=\"宋体\"/>…</a:majorFont>",
+                "note": "中文走 <a:font script=\"Hans\"> 与 <a:ea>，只改 latin 不动中文",
+            },
+            "presProps": {
+                "part": "ppt/presProps.xml（CT_PresentationProperties）",
+                "skeleton": "<p:presentationPr><p:showPr loop=\"1\"><p:present/><p:sldAll/><p:penClr><a:prstClr val=\"red\"/></p:penClr></p:showPr></p:presentationPr>",
+                "attrs": {"loop": "循环放映", "showNarration": "0 关旁白", "showAnimation": "0 关动画",
+                          "useTimings": "0 不用排练计时", "showScrollbar": "1 显示滚动条"},
+                "modes": {"present": "演讲者放映", "browse": "观众自行浏览", "kiosk": "展台浏览", "sldAll": "全部幻灯片"},
+                "measured": "LoopUntilStopped=-1 / ShowType=kiosk → loop=\"1\" + <p:kiosk/><p:sldAll/>；COM 回读 type=3",
+            },
+            "com_index": "ppColorSchemeIndex: 1=dk1 2=lt1 3=dk2 4=lt2 5=accent1 6=accent2 …；RGB 仍是 BGR 顺序",
+            "evidence": ["rev/out/gt_theme.pptx", "rev/out/theme_map.json", "rev/out/theme_raw/theme1.xml"],
+        },
+        "evidence": {
+            "sampled_pptx": ["rev/out/gt_transitions.pptx", "rev/out/gt_transition_props.pptx",
+                             "rev/out/gt_animations.pptx", "rev/out/gt_anim_exit.pptx",
+                             "rev/out/gt_anim_variants.pptx"],
+            "raw_slide_xml": ["rev/out/transitions_raw/", "rev/out/animations_raw/",
+                              "rev/out/anim_variants_raw/", "rev/out/anim_exit_raw/"],
+            "maps": ["rev/out/transitions_map.json", "rev/out/transition_props.json",
+                     "rev/out/animations_map.json", "rev/out/anim_exit_map.json",
+                     "rev/out/anim_variants.json", "rev/out/shapes_map.json", "rev/out/theme_map.json"],
+            "summaries": ["rev/out/transitions_summary.txt", "rev/out/animations_summary.txt",
+                          "rev/out/anim_variants_summary.txt"],
+        },
+    }
+    path = os.path.join(SCHEMA, "ooxml_structure.json")
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump(doc, fh, ensure_ascii=False, indent=1)
+    print("[written]", path)
+    print("counts:", json.dumps(doc["meta"]["counts"], ensure_ascii=False))
+    print("transition namespaces:", doc["transition_catalog"]["namespaces"])
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
+

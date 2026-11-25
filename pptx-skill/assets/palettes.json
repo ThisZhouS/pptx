@@ -1,0 +1,72 @@
+{
+ "source": "Resource/ 91 个主题的 clrScheme 提取",
+ "hue_families": {
+  "蓝": {
+   "count": 63,
+   "accent_sat": 0.65,
+   "accent_val": 0.77,
+   "contrast_accent_bg": 4.72,
+   "samples": [
+    "5B9BD5",
+    "5B9BD5",
+    "4472C4",
+    "5B9BD5",
+    "4472C4"
+   ],
+   "mode": "浅底"
+  },
+  "绿": {
+   "count": 5,
+   "accent_sat": 0.7,
+   "accent_val": 0.39,
+   "contrast_accent_bg": 7.17,
+   "samples": [
+    "5F8C39",
+    "071B11",
+    "376F5A",
+    "185032",
+    "316318"
+   ],
+   "mode": "浅底"
+  },
+  "青": {
+   "count": 10,
+   "accent_sat": 0.84,
+   "accent_val": 0.51,
+   "contrast_accent_bg": 6.94,
+   "samples": [
+    "A5B0B4",
+    "006472",
+    "54747D",
+    "156082",
+    "156082"
+   ],
+   "mode": "浅底"
+  },
+  "红橙": {
+   "count": 12,
+   "accent_sat": 0.425,
+   "accent_val": 0.975,
+   "contrast_accent_bg": 2.57,
+   "samples": [
+    "FF6D6D",
+    "C4A09F",
+    "FAA0AA",
+    "FAA0AA",
+    "CB9677"
+   ],
+   "mode": "浅底"
+  },
+  "紫": {
+   "count": 1,
+   "accent_sat": 0.7,
+   "accent_val": 0.63,
+   "contrast_accent_bg": 8.02,
+   "samples": [
+    "7030A0"
+   ],
+   "mode": "浅底"
+  }
+ },
+ "note": "浅底占 91/91；accent 与背景对比中位 4.72（WCAG AA）"
+}

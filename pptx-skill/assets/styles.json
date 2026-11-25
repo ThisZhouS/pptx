@@ -1,0 +1,146 @@
+{
+ "source": "Resource 62 板块画像 + 91 主题配色 + 14 个高动画配方",
+ "styles": {
+  "极简": {
+   "accent": {
+    "hue": 205,
+    "sat": 0.72,
+    "val": 0.8,
+    "preset": "light"
+   },
+   "motion": {
+    "anims": 0,
+    "recipe": "none"
+   },
+   "layout_prefs": {
+    "columns": 1,
+    "image_slot": false,
+    "decor_density": "low"
+   },
+   "use_for": [
+    "汇报",
+    "答辩",
+    "评审"
+   ]
+  },
+  "商务": {
+   "accent": {
+    "hue": 212,
+    "sat": 0.68,
+    "val": 0.62,
+    "preset": "light"
+   },
+   "motion": {
+    "anims": 8,
+    "recipe": "subtle"
+   },
+   "layout_prefs": {
+    "columns": 2,
+    "image_slot": false,
+    "decor_density": "normal"
+   },
+   "use_for": [
+    "工作汇报",
+    "方案",
+    "投标"
+   ]
+  },
+  "科技": {
+   "accent": {
+    "hue": 195,
+    "sat": 0.78,
+    "val": 0.85,
+    "preset": "light"
+   },
+   "motion": {
+    "anims": 18,
+    "recipe": "rich"
+   },
+   "layout_prefs": {
+    "columns": 2,
+    "image_slot": true,
+    "decor_density": "normal"
+   },
+   "use_for": [
+    "产品",
+    "技术分享",
+    "路演"
+   ]
+  },
+  "国潮": {
+   "accent": {
+    "hue": 8,
+    "sat": 0.62,
+    "val": 0.55,
+    "preset": "light"
+   },
+   "motion": {
+    "anims": 6,
+    "recipe": "subtle"
+   },
+   "layout_prefs": {
+    "columns": 2,
+    "image_slot": true,
+    "decor_density": "normal"
+   },
+   "use_for": [
+    "文化",
+    "非遗",
+    "品牌"
+   ]
+  },
+  "文艺": {
+   "accent": {
+    "hue": 32,
+    "sat": 0.35,
+    "val": 0.62,
+    "preset": "light"
+   },
+   "motion": {
+    "anims": 4,
+    "recipe": "subtle"
+   },
+   "layout_prefs": {
+    "columns": 1,
+    "image_slot": true,
+    "decor_density": "normal"
+   },
+   "use_for": [
+    "画册",
+    "作品集",
+    "读书会"
+   ]
+  },
+  "沉稳深色": {
+   "accent": {
+    "hue": 210,
+    "sat": 0.55,
+    "val": 0.72,
+    "preset": "midnight"
+   },
+   "motion": {
+    "anims": 12,
+    "recipe": "cinematic"
+   },
+   "layout_prefs": {
+    "columns": 2,
+    "image_slot": false,
+    "decor_density": "normal"
+   },
+   "use_for": [
+    "发布会",
+    "夜场演示",
+    "Fintech"
+   ]
+  }
+ },
+ "task_type_default": {
+  "汇报": "商务",
+  "答辩": "极简",
+  "路演": "科技",
+  "培训": "商务",
+  "作品集": "文艺",
+  "文化": "国潮",
+  "发布会": "沉稳深色"
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "theme_part": "ppt/theme/theme1.xml",
+ "default_colors": {
+  "dk1": "1F497D",
+  "lt1": "1F497D",
+  "dk2": "1F497D",
+  "lt2": "EEECE1",
+  "accent1": "4F81BD",
+  "accent2": "C0504D",
+  "accent3": "9BBB59",
+  "accent4": "8064A2",
+  "accent5": "4BACC6",
+  "accent6": "F79646",
+  "hlink": "0000FF",
+  "folHlink": "800080"
+ },
+ "default_fonts": {
+  "majorFont": "Calibri",
+  "minorFont": "Calibri",
+  "ea_majorFont": "",
+  "ea_minorFont": ""
+ },
+ "showPr": null,
+ "com": {
+  "settings_dir": [
+   "AdvanceMode",
+   "Application",
+   "CLSID",
+   "EndingSlide",
+   "LoopUntilStopped",
+   "NamedSlideShows",
+   "Parent",
+   "PointerColor",
+   "RangeType",
+   "Run",
+   "ShowMediaControls",
+   "ShowPresenterView",
+   "ShowScrollbar",
+   "ShowType",
+   "ShowWithAnimation",
+   "ShowWithNarration",
+   "SlideShowName",
+   "StartingSlide",
+   "coclass_clsid"
+  ],
+  "loop": -1,
+  "narration": 0,
+  "animation": -1,
+  "advance_mode": 2,
+  "show_type": 1,
+  "colorscheme_dir": [
+   "AddRef",
+   "Application",
+   "Colors",
+   "Count",
+   "Creator",
+   "GetCustomColor",
+   "GetIDsOfNames",
+   "GetTypeInfo",
+   "GetTypeInfoCount",
+   "Invoke",
+   "Load",
+   "Parent",
+   "QueryInterface",
+   "Release",
+   "Save"
+  ],
+  "colors_before": {
+   "1": 0,
+   "2": 16777215,
+   "3": 8210719,
+   "4": 14806254,
+   "5": 12419407,
+   "6": 5066944,
+   "7": 5880731,
+   "8": 10642560,
+   "9": 13020235,
+   "10": 4626167,
+   "11": 16711680,
+   "12": 8388736
+  },
+  "color_patched": true
+ },
+ "theme_after_colors": [
+  [
+   "dk2",
+   "1F497D"
+  ],
+  [
+   "lt2",
+   "EEECE1"
+  ],
+  [
+   "accent1",
+   "4F81BD"
+  ],
+  [
+   "accent2",
+   "457AFF"
+  ],
+  [
+   "accent3",
+   "C4E36F"
+  ],
+  [
+   "accent4",
+   "8064A2"
+  ],
+  [
+   "accent5",
+   "4BACC6"
+  ],
+  [
+   "accent6",
+   "F79646"
+  ]
+ ],
+ "parts": [
+  "ppt/slideMasters/slideMaster1.xml",
+  "ppt/slideLayouts/slideLayout1.xml",
+  "ppt/slideLayouts/slideLayout2.xml",
+  "ppt/slideLayouts/slideLayout3.xml",
+  "ppt/slideLayouts/slideLayout4.xml",
+  "ppt/slideLayouts/slideLayout5.xml",
+  "ppt/slideLayouts/slideLayout6.xml",
+  "ppt/slideLayouts/slideLayout7.xml",
+  "ppt/slideLayouts/slideLayout8.xml",
+  "ppt/slideLayouts/slideLayout9.xml",
+  "ppt/slideLayouts/slideLayout10.xml",
+  "ppt/slideMasters/_rels/slideMaster1.xml.rels"
+ ]
+}

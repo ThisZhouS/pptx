@@ -1,0 +1,4594 @@
+{
+ "0|ppEffectNone": {
+  "label": "ppEffectNone",
+  "value": 0,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "257|ppEffectCut": {
+  "label": "ppEffectCut",
+  "value": 257,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "cut"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:cut/>\n  </p:transition>\n\n"
+  }
+ },
+ "258|ppEffectCutThroughBlack": {
+  "label": "ppEffectCutThroughBlack",
+  "value": 258,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "cut"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:cut thruBlk=\"1\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "513|ppEffectRandom": {
+  "label": "ppEffectRandom",
+  "value": 513,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "random"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:random/>\n  </p:transition>\n\n"
+  }
+ },
+ "769|ppEffectBlindsHorizontal": {
+  "label": "ppEffectBlindsHorizontal",
+  "value": 769,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "blinds"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:blinds/>\n  </p:transition>\n\n"
+  }
+ },
+ "770|ppEffectBlindsVertical": {
+  "label": "ppEffectBlindsVertical",
+  "value": 770,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "blinds"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:blinds dir=\"vert\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "1025|ppEffectCheckerboardAcross": {
+  "label": "ppEffectCheckerboardAcross",
+  "value": 1025,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "checker"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:checker/>\n  </p:transition>\n\n"
+  }
+ },
+ "1026|ppEffectCheckerboardDown": {
+  "label": "ppEffectCheckerboardDown",
+  "value": 1026,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "checker"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:checker dir=\"vert\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "1281|ppEffectCoverLeft": {
+  "label": "ppEffectCoverLeft",
+  "value": 1281,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "cover"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:cover/>\n  </p:transition>\n\n"
+  }
+ },
+ "1282|ppEffectCoverUp": {
+  "label": "ppEffectCoverUp",
+  "value": 1282,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "cover"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:cover dir=\"u\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "1283|ppEffectCoverRight": {
+  "label": "ppEffectCoverRight",
+  "value": 1283,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "cover"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:cover dir=\"r\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "1284|ppEffectCoverDown": {
+  "label": "ppEffectCoverDown",
+  "value": 1284,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "cover"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:cover dir=\"d\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "1285|ppEffectCoverLeftUp": {
+  "label": "ppEffectCoverLeftUp",
+  "value": 1285,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "cover"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:cover dir=\"lu\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "1286|ppEffectCoverRightUp": {
+  "label": "ppEffectCoverRightUp",
+  "value": 1286,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "cover"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:cover dir=\"ru\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "1287|ppEffectCoverLeftDown": {
+  "label": "ppEffectCoverLeftDown",
+  "value": 1287,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "cover"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:cover dir=\"ld\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "1288|ppEffectCoverRightDown": {
+  "label": "ppEffectCoverRightDown",
+  "value": 1288,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "cover"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:cover dir=\"rd\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "1537|ppEffectDissolve": {
+  "label": "ppEffectDissolve",
+  "value": 1537,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "dissolve"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:dissolve/>\n  </p:transition>\n\n"
+  }
+ },
+ "1793|ppEffectFade": {
+  "label": "ppEffectFade",
+  "value": 1793,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "fade"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:fade thruBlk=\"1\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "2049|ppEffectUncoverLeft": {
+  "label": "ppEffectUncoverLeft",
+  "value": 2049,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "pull"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:pull/>\n  </p:transition>\n\n"
+  }
+ },
+ "2050|ppEffectUncoverUp": {
+  "label": "ppEffectUncoverUp",
+  "value": 2050,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "pull"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:pull dir=\"u\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "2051|ppEffectUncoverRight": {
+  "label": "ppEffectUncoverRight",
+  "value": 2051,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "pull"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:pull dir=\"r\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "2052|ppEffectUncoverDown": {
+  "label": "ppEffectUncoverDown",
+  "value": 2052,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "pull"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:pull dir=\"d\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "2053|ppEffectUncoverLeftUp": {
+  "label": "ppEffectUncoverLeftUp",
+  "value": 2053,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "pull"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:pull dir=\"lu\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "2054|ppEffectUncoverRightUp": {
+  "label": "ppEffectUncoverRightUp",
+  "value": 2054,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "pull"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:pull dir=\"ru\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "2055|ppEffectUncoverLeftDown": {
+  "label": "ppEffectUncoverLeftDown",
+  "value": 2055,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "pull"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:pull dir=\"ld\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "2056|ppEffectUncoverRightDown": {
+  "label": "ppEffectUncoverRightDown",
+  "value": 2056,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "pull"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:pull dir=\"rd\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "2305|ppEffectRandomBarsHorizontal": {
+  "label": "ppEffectRandomBarsHorizontal",
+  "value": 2305,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "randomBar"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:randomBar/>\n  </p:transition>\n\n"
+  }
+ },
+ "2306|ppEffectRandomBarsVertical": {
+  "label": "ppEffectRandomBarsVertical",
+  "value": 2306,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "randomBar"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:randomBar dir=\"vert\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "2561|ppEffectStripsUpLeft": {
+  "label": "ppEffectStripsUpLeft",
+  "value": 2561,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "strips"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:strips/>\n  </p:transition>\n\n"
+  }
+ },
+ "2562|ppEffectStripsUpRight": {
+  "label": "ppEffectStripsUpRight",
+  "value": 2562,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "strips"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:strips dir=\"ru\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "2563|ppEffectStripsDownLeft": {
+  "label": "ppEffectStripsDownLeft",
+  "value": 2563,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "strips"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:strips dir=\"ld\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "2564|ppEffectStripsDownRight": {
+  "label": "ppEffectStripsDownRight",
+  "value": 2564,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "strips"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:strips dir=\"rd\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "2565|ppEffectStripsLeftUp": {
+  "label": "ppEffectStripsLeftUp",
+  "value": 2565,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "strips"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:strips/>\n  </p:transition>\n\n"
+  }
+ },
+ "2566|ppEffectStripsRightUp": {
+  "label": "ppEffectStripsRightUp",
+  "value": 2566,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "strips"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:strips dir=\"ru\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "2567|ppEffectStripsLeftDown": {
+  "label": "ppEffectStripsLeftDown",
+  "value": 2567,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "strips"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:strips dir=\"ld\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "2568|ppEffectStripsRightDown": {
+  "label": "ppEffectStripsRightDown",
+  "value": 2568,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "strips"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:strips dir=\"rd\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "2817|ppEffectWipeLeft": {
+  "label": "ppEffectWipeLeft",
+  "value": 2817,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "wipe"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:wipe/>\n  </p:transition>\n\n"
+  }
+ },
+ "2818|ppEffectWipeUp": {
+  "label": "ppEffectWipeUp",
+  "value": 2818,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "wipe"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:wipe dir=\"u\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "2819|ppEffectWipeRight": {
+  "label": "ppEffectWipeRight",
+  "value": 2819,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "wipe"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:wipe dir=\"r\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "2820|ppEffectWipeDown": {
+  "label": "ppEffectWipeDown",
+  "value": 2820,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "wipe"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:wipe dir=\"d\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "3073|ppEffectBoxOut": {
+  "label": "ppEffectBoxOut",
+  "value": 3073,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "zoom"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:zoom/>\n  </p:transition>\n\n"
+  }
+ },
+ "3074|ppEffectBoxIn": {
+  "label": "ppEffectBoxIn",
+  "value": 3074,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "zoom"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:zoom dir=\"in\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "3329|ppEffectFlyFromLeft": {
+  "label": "ppEffectFlyFromLeft",
+  "value": 3329,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3330|ppEffectFlyFromTop": {
+  "label": "ppEffectFlyFromTop",
+  "value": 3330,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3331|ppEffectFlyFromRight": {
+  "label": "ppEffectFlyFromRight",
+  "value": 3331,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3332|ppEffectFlyFromBottom": {
+  "label": "ppEffectFlyFromBottom",
+  "value": 3332,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3333|ppEffectFlyFromTopLeft": {
+  "label": "ppEffectFlyFromTopLeft",
+  "value": 3333,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3334|ppEffectFlyFromTopRight": {
+  "label": "ppEffectFlyFromTopRight",
+  "value": 3334,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3335|ppEffectFlyFromBottomLeft": {
+  "label": "ppEffectFlyFromBottomLeft",
+  "value": 3335,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3336|ppEffectFlyFromBottomRight": {
+  "label": "ppEffectFlyFromBottomRight",
+  "value": 3336,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3337|ppEffectPeekFromLeft": {
+  "label": "ppEffectPeekFromLeft",
+  "value": 3337,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3338|ppEffectPeekFromDown": {
+  "label": "ppEffectPeekFromDown",
+  "value": 3338,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3339|ppEffectPeekFromRight": {
+  "label": "ppEffectPeekFromRight",
+  "value": 3339,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3340|ppEffectPeekFromUp": {
+  "label": "ppEffectPeekFromUp",
+  "value": 3340,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3341|ppEffectCrawlFromLeft": {
+  "label": "ppEffectCrawlFromLeft",
+  "value": 3341,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3342|ppEffectCrawlFromUp": {
+  "label": "ppEffectCrawlFromUp",
+  "value": 3342,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3343|ppEffectCrawlFromRight": {
+  "label": "ppEffectCrawlFromRight",
+  "value": 3343,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3344|ppEffectCrawlFromDown": {
+  "label": "ppEffectCrawlFromDown",
+  "value": 3344,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3345|ppEffectZoomIn": {
+  "label": "ppEffectZoomIn",
+  "value": 3345,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3346|ppEffectZoomInSlightly": {
+  "label": "ppEffectZoomInSlightly",
+  "value": 3346,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3347|ppEffectZoomOut": {
+  "label": "ppEffectZoomOut",
+  "value": 3347,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3348|ppEffectZoomOutSlightly": {
+  "label": "ppEffectZoomOutSlightly",
+  "value": 3348,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3349|ppEffectZoomCenter": {
+  "label": "ppEffectZoomCenter",
+  "value": 3349,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3350|ppEffectZoomBottom": {
+  "label": "ppEffectZoomBottom",
+  "value": 3350,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3351|ppEffectStretchAcross": {
+  "label": "ppEffectStretchAcross",
+  "value": 3351,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3352|ppEffectStretchLeft": {
+  "label": "ppEffectStretchLeft",
+  "value": 3352,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3353|ppEffectStretchUp": {
+  "label": "ppEffectStretchUp",
+  "value": 3353,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3354|ppEffectStretchRight": {
+  "label": "ppEffectStretchRight",
+  "value": 3354,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3355|ppEffectStretchDown": {
+  "label": "ppEffectStretchDown",
+  "value": 3355,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3356|ppEffectSwivel": {
+  "label": "ppEffectSwivel",
+  "value": 3356,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3357|ppEffectSpiral": {
+  "label": "ppEffectSpiral",
+  "value": 3357,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3585|ppEffectSplitHorizontalOut": {
+  "label": "ppEffectSplitHorizontalOut",
+  "value": 3585,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "split"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:split/>\n  </p:transition>\n\n"
+  }
+ },
+ "3586|ppEffectSplitHorizontalIn": {
+  "label": "ppEffectSplitHorizontalIn",
+  "value": 3586,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "split"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:split dir=\"in\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "3587|ppEffectSplitVerticalOut": {
+  "label": "ppEffectSplitVerticalOut",
+  "value": 3587,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "split"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:split orient=\"vert\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "3588|ppEffectSplitVerticalIn": {
+  "label": "ppEffectSplitVerticalIn",
+  "value": 3588,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "split"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:split orient=\"vert\" dir=\"in\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "3841|ppEffectFlashOnceFast": {
+  "label": "ppEffectFlashOnceFast",
+  "value": 3841,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3842|ppEffectFlashOnceMedium": {
+  "label": "ppEffectFlashOnceMedium",
+  "value": 3842,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3843|ppEffectFlashOnceSlow": {
+  "label": "ppEffectFlashOnceSlow",
+  "value": 3843,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": false,
+  "apply_error": "com_error: (-2147352567, '发生意外。', (0, 'Microsoft PowerPoint', 'SlideShowTransition.EntryEffect : Invalid request.  This enumeration value is not valid for transitions.', '', 0, -2147188160), None)",
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [],
+   "child_ns": [],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\"/>\n\n"
+  }
+ },
+ "3844|ppEffectAppear": {
+  "label": "ppEffectAppear",
+  "value": 3844,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "cut"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:cut/>\n  </p:transition>\n\n"
+  }
+ },
+ "3845|ppEffectCircleOut": {
+  "label": "ppEffectCircleOut",
+  "value": 3845,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "circle"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:circle/>\n  </p:transition>\n\n"
+  }
+ },
+ "3846|ppEffectDiamondOut": {
+  "label": "ppEffectDiamondOut",
+  "value": 3846,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "diamond"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:diamond/>\n  </p:transition>\n\n"
+  }
+ },
+ "3847|ppEffectCombHorizontal": {
+  "label": "ppEffectCombHorizontal",
+  "value": 3847,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "comb"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:comb/>\n  </p:transition>\n\n"
+  }
+ },
+ "3848|ppEffectCombVertical": {
+  "label": "ppEffectCombVertical",
+  "value": 3848,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "comb"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:comb dir=\"vert\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "3849|ppEffectFadeSmoothly": {
+  "label": "ppEffectFadeSmoothly",
+  "value": 3849,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "fade"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:fade/>\n  </p:transition>\n\n"
+  }
+ },
+ "3850|ppEffectNewsflash": {
+  "label": "ppEffectNewsflash",
+  "value": 3850,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "newsflash"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:newsflash/>\n  </p:transition>\n\n"
+  }
+ },
+ "3851|ppEffectPlusOut": {
+  "label": "ppEffectPlusOut",
+  "value": 3851,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "plus"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:plus/>\n  </p:transition>\n\n"
+  }
+ },
+ "3852|ppEffectPushDown": {
+  "label": "ppEffectPushDown",
+  "value": 3852,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "push"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:push dir=\"d\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "3853|ppEffectPushLeft": {
+  "label": "ppEffectPushLeft",
+  "value": 3853,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "push"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:push/>\n  </p:transition>\n\n"
+  }
+ },
+ "3854|ppEffectPushRight": {
+  "label": "ppEffectPushRight",
+  "value": 3854,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "push"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:push dir=\"r\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "3855|ppEffectPushUp": {
+  "label": "ppEffectPushUp",
+  "value": 3855,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "push"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:push dir=\"u\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "3856|ppEffectWedge": {
+  "label": "ppEffectWedge",
+  "value": 3856,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "wedge"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:wedge/>\n  </p:transition>\n\n"
+  }
+ },
+ "3857|ppEffectWheel1Spoke": {
+  "label": "ppEffectWheel1Spoke",
+  "value": 3857,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "wheel"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:wheel spokes=\"1\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "3858|ppEffectWheel2Spokes": {
+  "label": "ppEffectWheel2Spokes",
+  "value": 3858,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "wheel"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:wheel spokes=\"2\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "3859|ppEffectWheel3Spokes": {
+  "label": "ppEffectWheel3Spokes",
+  "value": 3859,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "wheel"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:wheel spokes=\"3\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "3860|ppEffectWheel4Spokes": {
+  "label": "ppEffectWheel4Spokes",
+  "value": 3860,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "wheel"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:wheel/>\n  </p:transition>\n\n"
+  }
+ },
+ "3861|ppEffectWheel8Spokes": {
+  "label": "ppEffectWheel8Spokes",
+  "value": 3861,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "wheel"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:wheel spokes=\"8\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "3862|ppEffectWheelReverse1Spoke": {
+  "label": "ppEffectWheelReverse1Spoke",
+  "value": 3862,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "wheelReverse"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:wheelReverse spokes=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3863|ppEffectVortexLeft": {
+  "label": "ppEffectVortexLeft",
+  "value": 3863,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "vortex"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:vortex/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3864|ppEffectVortexUp": {
+  "label": "ppEffectVortexUp",
+  "value": 3864,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "vortex"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:vortex dir=\"u\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3865|ppEffectVortexRight": {
+  "label": "ppEffectVortexRight",
+  "value": 3865,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "vortex"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:vortex dir=\"r\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3866|ppEffectVortexDown": {
+  "label": "ppEffectVortexDown",
+  "value": 3866,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "vortex"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:vortex dir=\"d\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3867|ppEffectRippleCenter": {
+  "label": "ppEffectRippleCenter",
+  "value": 3867,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "ripple"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:ripple/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3868|ppEffectRippleRightUp": {
+  "label": "ppEffectRippleRightUp",
+  "value": 3868,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "ripple"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:ripple dir=\"ru\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3869|ppEffectRippleLeftUp": {
+  "label": "ppEffectRippleLeftUp",
+  "value": 3869,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "ripple"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:ripple dir=\"lu\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3870|ppEffectRippleLeftDown": {
+  "label": "ppEffectRippleLeftDown",
+  "value": 3870,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "ripple"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:ripple dir=\"ld\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3871|ppEffectRippleRightDown": {
+  "label": "ppEffectRippleRightDown",
+  "value": 3871,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "ripple"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:ripple dir=\"rd\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3872|ppEffectGlitterDiamondLeft": {
+  "label": "ppEffectGlitterDiamondLeft",
+  "value": 3872,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "glitter"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:glitter dir=\"r\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3873|ppEffectGlitterDiamondUp": {
+  "label": "ppEffectGlitterDiamondUp",
+  "value": 3873,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "glitter"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:glitter dir=\"d\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3874|ppEffectGlitterDiamondRight": {
+  "label": "ppEffectGlitterDiamondRight",
+  "value": 3874,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "glitter"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:glitter/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3875|ppEffectGlitterDiamondDown": {
+  "label": "ppEffectGlitterDiamondDown",
+  "value": 3875,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "glitter"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:glitter dir=\"u\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3876|ppEffectGlitterHexagonLeft": {
+  "label": "ppEffectGlitterHexagonLeft",
+  "value": 3876,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "glitter"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:glitter dir=\"r\" pattern=\"hexagon\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3877|ppEffectGlitterHexagonUp": {
+  "label": "ppEffectGlitterHexagonUp",
+  "value": 3877,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "glitter"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:glitter dir=\"d\" pattern=\"hexagon\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3878|ppEffectGlitterHexagonRight": {
+  "label": "ppEffectGlitterHexagonRight",
+  "value": 3878,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "glitter"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:glitter pattern=\"hexagon\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3879|ppEffectGlitterHexagonDown": {
+  "label": "ppEffectGlitterHexagonDown",
+  "value": 3879,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "glitter"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:glitter dir=\"u\" pattern=\"hexagon\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3880|ppEffectGalleryLeft": {
+  "label": "ppEffectGalleryLeft",
+  "value": 3880,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "gallery"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:gallery dir=\"l\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3881|ppEffectGalleryRight": {
+  "label": "ppEffectGalleryRight",
+  "value": 3881,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "gallery"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:gallery dir=\"r\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3882|ppEffectConveyorLeft": {
+  "label": "ppEffectConveyorLeft",
+  "value": 3882,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "conveyor"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:conveyor dir=\"l\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3883|ppEffectConveyorRight": {
+  "label": "ppEffectConveyorRight",
+  "value": 3883,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "conveyor"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:conveyor dir=\"r\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3884|ppEffectDoorsVertical": {
+  "label": "ppEffectDoorsVertical",
+  "value": 3884,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "doors"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:doors dir=\"vert\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3885|ppEffectDoorsHorizontal": {
+  "label": "ppEffectDoorsHorizontal",
+  "value": 3885,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "doors"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:doors/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3886|ppEffectWindowVertical": {
+  "label": "ppEffectWindowVertical",
+  "value": 3886,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "window"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:window dir=\"vert\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3887|ppEffectWindowHorizontal": {
+  "label": "ppEffectWindowHorizontal",
+  "value": 3887,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "window"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:window/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3888|ppEffectWarpIn": {
+  "label": "ppEffectWarpIn",
+  "value": 3888,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "warp"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:warp dir=\"in\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3889|ppEffectWarpOut": {
+  "label": "ppEffectWarpOut",
+  "value": 3889,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "warp"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:warp/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3890|ppEffectFlyThroughIn": {
+  "label": "ppEffectFlyThroughIn",
+  "value": 3890,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "flythrough"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:flythrough/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3891|ppEffectFlyThroughOut": {
+  "label": "ppEffectFlyThroughOut",
+  "value": 3891,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "flythrough"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:flythrough dir=\"out\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3892|ppEffectFlyThroughInBounce": {
+  "label": "ppEffectFlyThroughInBounce",
+  "value": 3892,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "flythrough"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:flythrough hasBounce=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3893|ppEffectFlyThroughOutBounce": {
+  "label": "ppEffectFlyThroughOutBounce",
+  "value": 3893,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "flythrough"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:flythrough dir=\"out\" hasBounce=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3894|ppEffectRevealSmoothLeft": {
+  "label": "ppEffectRevealSmoothLeft",
+  "value": 3894,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "reveal"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:reveal/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3895|ppEffectRevealSmoothRight": {
+  "label": "ppEffectRevealSmoothRight",
+  "value": 3895,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "reveal"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:reveal dir=\"r\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3896|ppEffectRevealBlackLeft": {
+  "label": "ppEffectRevealBlackLeft",
+  "value": 3896,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "reveal"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:reveal thruBlk=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3897|ppEffectRevealBlackRight": {
+  "label": "ppEffectRevealBlackRight",
+  "value": 3897,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "reveal"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:reveal thruBlk=\"1\" dir=\"r\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3898|ppEffectHoneycomb": {
+  "label": "ppEffectHoneycomb",
+  "value": 3898,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "honeycomb"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:honeycomb/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3899|ppEffectFerrisWheelLeft": {
+  "label": "ppEffectFerrisWheelLeft",
+  "value": 3899,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "ferris"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:ferris dir=\"l\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3900|ppEffectFerrisWheelRight": {
+  "label": "ppEffectFerrisWheelRight",
+  "value": 3900,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "ferris"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:ferris dir=\"r\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3901|ppEffectSwitchLeft": {
+  "label": "ppEffectSwitchLeft",
+  "value": 3901,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "switch"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:switch dir=\"l\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3902|ppEffectSwitchUp": {
+  "label": "ppEffectSwitchUp",
+  "value": 3902,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "switch"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:switch dir=\"r\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3903|ppEffectSwitchRight": {
+  "label": "ppEffectSwitchRight",
+  "value": 3903,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "switch"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:switch dir=\"r\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3904|ppEffectSwitchDown": {
+  "label": "ppEffectSwitchDown",
+  "value": 3904,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "switch"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:switch dir=\"r\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3905|ppEffectFlipLeft": {
+  "label": "ppEffectFlipLeft",
+  "value": 3905,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "flip"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:flip dir=\"l\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3906|ppEffectFlipUp": {
+  "label": "ppEffectFlipUp",
+  "value": 3906,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "flip"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:flip dir=\"r\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3907|ppEffectFlipRight": {
+  "label": "ppEffectFlipRight",
+  "value": 3907,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "flip"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:flip dir=\"r\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3908|ppEffectFlipDown": {
+  "label": "ppEffectFlipDown",
+  "value": 3908,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "flip"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:flip dir=\"r\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3909|ppEffectFlashbulb": {
+  "label": "ppEffectFlashbulb",
+  "value": 3909,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "flash"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:flash/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3910|ppEffectShredStripsIn": {
+  "label": "ppEffectShredStripsIn",
+  "value": 3910,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "shred"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:shred/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3911|ppEffectShredStripsOut": {
+  "label": "ppEffectShredStripsOut",
+  "value": 3911,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "shred"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:shred dir=\"out\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3912|ppEffectShredRectangleIn": {
+  "label": "ppEffectShredRectangleIn",
+  "value": 3912,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "shred"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:shred pattern=\"rectangle\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3913|ppEffectShredRectangleOut": {
+  "label": "ppEffectShredRectangleOut",
+  "value": 3913,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "shred"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:shred pattern=\"rectangle\" dir=\"out\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3914|ppEffectCubeLeft": {
+  "label": "ppEffectCubeLeft",
+  "value": 3914,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prism"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:prism/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3915|ppEffectCubeUp": {
+  "label": "ppEffectCubeUp",
+  "value": 3915,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prism"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:prism dir=\"u\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3916|ppEffectCubeRight": {
+  "label": "ppEffectCubeRight",
+  "value": 3916,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prism"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:prism dir=\"r\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3917|ppEffectCubeDown": {
+  "label": "ppEffectCubeDown",
+  "value": 3917,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prism"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:prism dir=\"d\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3918|ppEffectRotateLeft": {
+  "label": "ppEffectRotateLeft",
+  "value": 3918,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prism"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:prism isContent=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3919|ppEffectRotateUp": {
+  "label": "ppEffectRotateUp",
+  "value": 3919,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prism"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:prism dir=\"u\" isContent=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3920|ppEffectRotateRight": {
+  "label": "ppEffectRotateRight",
+  "value": 3920,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prism"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:prism dir=\"r\" isContent=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3921|ppEffectRotateDown": {
+  "label": "ppEffectRotateDown",
+  "value": 3921,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prism"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:prism dir=\"d\" isContent=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3922|ppEffectBoxLeft": {
+  "label": "ppEffectBoxLeft",
+  "value": 3922,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prism"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:prism isInverted=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3923|ppEffectBoxUp": {
+  "label": "ppEffectBoxUp",
+  "value": 3923,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prism"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:prism dir=\"u\" isInverted=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3924|ppEffectBoxRight": {
+  "label": "ppEffectBoxRight",
+  "value": 3924,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prism"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:prism dir=\"r\" isInverted=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3925|ppEffectBoxDown": {
+  "label": "ppEffectBoxDown",
+  "value": 3925,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prism"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:prism dir=\"d\" isInverted=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3926|ppEffectOrbitLeft": {
+  "label": "ppEffectOrbitLeft",
+  "value": 3926,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prism"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:prism isContent=\"1\" isInverted=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3927|ppEffectOrbitUp": {
+  "label": "ppEffectOrbitUp",
+  "value": 3927,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prism"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:prism dir=\"u\" isContent=\"1\" isInverted=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3928|ppEffectOrbitRight": {
+  "label": "ppEffectOrbitRight",
+  "value": 3928,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prism"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:prism dir=\"r\" isContent=\"1\" isInverted=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3929|ppEffectOrbitDown": {
+  "label": "ppEffectOrbitDown",
+  "value": 3929,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prism"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:prism dir=\"d\" isContent=\"1\" isInverted=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3930|ppEffectPanLeft": {
+  "label": "ppEffectPanLeft",
+  "value": 3930,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "pan"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:pan/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3931|ppEffectPanUp": {
+  "label": "ppEffectPanUp",
+  "value": 3931,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "pan"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:pan dir=\"u\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3932|ppEffectPanRight": {
+  "label": "ppEffectPanRight",
+  "value": 3932,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "pan"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:pan dir=\"r\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3933|ppEffectPanDown": {
+  "label": "ppEffectPanDown",
+  "value": 3933,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "pan"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2010/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p14=\"http://schemas.microsoft.com/office/powerpoint/2010/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p14:pan dir=\"d\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3934|ppEffectFallOverLeft": {
+  "label": "ppEffectFallOverLeft",
+  "value": 3934,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prstTrans"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2012/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p15=\"http://schemas.microsoft.com/office/powerpoint/2012/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p15:prstTrans prst=\"fallOver\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3935|ppEffectFallOverRight": {
+  "label": "ppEffectFallOverRight",
+  "value": 3935,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prstTrans"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2012/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p15=\"http://schemas.microsoft.com/office/powerpoint/2012/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p15:prstTrans prst=\"fallOver\" invX=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3936|ppEffectDrapeLeft": {
+  "label": "ppEffectDrapeLeft",
+  "value": 3936,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prstTrans"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2012/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p15=\"http://schemas.microsoft.com/office/powerpoint/2012/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p15:prstTrans prst=\"drape\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3937|ppEffectDrapeRight": {
+  "label": "ppEffectDrapeRight",
+  "value": 3937,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prstTrans"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2012/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p15=\"http://schemas.microsoft.com/office/powerpoint/2012/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p15:prstTrans prst=\"drape\" invX=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3938|ppEffectCurtains": {
+  "label": "ppEffectCurtains",
+  "value": 3938,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prstTrans"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2012/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p15=\"http://schemas.microsoft.com/office/powerpoint/2012/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p15:prstTrans prst=\"curtains\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3939|ppEffectWindLeft": {
+  "label": "ppEffectWindLeft",
+  "value": 3939,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prstTrans"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2012/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p15=\"http://schemas.microsoft.com/office/powerpoint/2012/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p15:prstTrans prst=\"wind\" invX=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3940|ppEffectWindRight": {
+  "label": "ppEffectWindRight",
+  "value": 3940,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prstTrans"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2012/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p15=\"http://schemas.microsoft.com/office/powerpoint/2012/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p15:prstTrans prst=\"wind\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3941|ppEffectPrestige": {
+  "label": "ppEffectPrestige",
+  "value": 3941,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prstTrans"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2012/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p15=\"http://schemas.microsoft.com/office/powerpoint/2012/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p15:prstTrans prst=\"prestige\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3942|ppEffectFracture": {
+  "label": "ppEffectFracture",
+  "value": 3942,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prstTrans"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2012/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p15=\"http://schemas.microsoft.com/office/powerpoint/2012/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p15:prstTrans prst=\"fracture\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3943|ppEffectCrush": {
+  "label": "ppEffectCrush",
+  "value": 3943,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prstTrans"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2012/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p15=\"http://schemas.microsoft.com/office/powerpoint/2012/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p15:prstTrans prst=\"crush\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3944|ppEffectPeelOffLeft": {
+  "label": "ppEffectPeelOffLeft",
+  "value": 3944,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prstTrans"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2012/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p15=\"http://schemas.microsoft.com/office/powerpoint/2012/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p15:prstTrans prst=\"peelOff\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3945|ppEffectPeelOffRight": {
+  "label": "ppEffectPeelOffRight",
+  "value": 3945,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prstTrans"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2012/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p15=\"http://schemas.microsoft.com/office/powerpoint/2012/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p15:prstTrans prst=\"peelOff\" invX=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3946|ppEffectPageCurlSingleLeft": {
+  "label": "ppEffectPageCurlSingleLeft",
+  "value": 3946,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prstTrans"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2012/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p15=\"http://schemas.microsoft.com/office/powerpoint/2012/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p15:prstTrans prst=\"pageCurlSingle\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3947|ppEffectPageCurlSingleRight": {
+  "label": "ppEffectPageCurlSingleRight",
+  "value": 3947,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prstTrans"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2012/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p15=\"http://schemas.microsoft.com/office/powerpoint/2012/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p15:prstTrans prst=\"pageCurlSingle\" invX=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3948|ppEffectPageCurlDoubleLeft": {
+  "label": "ppEffectPageCurlDoubleLeft",
+  "value": 3948,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prstTrans"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2012/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p15=\"http://schemas.microsoft.com/office/powerpoint/2012/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p15:prstTrans prst=\"pageCurlDouble\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3949|ppEffectPageCurlDoubleRight": {
+  "label": "ppEffectPageCurlDoubleRight",
+  "value": 3949,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prstTrans"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2012/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p15=\"http://schemas.microsoft.com/office/powerpoint/2012/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p15:prstTrans prst=\"pageCurlDouble\" invX=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3950|ppEffectAirplaneLeft": {
+  "label": "ppEffectAirplaneLeft",
+  "value": 3950,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prstTrans"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2012/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p15=\"http://schemas.microsoft.com/office/powerpoint/2012/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p15:prstTrans prst=\"airplane\" invX=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3951|ppEffectAirplaneRight": {
+  "label": "ppEffectAirplaneRight",
+  "value": 3951,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prstTrans"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2012/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p15=\"http://schemas.microsoft.com/office/powerpoint/2012/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p15:prstTrans prst=\"airplane\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3952|ppEffectOrigamiLeft": {
+  "label": "ppEffectOrigamiLeft",
+  "value": 3952,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prstTrans"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2012/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p15=\"http://schemas.microsoft.com/office/powerpoint/2012/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p15:prstTrans prst=\"origami\" invX=\"1\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3953|ppEffectOrigamiRight": {
+  "label": "ppEffectOrigamiRight",
+  "value": 3953,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "prstTrans"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2012/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p15=\"http://schemas.microsoft.com/office/powerpoint/2012/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p15:prstTrans prst=\"origami\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3954|ppEffectMorphByObject": {
+  "label": "ppEffectMorphByObject",
+  "value": 3954,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "morph"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2015/09/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p159=\"http://schemas.microsoft.com/office/powerpoint/2015/09/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p159:morph option=\"byObject\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3955|ppEffectMorphByWord": {
+  "label": "ppEffectMorphByWord",
+  "value": 3955,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "morph"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2015/09/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p159=\"http://schemas.microsoft.com/office/powerpoint/2015/09/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p159:morph option=\"byWord\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "3956|ppEffectMorphByChar": {
+  "label": "ppEffectMorphByChar",
+  "value": 3956,
+  "kind": "enum",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "morph"
+   ],
+   "child_ns": [
+    "http://schemas.microsoft.com/office/powerpoint/2015/09/main"
+   ],
+   "holder": "mc:AlternateContent/mc:Choice",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:p159=\"http://schemas.microsoft.com/office/powerpoint/2015/09/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n        <p159:morph option=\"byChar\"/>\n      </p:transition>\n    \n"
+  }
+ },
+ "1793|ppEffectFade@{'Duration': 0.5, 'Speed': 2}": {
+  "label": "ppEffectFade@{'Duration': 0.5, 'Speed': 2}",
+  "value": 1793,
+  "kind": "variant",
+  "requested_props": {
+   "Duration": 0.5,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "fade"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:fade thruBlk=\"1\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "1793|ppEffectFade@{'Duration': 2.5, 'Speed': 2}": {
+  "label": "ppEffectFade@{'Duration': 2.5, 'Speed': 2}",
+  "value": 1793,
+  "kind": "variant",
+  "requested_props": {
+   "Duration": 2.5,
+   "Speed": 2
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "med"
+   },
+   "children": [
+    "fade"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"med\">\n    <p:fade thruBlk=\"1\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "1793|ppEffectFade@{'Duration': 1.0, 'Speed': 1}": {
+  "label": "ppEffectFade@{'Duration': 1.0, 'Speed': 1}",
+  "value": 1793,
+  "kind": "variant",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 1
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "slow"
+   },
+   "children": [
+    "fade"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"slow\">\n    <p:fade thruBlk=\"1\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "1793|ppEffectFade@{'Duration': 1.0, 'Speed': 3}": {
+  "label": "ppEffectFade@{'Duration': 1.0, 'Speed': 3}",
+  "value": 1793,
+  "kind": "variant",
+  "requested_props": {
+   "Duration": 1.0,
+   "Speed": 3
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {},
+   "children": [
+    "fade"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\">\n    <p:fade thruBlk=\"1\"/>\n  </p:transition>\n\n"
+  }
+ },
+ "1281|ppEffectPushLeft@{'Duration': 0.25, 'Speed': 3}": {
+  "label": "ppEffectPushLeft@{'Duration': 0.25, 'Speed': 3}",
+  "value": 1281,
+  "kind": "variant",
+  "requested_props": {
+   "Duration": 0.25,
+   "Speed": 3
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {},
+   "children": [
+    "cover"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\">\n    <p:cover/>\n  </p:transition>\n\n"
+  }
+ },
+ "1026|ppEffectWipeRight@{'Duration': 3.0, 'Speed': 1}": {
+  "label": "ppEffectWipeRight@{'Duration': 3.0, 'Speed': 1}",
+  "value": 1026,
+  "kind": "variant",
+  "requested_props": {
+   "Duration": 3.0,
+   "Speed": 1
+  },
+  "applied": true,
+  "apply_error": null,
+  "transition": {
+   "attrs": {
+    "spd": "slow"
+   },
+   "children": [
+    "checker"
+   ],
+   "child_ns": [
+    "http://schemas.openxmlformats.org/presentationml/2006/main"
+   ],
+   "holder": "p:sld",
+   "xml": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" spd=\"slow\">\n    <p:checker dir=\"vert\"/>\n  </p:transition>\n\n"
+  }
+ }
+}

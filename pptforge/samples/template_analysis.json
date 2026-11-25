@@ -1,0 +1,110 @@
+[
+ {
+  "file": "blue-glow-ai-platform-powerpoint-template-5-dark-tech-slides.pptx",
+  "size_mb": 6.5,
+  "slides": 5,
+  "transitions": {
+   "p:fade|dur=None": 5
+  },
+  "animations_per_slide": [
+   16,
+   38,
+   23,
+   21,
+   48
+  ],
+  "animations_total": 146,
+  "preset_top": [
+   "entr#42",
+   "entr#10",
+   "entr#22",
+   "emph#8",
+   "path#0"
+  ],
+  "preset_counts": [
+   124,
+   12,
+   7,
+   2,
+   1
+  ],
+  "node_types": {
+   "tmRoot": 5,
+   "mainSeq": 5,
+   "afterEffect": 5,
+   "withEffect": 141
+  },
+  "durations_ms_top": [
+   [
+    800,
+    372
+   ],
+   [
+    700,
+    12
+   ],
+   [
+    600,
+    7
+   ],
+   [
+    40000,
+    1
+   ],
+   [
+    9000,
+    1
+   ],
+   [
+    60000,
+    1
+   ]
+  ],
+  "shapes_per_slide": [
+   16,
+   38,
+   22,
+   20,
+   47
+  ],
+  "avg_shapes": 28.6
+ },
+ {
+  "file": "movement-elements.pptx",
+  "size_mb": 1.78,
+  "slides": 10,
+  "transitions": {
+   "none|dur=2000": 10
+  },
+  "animations_per_slide": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "animations_total": 0,
+  "preset_top": [],
+  "preset_counts": [],
+  "node_types": {},
+  "durations_ms_top": [],
+  "shapes_per_slide": [
+   29,
+   32,
+   33,
+   33,
+   33,
+   33,
+   33,
+   33,
+   33,
+   33
+  ],
+  "avg_shapes": 32.5
+ }
+]

@@ -1,0 +1,564 @@
+==============================================================================
+entr_click   effects_ok=[True]
+  [cTn] x7
+     <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+     <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+     <p:cTn id="3" fill="hold">
+     <p:cTn id="4" fill="hold">
+     <p:cTn id="5" presetID="10" presetClass="entr" presetSubtype="0" fill="hold" grpId="0" nodeType="clickEffect">
+     <p:cTn id="6" dur="1" fill="hold">
+     <p:cTn id="7" dur="500"/>
+  [cond] x6
+     <p:cond delay="indefinite"/>
+     <p:cond delay="0"/>
+     <p:cond evt="onPrev" delay="0">
+     <p:cond evt="onNext" delay="0">
+  [nodeType] x3
+     nodeType="tmRoot"
+     nodeType="mainSeq"
+     nodeType="clickEffect"
+  [bld] x1
+     <p:bldP spid="2" grpId="0" animBg="1"/>
+  [behaviour] x2
+     <p:set>
+     <p:animEffect transition="in" filter="fade">
+  [tgt] x4
+     <p:spTgt spid="2"/>
+     <p:sldTgt/>
+==============================================================================
+entr_with_prev   effects_ok=[True]
+  [cTn] x7
+     <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+     <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+     <p:cTn id="3" fill="hold">
+     <p:cTn id="4" fill="hold">
+     <p:cTn id="5" presetID="10" presetClass="entr" presetSubtype="0" fill="hold" grpId="0" nodeType="withEffect">
+     <p:cTn id="6" dur="1" fill="hold">
+     <p:cTn id="7" dur="500"/>
+  [cond] x7
+     <p:cond delay="indefinite"/>
+     <p:cond evt="onBegin" delay="0">
+     <p:cond delay="0"/>
+     <p:cond evt="onPrev" delay="0">
+     <p:cond evt="onNext" delay="0">
+  [nodeType] x3
+     nodeType="tmRoot"
+     nodeType="mainSeq"
+     nodeType="withEffect"
+  [bld] x1
+     <p:bldP spid="2" grpId="0" animBg="1"/>
+  [behaviour] x2
+     <p:set>
+     <p:animEffect transition="in" filter="fade">
+  [tgt] x4
+     <p:spTgt spid="2"/>
+     <p:sldTgt/>
+==============================================================================
+entr_after_prev   effects_ok=[True]
+  [cTn] x7
+     <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+     <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+     <p:cTn id="3" fill="hold">
+     <p:cTn id="4" fill="hold">
+     <p:cTn id="5" presetID="10" presetClass="entr" presetSubtype="0" fill="hold" grpId="0" nodeType="afterEffect">
+     <p:cTn id="6" dur="1" fill="hold">
+     <p:cTn id="7" dur="500"/>
+  [cond] x7
+     <p:cond delay="indefinite"/>
+     <p:cond evt="onBegin" delay="0">
+     <p:cond delay="0"/>
+     <p:cond evt="onPrev" delay="0">
+     <p:cond evt="onNext" delay="0">
+  [nodeType] x3
+     nodeType="tmRoot"
+     nodeType="mainSeq"
+     nodeType="afterEffect"
+  [bld] x1
+     <p:bldP spid="2" grpId="0" animBg="1"/>
+  [behaviour] x2
+     <p:set>
+     <p:animEffect transition="in" filter="fade">
+  [tgt] x4
+     <p:spTgt spid="2"/>
+     <p:sldTgt/>
+==============================================================================
+entr_shape_click   effects_ok=[False]
+   <no timing>
+==============================================================================
+entr_dur05_delay03   effects_ok=[True]
+  [cTn] x7
+     <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+     <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+     <p:cTn id="3" fill="hold">
+     <p:cTn id="4" fill="hold">
+     <p:cTn id="5" presetID="10" presetClass="entr" presetSubtype="0" fill="hold" grpId="0" nodeType="clickEffect">
+     <p:cTn id="6" dur="1" fill="hold">
+     <p:cTn id="7" dur="500"/>
+  [cond] x6
+     <p:cond delay="indefinite"/>
+     <p:cond delay="0"/>
+     <p:cond delay="300"/>
+     <p:cond evt="onPrev" delay="0">
+     <p:cond evt="onNext" delay="0">
+  [nodeType] x3
+     nodeType="tmRoot"
+     nodeType="mainSeq"
+     nodeType="clickEffect"
+  [bld] x1
+     <p:bldP spid="2" grpId="0" animBg="1"/>
+  [behaviour] x2
+     <p:set>
+     <p:animEffect transition="in" filter="fade">
+  [tgt] x4
+     <p:spTgt spid="2"/>
+     <p:sldTgt/>
+==============================================================================
+entr_repeat2   effects_ok=[True]
+  [cTn] x7
+     <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+     <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+     <p:cTn id="3" fill="hold">
+     <p:cTn id="4" fill="hold">
+     <p:cTn id="5" presetID="10" presetClass="entr" presetSubtype="0" repeatCount="2000" fill="hold" grpId="0" nodeType="clickEffect">
+     <p:cTn id="6" dur="1" fill="hold">
+     <p:cTn id="7" dur="500"/>
+  [cond] x6
+     <p:cond delay="indefinite"/>
+     <p:cond delay="0"/>
+     <p:cond evt="onPrev" delay="0">
+     <p:cond evt="onNext" delay="0">
+  [nodeType] x3
+     nodeType="tmRoot"
+     nodeType="mainSeq"
+     nodeType="clickEffect"
+  [bld] x1
+     <p:bldP spid="2" grpId="0" animBg="1"/>
+  [behaviour] x2
+     <p:set>
+     <p:animEffect transition="in" filter="fade">
+  [tgt] x4
+     <p:spTgt spid="2"/>
+     <p:sldTgt/>
+==============================================================================
+entr_accel   effects_ok=[False]
+  [cTn] x7
+     <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+     <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+     <p:cTn id="3" fill="hold">
+     <p:cTn id="4" fill="hold">
+     <p:cTn id="5" presetID="10" presetClass="entr" presetSubtype="0" fill="hold" grpId="0" nodeType="clickEffect">
+     <p:cTn id="6" dur="1" fill="hold">
+     <p:cTn id="7" dur="500"/>
+  [cond] x6
+     <p:cond delay="indefinite"/>
+     <p:cond delay="0"/>
+     <p:cond evt="onPrev" delay="0">
+     <p:cond evt="onNext" delay="0">
+  [nodeType] x3
+     nodeType="tmRoot"
+     nodeType="mainSeq"
+     nodeType="clickEffect"
+  [bld] x1
+     <p:bldP spid="2" grpId="0" animBg="1"/>
+  [behaviour] x2
+     <p:set>
+     <p:animEffect transition="in" filter="fade">
+  [tgt] x4
+     <p:spTgt spid="2"/>
+     <p:sldTgt/>
+==============================================================================
+entr_dur2_accel_full   effects_ok=[False]
+  [cTn] x8
+     <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+     <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+     <p:cTn id="3" fill="hold">
+     <p:cTn id="4" fill="hold">
+     <p:cTn id="5" presetID="2" presetClass="entr" presetSubtype="4" fill="hold" grpId="0" nodeType="clickEffect">
+     <p:cTn id="6" dur="1" fill="hold">
+     <p:cTn id="7" dur="2000" fill="hold"/>
+     <p:cTn id="8" dur="2000" fill="hold"/>
+  [cond] x6
+     <p:cond delay="indefinite"/>
+     <p:cond delay="0"/>
+     <p:cond evt="onPrev" delay="0">
+     <p:cond evt="onNext" delay="0">
+  [nodeType] x3
+     nodeType="tmRoot"
+     nodeType="mainSeq"
+     nodeType="clickEffect"
+  [bld] x1
+     <p:bldP spid="2" grpId="0" animBg="1"/>
+  [behaviour] x3
+     <p:set>
+     <p:anim calcmode="lin" valueType="num">
+  [tgt] x5
+     <p:spTgt spid="2"/>
+     <p:sldTgt/>
+==============================================================================
+exit_fade   effects_ok=[True]
+  [cTn] x7
+     <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+     <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+     <p:cTn id="3" fill="hold">
+     <p:cTn id="4" fill="hold">
+     <p:cTn id="5" presetID="10" presetClass="exit" presetSubtype="0" fill="hold" grpId="0" nodeType="clickEffect">
+     <p:cTn id="6" dur="500"/>
+     <p:cTn id="7" dur="1" fill="hold">
+  [cond] x6
+     <p:cond delay="indefinite"/>
+     <p:cond delay="0"/>
+     <p:cond delay="499"/>
+     <p:cond evt="onPrev" delay="0">
+     <p:cond evt="onNext" delay="0">
+  [nodeType] x3
+     nodeType="tmRoot"
+     nodeType="mainSeq"
+     nodeType="clickEffect"
+  [bld] x1
+     <p:bldP spid="2" grpId="0" animBg="1"/>
+  [behaviour] x2
+     <p:animEffect transition="out" filter="fade">
+     <p:set>
+  [tgt] x4
+     <p:spTgt spid="2"/>
+     <p:sldTgt/>
+==============================================================================
+exit_zoom_after   effects_ok=[True]
+  [cTn] x8
+     <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+     <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+     <p:cTn id="3" fill="hold">
+     <p:cTn id="4" fill="hold">
+     <p:cTn id="5" presetID="23" presetClass="exit" presetSubtype="16" fill="hold" grpId="0" nodeType="afterEffect">
+     <p:cTn id="6" dur="500"/>
+     <p:cTn id="7" dur="500"/>
+     <p:cTn id="8" dur="1" fill="hold">
+  [cond] x7
+     <p:cond delay="indefinite"/>
+     <p:cond evt="onBegin" delay="0">
+     <p:cond delay="0"/>
+     <p:cond delay="499"/>
+     <p:cond evt="onPrev" delay="0">
+     <p:cond evt="onNext" delay="0">
+  [nodeType] x3
+     nodeType="tmRoot"
+     nodeType="mainSeq"
+     nodeType="afterEffect"
+  [bld] x1
+     <p:bldP spid="2" grpId="0" animBg="1"/>
+  [behaviour] x3
+     <p:anim calcmode="lin" valueType="num">
+     <p:set>
+  [tgt] x5
+     <p:spTgt spid="2"/>
+     <p:sldTgt/>
+==============================================================================
+emph_spin_after   effects_ok=[True]
+  [cTn] x6
+     <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+     <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+     <p:cTn id="3" fill="hold">
+     <p:cTn id="4" fill="hold">
+     <p:cTn id="5" presetID="8" presetClass="emph" presetSubtype="0" fill="hold" grpId="0" nodeType="afterEffect">
+     <p:cTn id="6" dur="1500" fill="hold"/>
+  [cond] x6
+     <p:cond delay="indefinite"/>
+     <p:cond evt="onBegin" delay="0">
+     <p:cond delay="0"/>
+     <p:cond evt="onPrev" delay="0">
+     <p:cond evt="onNext" delay="0">
+  [nodeType] x3
+     nodeType="tmRoot"
+     nodeType="mainSeq"
+     nodeType="afterEffect"
+  [bld] x1
+     <p:bldP spid="2" grpId="0" animBg="1"/>
+  [behaviour] x1
+     <p:animRot by="21600000">
+  [tgt] x3
+     <p:spTgt spid="2"/>
+     <p:sldTgt/>
+==============================================================================
+emph_pulse   effects_ok=[True]
+  [cTn] x6
+     <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+     <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+     <p:cTn id="3" fill="hold">
+     <p:cTn id="4" fill="hold">
+     <p:cTn id="5" presetID="6" presetClass="emph" presetSubtype="0" fill="hold" grpId="0" nodeType="clickEffect">
+     <p:cTn id="6" dur="2000" fill="hold"/>
+  [cond] x5
+     <p:cond delay="indefinite"/>
+     <p:cond delay="0"/>
+     <p:cond evt="onPrev" delay="0">
+     <p:cond evt="onNext" delay="0">
+  [nodeType] x3
+     nodeType="tmRoot"
+     nodeType="mainSeq"
+     nodeType="clickEffect"
+  [bld] x1
+     <p:bldP spid="2" grpId="0" animBg="1"/>
+  [behaviour] x1
+     <p:animScale>
+  [tgt] x3
+     <p:spTgt spid="2"/>
+     <p:sldTgt/>
+==============================================================================
+text_by_first_level   effects_ok=[True]
+  [cTn] x17
+     <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+     <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+     <p:cTn id="3" fill="hold">
+     <p:cTn id="4" fill="hold">
+     <p:cTn id="5" presetID="10" presetClass="entr" presetSubtype="0" fill="hold" grpId="0" nodeType="clickEffect">
+     <p:cTn id="6" dur="1" fill="hold">
+     <p:cTn id="7" dur="500"/>
+     <p:cTn id="8" fill="hold">
+  [cond] x14
+     <p:cond delay="indefinite"/>
+     <p:cond delay="0"/>
+     <p:cond evt="onPrev" delay="0">
+     <p:cond evt="onNext" delay="0">
+  [nodeType] x5
+     nodeType="tmRoot"
+     nodeType="mainSeq"
+     nodeType="clickEffect"
+  [bld] x1
+     <p:bldP spid="2" grpId="0" build="p"/>
+  [behaviour] x6
+     <p:set>
+     <p:animEffect transition="in" filter="fade">
+  [tgt] x8
+     <p:spTgt spid="2">
+     <p:sldTgt/>
+==============================================================================
+text_all_levels   effects_ok=[True]
+  [cTn] x13
+     <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+     <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+     <p:cTn id="3" fill="hold">
+     <p:cTn id="4" fill="hold">
+     <p:cTn id="5" presetID="10" presetClass="entr" presetSubtype="0" fill="hold" grpId="0" nodeType="clickEffect">
+     <p:cTn id="6" dur="1" fill="hold">
+     <p:cTn id="7" dur="500"/>
+     <p:cTn id="8" presetID="10" presetClass="entr" presetSubtype="0" fill="hold" grpId="0" nodeType="withEffect">
+  [cond] x10
+     <p:cond delay="indefinite"/>
+     <p:cond delay="0"/>
+     <p:cond evt="onPrev" delay="0">
+     <p:cond evt="onNext" delay="0">
+  [nodeType] x5
+     nodeType="tmRoot"
+     nodeType="mainSeq"
+     nodeType="clickEffect"
+     nodeType="withEffect"
+  [bld] x1
+     <p:bldP spid="2" grpId="0" build="allAtOnce"/>
+  [behaviour] x6
+     <p:set>
+     <p:animEffect transition="in" filter="fade">
+  [tgt] x8
+     <p:spTgt spid="2">
+     <p:sldTgt/>
+==============================================================================
+two_click_effects   effects_ok=[True, True]
+  [cTn] x13
+     <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+     <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+     <p:cTn id="3" fill="hold">
+     <p:cTn id="4" fill="hold">
+     <p:cTn id="5" presetID="10" presetClass="entr" presetSubtype="0" fill="hold" grpId="0" nodeType="clickEffect">
+     <p:cTn id="6" dur="1" fill="hold">
+     <p:cTn id="7" dur="500"/>
+     <p:cTn id="8" fill="hold">
+  [cond] x10
+     <p:cond delay="indefinite"/>
+     <p:cond delay="0"/>
+     <p:cond evt="onPrev" delay="0">
+     <p:cond evt="onNext" delay="0">
+  [nodeType] x4
+     nodeType="tmRoot"
+     nodeType="mainSeq"
+     nodeType="clickEffect"
+  [bld] x2
+     <p:bldP spid="2" grpId="0" animBg="1"/>
+     <p:bldP spid="3" grpId="0" animBg="1"/>
+  [behaviour] x5
+     <p:set>
+     <p:animEffect transition="in" filter="fade">
+     <p:anim calcmode="lin" valueType="num">
+  [tgt] x7
+     <p:spTgt spid="2"/>
+     <p:spTgt spid="3"/>
+     <p:sldTgt/>
+==============================================================================
+two_with_effects   effects_ok=[True, True]
+  [cTn] x11
+     <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+     <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+     <p:cTn id="3" fill="hold">
+     <p:cTn id="4" fill="hold">
+     <p:cTn id="5" presetID="10" presetClass="entr" presetSubtype="0" fill="hold" grpId="0" nodeType="clickEffect">
+     <p:cTn id="6" dur="1" fill="hold">
+     <p:cTn id="7" dur="500"/>
+     <p:cTn id="8" presetID="23" presetClass="entr" presetSubtype="16" fill="hold" grpId="0" nodeType="withEffect">
+  [cond] x8
+     <p:cond delay="indefinite"/>
+     <p:cond delay="0"/>
+     <p:cond evt="onPrev" delay="0">
+     <p:cond evt="onNext" delay="0">
+  [nodeType] x4
+     nodeType="tmRoot"
+     nodeType="mainSeq"
+     nodeType="clickEffect"
+     nodeType="withEffect"
+  [bld] x2
+     <p:bldP spid="2" grpId="0" animBg="1"/>
+     <p:bldP spid="3" grpId="0" animBg="1"/>
+  [behaviour] x5
+     <p:set>
+     <p:animEffect transition="in" filter="fade">
+     <p:anim calcmode="lin" valueType="num">
+  [tgt] x7
+     <p:spTgt spid="2"/>
+     <p:spTgt spid="3"/>
+     <p:sldTgt/>
+==============================================================================
+three_mixed   effects_ok=[True, True, True]
+  [cTn] x14
+     <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+     <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+     <p:cTn id="3" fill="hold">
+     <p:cTn id="4" fill="hold">
+     <p:cTn id="5" presetID="10" presetClass="entr" presetSubtype="0" fill="hold" grpId="0" nodeType="clickEffect">
+     <p:cTn id="6" dur="1" fill="hold">
+     <p:cTn id="7" dur="500"/>
+     <p:cTn id="8" presetID="2" presetClass="entr" presetSubtype="4" fill="hold" grpId="0" nodeType="withEffect">
+  [cond] x10
+     <p:cond delay="indefinite"/>
+     <p:cond delay="0"/>
+     <p:cond delay="750"/>
+     <p:cond evt="onPrev" delay="0">
+     <p:cond evt="onNext" delay="0">
+  [nodeType] x5
+     nodeType="tmRoot"
+     nodeType="mainSeq"
+     nodeType="clickEffect"
+     nodeType="withEffect"
+     nodeType="afterEffect"
+  [bld] x3
+     <p:bldP spid="2" grpId="0" animBg="1"/>
+     <p:bldP spid="3" grpId="0" animBg="1"/>
+     <p:bldP spid="4" grpId="0" animBg="1"/>
+  [behaviour] x6
+     <p:set>
+     <p:animEffect transition="in" filter="fade">
+     <p:anim calcmode="lin" valueType="num">
+     <p:animRot by="21600000">
+  [tgt] x8
+     <p:spTgt spid="2"/>
+     <p:spTgt spid="3"/>
+     <p:spTgt spid="4"/>
+     <p:sldTgt/>
+==============================================================================
+path_circle   effects_ok=[True]
+  [cTn] x6
+     <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+     <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+     <p:cTn id="3" fill="hold">
+     <p:cTn id="4" fill="hold">
+     <p:cTn id="5" presetID="1" presetClass="path" presetSubtype="0" accel="50000" decel="50000" fill="hold" grpId="0" nodeType="clickEffect">
+     <p:cTn id="6" dur="2000" fill="hold"/>
+  [cond] x5
+     <p:cond delay="indefinite"/>
+     <p:cond delay="0"/>
+     <p:cond evt="onPrev" delay="0">
+     <p:cond evt="onNext" delay="0">
+  [nodeType] x3
+     nodeType="tmRoot"
+     nodeType="mainSeq"
+     nodeType="clickEffect"
+  [bld] x1
+     <p:bldP spid="2" grpId="0" animBg="1"/>
+  [behaviour] x1
+     <p:animMotion origin="layout" path="M 0 0 C 0.069 0 0.125 0.056 0.125 0.125 C 0.125 0.194 0.069 0.25 0 0.25 C -0.069 0.25 -0.125 0.194 -0.125 0.125 C -0.125 0.056 -0.069 0 0 0 Z" pathEditMode="relative" ptsTypes="">
+  [tgt] x3
+     <p:spTgt spid="2"/>
+     <p:sldTgt/>
+==============================================================================
+path_zigzag   effects_ok=[True]
+  [cTn] x6
+     <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+     <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+     <p:cTn id="3" fill="hold">
+     <p:cTn id="4" fill="hold">
+     <p:cTn id="5" presetID="38" presetClass="path" presetSubtype="0" accel="50000" decel="50000" fill="hold" grpId="0" nodeType="clickEffect">
+     <p:cTn id="6" dur="2000" fill="hold"/>
+  [cond] x5
+     <p:cond delay="indefinite"/>
+     <p:cond delay="0"/>
+     <p:cond evt="onPrev" delay="0">
+     <p:cond evt="onNext" delay="0">
+  [nodeType] x3
+     nodeType="tmRoot"
+     nodeType="mainSeq"
+     nodeType="clickEffect"
+  [bld] x1
+     <p:bldP spid="2" grpId="0" animBg="1"/>
+  [behaviour] x1
+     <p:animMotion origin="layout" path="M 0 0 L 0.016 0.099 L 0.031 0 L 0.047 0.099 L 0.063 0 L 0.078 0.099 L 0.094 0 L 0.109 0.099 L 0.125 0 L 0.141 0.099 L 0.156 0 L 0.172 0.099 L 0.187 0 L 0.203 0.099 L 0.219 0 L 0.234 0.099 L 0.25 0 E" pathEditMode="relative" ptsTypes="">
+  [tgt] x3
+     <p:spTgt spid="2"/>
+     <p:sldTgt/>
+==============================================================================
+path_bounce_left   effects_ok=[True]
+  [cTn] x6
+     <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+     <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+     <p:cTn id="3" fill="hold">
+     <p:cTn id="4" fill="hold">
+     <p:cTn id="5" presetID="41" presetClass="path" presetSubtype="0" accel="50000" decel="50000" fill="hold" grpId="0" nodeType="clickEffect">
+     <p:cTn id="6" dur="1000" fill="hold"/>
+  [cond] x5
+     <p:cond delay="indefinite"/>
+     <p:cond delay="0"/>
+     <p:cond evt="onPrev" delay="0">
+     <p:cond evt="onNext" delay="0">
+  [nodeType] x3
+     nodeType="tmRoot"
+     nodeType="mainSeq"
+     nodeType="clickEffect"
+  [bld] x1
+     <p:bldP spid="2" grpId="0" animBg="1"/>
+  [behaviour] x1
+     <p:animMotion origin="layout" path="M 0 0 c -0.004 -0.008 -0.018 -0.016 -0.023 -0.016 c -0.031 0 -0.063 0.125 -0.063 0.25 c 0 -0.063 -0.016 -0.125 -0.031 -0.125 c -0.016 0 -0.031 0.063 -0.031 0.125 c 0 -0.031 -0.008 -0.063 -0.016 -0.063 c -0.008 0 -0.016 0.031 -0.016 0.063 c 0 -0.016 -0.004 -0.031 -0.008 -0.031 c -0.004 0 -0.008 0.016 -0.008 0.031 c 0 -0.008 -0.002 -0.016 -0.004 -0.016 c -0.001 0 -0.004 0.008 -0.004 0.016 c 0 -0.004 -0.001 -0.008 -0.002 -0.008 c 0 -0.001 -0.002 0.004 -0.002 0.008 c 0 -0.002 0 -0.004 -0.001 -0.004 c 0 0.001 -0.001 0.002 -0.001 0.004 c 0 -0.001 0 -0.002 0 -0.003 c -0.001 0 -0.001 0.001 -0.001 0.002 c -0.001 0 -0.001 -0.001 -0.001 -0.002 c -0.001 0 -0.001 0.001 -0.001 0.002 E" pathEditMode="relative" ptsTypes="">
+  [tgt] x3
+     <p:spTgt spid="2"/>
+     <p:sldTgt/>
+==============================================================================
+entr_dim_after   effects_ok=[False]
+  [cTn] x7
+     <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+     <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+     <p:cTn id="3" fill="hold">
+     <p:cTn id="4" fill="hold">
+     <p:cTn id="5" presetID="10" presetClass="entr" presetSubtype="0" fill="hold" grpId="0" nodeType="clickEffect">
+     <p:cTn id="6" dur="1" fill="hold">
+     <p:cTn id="7" dur="500"/>
+  [cond] x6
+     <p:cond delay="indefinite"/>
+     <p:cond delay="0"/>
+     <p:cond evt="onPrev" delay="0">
+     <p:cond evt="onNext" delay="0">
+  [nodeType] x3
+     nodeType="tmRoot"
+     nodeType="mainSeq"
+     nodeType="clickEffect"
+  [bld] x1
+     <p:bldP spid="2" grpId="0" animBg="1"/>
+  [behaviour] x2
+     <p:set>
+     <p:animEffect transition="in" filter="fade">
+  [tgt] x4
+     <p:spTgt spid="2"/>
+     <p:sldTgt/>
