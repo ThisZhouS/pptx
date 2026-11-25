@@ -67,8 +67,10 @@ OUTLINE = {
     ],
 }
 
-TPL = {"fg": 15.5, "decor": 7.0, "coverage": 0.714, "levels": 11,
-       "ratio": 5.0, "top": 0.021, "anim": 15}
+# 全量基准（2120 模板 / 16157 页）：形状 10、装饰 3；
+# 覆盖率与字号取自内容页测量（章节页会拉低全量覆盖率，故保留内容页口径）
+TPL = {"fg": 10.0, "decor": 3.0, "coverage": 0.714, "levels": 11,
+       "ratio": 5.0, "top": 0.021, "anim": 1.8}
 
 
 def measure(path: str) -> dict:

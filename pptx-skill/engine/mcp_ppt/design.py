@@ -464,14 +464,16 @@ class Painter:
         if spec.get("decor") is False:
             return
         t = self.theme
-        # 右上角三个点（第一个用主色，其余弱化）
+        # 装饰数量按 density 控制：全量实测每页装饰中位 3 个，不铺满
+        density = str(spec.get("decor_density") or "normal")
+        n_dot = 1
+        n_chip = 2 if density == "normal" else 1
         x0 = SLIDE_W - MARGIN - Inches(0.76)
-        for i in range(3):
-            color = t.accent if i == 0 else (t.accent_2 if i == 1 else t.muted)
+        for i in range(n_dot):
+            color = t.accent if i == 0 else t.muted
             self._rect(b, f"decor-dot{i + 1}", x0 + Inches(0.26) * i, Inches(0.40),
                        Inches(0.085), Inches(0.085), color, shape=MSO_SHAPE.OVAL)
-        # 三个小色块（模板里 chips 占装饰大头）
-        for i in range(3):
+        for i in range(n_chip):
             self._rect(b, f"decor-chip{i + 1}", x0 + Inches(0.26) * i, Inches(0.60),
                        Inches(0.17), Inches(0.045), t.card)
         # 底部分隔线（比正文窄，制造第三条对齐线）

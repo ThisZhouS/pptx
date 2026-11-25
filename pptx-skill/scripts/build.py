@@ -97,9 +97,9 @@ def theme_for(cfg: dict) -> dict:
 # ------------------------------------------------------------------ 动效
 
 DECOR_ANIMS = [
-    {"target": ["decor-dot1", "decor-dot2", "decor-dot3"], "effect": "fade",
+    {"target": ["decor-dot1"], "effect": "fade",
      "trigger": "with_previous", "duration": 0.3, "stagger": 0.05},
-    {"target": ["decor-chip1", "decor-chip2", "decor-chip3"], "effect": "wipe",
+    {"target": ["decor-chip1", "decor-chip2"], "effect": "wipe",
      "trigger": "with_previous", "duration": 0.3, "stagger": 0.05},
     {"target": "footer-rule", "effect": "wipe", "trigger": "with_previous",
      "duration": 0.4, "stagger": 0.1},
