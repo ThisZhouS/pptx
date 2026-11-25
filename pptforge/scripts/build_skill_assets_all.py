@@ -120,12 +120,15 @@ def main() -> int:
               ensure_ascii=False, indent=1)
 
     # ---------- styles.json：按全量分档重排风格
+    # 全量 2120 个主题实测中位：蓝族 sat 0.58 / val 0.77 / 对比 4.03；
+    # 红橙 sat 0.50 / val 0.80；青 sat 0.64 / val 0.62。
+    # 生成端仍按对比度 >=4.5 压明度（比模板中位略深，换取正文可读性）。
     accents = {
-        "极简": {"hue": 205, "sat": 0.72, "val": 0.80, "preset": "light", "tier": "zero"},
-        "商务": {"hue": 212, "sat": 0.68, "val": 0.62, "preset": "light", "tier": "low"},
-        "科技": {"hue": 195, "sat": 0.78, "val": 0.85, "preset": "light", "tier": "high"},
-        "国潮": {"hue": 8, "sat": 0.62, "val": 0.55, "preset": "light", "tier": "low"},
-        "文艺": {"hue": 32, "sat": 0.35, "val": 0.62, "preset": "light", "tier": "zero"},
+        "极简": {"hue": 208, "sat": 0.55, "val": 0.80, "preset": "light", "tier": "zero"},
+        "商务": {"hue": 212, "sat": 0.58, "val": 0.70, "preset": "light", "tier": "low"},
+        "科技": {"hue": 196, "sat": 0.64, "val": 0.82, "preset": "light", "tier": "high"},
+        "国潮": {"hue": 8, "sat": 0.50, "val": 0.62, "preset": "light", "tier": "low"},
+        "文艺": {"hue": 32, "sat": 0.30, "val": 0.66, "preset": "light", "tier": "zero"},
         "沉稳深色": {"hue": 210, "sat": 0.55, "val": 0.72, "preset": "midnight", "tier": "mid"},
     }
     styles = {

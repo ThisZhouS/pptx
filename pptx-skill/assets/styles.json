@@ -3,8 +3,8 @@
  "styles": {
   "极简": {
    "accent": {
-    "hue": 205,
-    "sat": 0.72,
+    "hue": 208,
+    "sat": 0.55,
     "val": 0.8,
     "preset": "light"
    },
@@ -26,8 +26,8 @@
   "商务": {
    "accent": {
     "hue": 212,
-    "sat": 0.68,
-    "val": 0.62,
+    "sat": 0.58,
+    "val": 0.7,
     "preset": "light"
    },
    "motion": {
@@ -47,9 +47,9 @@
   },
   "科技": {
    "accent": {
-    "hue": 195,
-    "sat": 0.78,
-    "val": 0.85,
+    "hue": 196,
+    "sat": 0.64,
+    "val": 0.82,
     "preset": "light"
    },
    "motion": {
@@ -70,8 +70,8 @@
   "国潮": {
    "accent": {
     "hue": 8,
-    "sat": 0.62,
-    "val": 0.55,
+    "sat": 0.5,
+    "val": 0.62,
     "preset": "light"
    },
    "motion": {
@@ -92,8 +92,8 @@
   "文艺": {
    "accent": {
     "hue": 32,
-    "sat": 0.35,
-    "val": 0.62,
+    "sat": 0.3,
+    "val": 0.66,
     "preset": "light"
    },
    "motion": {

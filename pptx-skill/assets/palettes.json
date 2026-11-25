@@ -1,72 +1,106 @@
 {
- "source": "Resource/ 91 个主题的 clrScheme 提取",
+ "source": "全部 2120 个模板的 theme1.xml clrScheme 提取（原先 91 个采样）",
+ "total_themes": 2120,
+ "mode": {
+  "浅底": 2116,
+  "深底": 4
+ },
  "hue_families": {
   "蓝": {
-   "count": 63,
-   "accent_sat": 0.65,
+   "count": 1733,
+   "share": 0.817,
+   "accent_sat": 0.58,
    "accent_val": 0.77,
-   "contrast_accent_bg": 4.72,
+   "contrast_median": 4.03,
    "samples": [
-    "5B9BD5",
-    "5B9BD5",
+    "7867F3",
+    "4472C4",
+    "6096E6",
     "4472C4",
     "5B9BD5",
-    "4472C4"
-   ],
-   "mode": "浅底"
-  },
-  "绿": {
-   "count": 5,
-   "accent_sat": 0.7,
-   "accent_val": 0.39,
-   "contrast_accent_bg": 7.17,
-   "samples": [
-    "5F8C39",
-    "071B11",
-    "376F5A",
-    "185032",
-    "316318"
-   ],
-   "mode": "浅底"
-  },
-  "青": {
-   "count": 10,
-   "accent_sat": 0.84,
-   "accent_val": 0.51,
-   "contrast_accent_bg": 6.94,
-   "samples": [
-    "A5B0B4",
-    "006472",
-    "54747D",
-    "156082",
-    "156082"
-   ],
-   "mode": "浅底"
+    "5B9BD5",
+    "6096E6",
+    "6096E6"
+   ]
   },
   "红橙": {
-   "count": 12,
-   "accent_sat": 0.425,
-   "accent_val": 0.975,
-   "contrast_accent_bg": 2.57,
+   "count": 213,
+   "share": 0.1,
+   "accent_sat": 0.5,
+   "accent_val": 0.8,
+   "contrast_median": 3.99,
    "samples": [
-    "FF6D6D",
-    "C4A09F",
-    "FAA0AA",
-    "FAA0AA",
-    "CB9677"
-   ],
-   "mode": "浅底"
+    "FF6B42",
+    "F2939B",
+    "E00E0C",
+    "D7241F",
+    "C2190D",
+    "E70012",
+    "C8242B",
+    "C31B00"
+   ]
+  },
+  "青": {
+   "count": 121,
+   "share": 0.057,
+   "accent_sat": 0.64,
+   "accent_val": 0.62,
+   "contrast_median": 3.39,
+   "samples": [
+    "40838C",
+    "00C8A7",
+    "407788",
+    "096966",
+    "4AA8C5",
+    "BBE0E3",
+    "37393A",
+    "017DB9"
+   ]
+  },
+  "绿": {
+   "count": 40,
+   "share": 0.019,
+   "accent_sat": 0.51,
+   "accent_val": 0.58,
+   "contrast_median": 3.32,
+   "samples": [
+    "008A49",
+    "99CC00",
+    "2A703E",
+    "009946",
+    "3EB060",
+    "23411F",
+    "00B050",
+    "5F8C39"
+   ]
   },
   "紫": {
-   "count": 1,
-   "accent_sat": 0.7,
-   "accent_val": 0.63,
-   "contrast_accent_bg": 8.02,
+   "count": 12,
+   "share": 0.006,
+   "accent_sat": 0.48,
+   "accent_val": 0.88,
+   "contrast_median": 3.36,
    "samples": [
-    "7030A0"
-   ],
-   "mode": "浅底"
+    "D3CADD",
+    "DBB3CF",
+    "939297",
+    "DBD8E9",
+    "92278F",
+    "8068A5",
+    "DBD8E9",
+    "E05CA7"
+   ]
+  },
+  "黄": {
+   "count": 1,
+   "share": 0.0,
+   "accent_sat": 0.22,
+   "accent_val": 0.8,
+   "contrast_median": 1.69,
+   "samples": [
+    "C4CB9F"
+   ]
   }
  },
- "note": "浅底占 91/91；accent 与背景对比中位 4.72（WCAG AA）"
+ "notes": "浅底占绝对多数；accent 与背景对比中位 4.7（WCAG AA 门槛 4.5）"
 }
